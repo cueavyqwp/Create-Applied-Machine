@@ -1,5 +1,5 @@
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 if __name__ == "__main__":
     import zipfile
@@ -58,6 +58,6 @@ if __name__ == "__main__":
                 if os.path.split(root)[-1] in (".git", ".github"):
                     continue
                 for file in files:
-                    if file in (".gitignore", "export_config.txt", "README.md"):
+                    if file in (".gitignore", "export_config.txt", "README.md", "cover.py"):
                         continue
                     zf.write(os.path.join(root, file))
