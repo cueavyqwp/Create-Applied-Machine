@@ -27,6 +27,7 @@ jobs:
 
       - name: Pack
         run: |
+          mv /src/pack.py ./pack.py
           python -m pip install --upgrade pip requests
           python pack.py
 
