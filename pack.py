@@ -24,6 +24,17 @@ if __name__ == "__main__":
                     "https://github.com/MUKSC/TACZ-1.21.1/releases/download/neoforge-1.1.6-hotfix-r5/tacz-neoforge-1.21.1-1.1.6-hotfix-r5.jar"
                 ],
                 "fileSize": 47612775
+            },
+            {
+                "path": "shaderpacks/BSL_v10.0.zip",
+                "hashes": {
+                        "sha1": "82eb9981a31a4753bb5022b5f64d5ec4f6a27071",
+                        "sha512": "3ce31ae8c7242ae335de70df10f8147420a64ca372585c195d0b300f9e8c5b923f1e5bf2b8dddfcc741a0ce8e0235e079540101632837624787da84e9b52d72f"
+                },
+                "downloads": [
+                    "https://cdn.modrinth.com/data/Q1vvjJYV/versions/jRn8y2VF/BSL_v10.0.zip"
+                ],
+                "fileSize": 1121678
             }
         ]
 
