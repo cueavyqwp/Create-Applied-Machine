@@ -59,6 +59,8 @@ else:
     os.makedirs("./output/overrides")
     shutil.move("./src/modrinth.index.json", "./output/modrinth.index.json")
     for path in os.listdir("./src"):
+        if path in (".git", ".github"):
+            continue
         path = os.path.join("./src", path)
         shutil.move(path, f"./output/overrides/{os.path.basename(path)}")
     with zipfile.ZipFile(f"./dist/1.21.1-Create-{__version__}.zip", "w") as zf:
