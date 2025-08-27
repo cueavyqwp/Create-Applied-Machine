@@ -3,6 +3,7 @@
 
 !/LICENSE
 !/README.md
+!/.github/**
 !/.gitignore
 !/options.txt
 !/export_config.txt
