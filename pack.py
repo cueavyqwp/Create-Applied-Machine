@@ -60,9 +60,13 @@ else:
     shutil.move("./src/modrinth.index.json", "./output/modrinth.index.json")
     for path in os.listdir("./src"):
         path = os.path.join("./src", path)
-        if path not in (".github", ".gitignore", "export_config.txt"):
-            shutil.move(path, f"./output/overrides/{os.path.basename(path)}")
+        shutil.move(path, f"./output/overrides/{os.path.basename(path)}")
     with zipfile.ZipFile(f"./dist/1.21.1-Create-{__version__}.zip", "w") as zf:
-        for root, _, files in os.walk("output"):
+        os.chdir("output")
+        for root, _, files in os.walk("."):
+            if os.path.split(root)[-1] in (".git", ".github"):
+                continue
             for file in files:
+                if file in (".gitignore", "export_config.txt", "README.md"):
+                    continue
                 zf.write(os.path.join(root, file))
