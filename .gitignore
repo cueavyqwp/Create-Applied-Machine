@@ -20,8 +20,11 @@
 !config/integrateddynamics-common.toml
 !config/touhou_little_maid-common.toml
 !config/constructionstick-server.toml
+!config/supplementaries-client.toml
+!config/modernfix-mixins.properties
 !config/twilightforest-common.toml
 !config/terra_curio-client.toml
+!config/ftblibrary-client.snbt
 !config/embeddium-options.json
 !config/ModernUI/client.toml
 !config/ftbchunks-client.snbt
