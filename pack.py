@@ -54,3 +54,16 @@ else:
         with open("mods/tiabcurio-neoforge-1.21.1-3.0.1.jar", "wb") as fp:
             fp.write(requests.get(
                 "https://mediafilez.forgecdn.net/files/6109/580/tiabcurio-neoforge-1.21.1-3.0.1.jar").content)
+
+    os.mkdir("dist")
+    os.mkdir("output")
+    os.mkdir("output/overrides")
+    shutil.move("modrinth.index.json", "output/modrinth.index.json")
+    for path in os.listdir():
+        if path not in (".github", "pack.py", ".gitignore", "export_config.txt"):
+            shutil.move(path, "output/overrides" +
+                        "" if os.path.isfile(path)else f"/{path}")
+    with zipfile.ZipFile(f"dist/1.21.1-Create-{__version__}.zip", "w") as zf:
+        for root, _, files in os.walk("output"):
+            for file in files:
+                zf.write(os.path.join(root, file))

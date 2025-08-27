@@ -25,9 +25,11 @@ jobs:
 
       - name: Pack
         run: |
-          python -m pip install --upgrade pip request
+          python -m pip install --upgrade pip requests
           python pack.py
 
-      - name: Test
-        run: |
-          ls -la
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: output
+          path: dist
