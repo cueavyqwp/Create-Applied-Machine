@@ -9,7 +9,8 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v5
-        path: src
+        with:
+          path: src
 
       - name: Setup
         uses: actions/setup-python@v5
