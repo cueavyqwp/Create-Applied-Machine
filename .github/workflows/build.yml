@@ -23,9 +23,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-${{ hashFiles('pack.py') }}
 
-      - name: Test & Build
+      - name: Pack
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip request
           python pack.py
 
       - name: Test
