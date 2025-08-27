@@ -8,7 +8,9 @@
 !/options.txt
 !/export_config.txt
 
-!cover.py
+!/tacz/**
+/tacz/tacz_default_gun
+
 !/kubejs/**
 !/shaderpacks/BSL_v10.0.zip.txt
 
@@ -38,3 +40,7 @@
 *.html
 *.jar
 *.log*
+*test*
+
+!tiabcurio-neoforge-1.21.1-3.0.1.jar
+!realcamera-1.21.1-neoforge-0.7.0-alpha.6-1ef3ac1.jar
