@@ -60,7 +60,7 @@ else:
     os.mkdir("output/overrides")
     shutil.move("modrinth.index.json", "output/modrinth.index.json")
     for path in os.listdir():
-        if path not in (".github", "pack.py", ".gitignore", "export_config.txt"):
+        if path not in (".github", "output", "pack.py", ".gitignore", "export_config.txt"):
             shutil.move(path, f"output/overrides/{path}")
     with zipfile.ZipFile(f"dist/1.21.1-Create-{__version__}.zip", "w") as zf:
         for root, _, files in os.walk("output"):
