@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "454429E101019D89"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "601D2E67C615782F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "ae2:fluix_glass_cable"
+		}
+		id: "43C54F2F2C9559F2"
+		optional: true
+		rewards: [{
+			auto: "enabled"
+			command: "/ae2 channelmode infinite"
+			id: "77BE0CCE67B8C30F"
+			type: "command"
+		}]
+		tasks: [{
+			id: "3F83E31AB0EFC196"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

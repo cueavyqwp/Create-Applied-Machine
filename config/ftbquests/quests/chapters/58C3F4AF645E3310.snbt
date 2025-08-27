@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "58C3F4AF645E3310"
+	group: "454429E101019D89"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "58C3F4AF645E3310"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B7FA9A8BE9BC9AA"
+			rewards: [{
+				count: 64
+				id: "1E0CD45A551BBB2E"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F7361638DA9AFE"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "301651ACF747D03A"
+			rewards: [
+				{
+					count: 64
+					id: "62CBCB44B0860581"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "128AB65537C72D25"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6A90117D336215BB"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00C7F7BEDF3938E2"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+}

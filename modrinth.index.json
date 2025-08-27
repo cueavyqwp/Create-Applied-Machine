@@ -1,0 +1,1820 @@
+{
+    "game": "minecraft",
+    "formatVersion": 1,
+    "versionId": "0.0.1",
+    "name": "1.21.1-Create",
+    "summary": "1.21.1-Create",
+    "files": [
+        {
+            "path": "mods/acceleratedrendering-1.0.1-1.21.1-alpha.jar",
+            "hashes": {
+                "sha1": "bf87714f8b13f2f6e5361a81967761f323996041",
+                "sha512": "0539aa3d9a0acd9cb67388b881041e14dbd0463092244a0a20bd1be375d29e66c41a4aacb4e34c80a786f7ce028de3c315f06c0509851e6bd005c57480d4e8f0"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/DfECZO3a/versions/IQ1qOzIJ/acceleratedrendering-1.0.1-1.21.1-alpha.jar",
+                "https://mediafilez.forgecdn.net/files/6839/175/acceleratedrendering-1.0.1-1.21.1-alpha.jar",
+                "https://edge.forgecdn.net/files/6839/175/acceleratedrendering-1.0.1-1.21.1-alpha.jar"
+            ],
+            "fileSize": 341575
+        },
+        {
+            "path": "mods/AnvilNeverTooExpensive-neoforge-1.21+-1.2.1.jar",
+            "hashes": {
+                "sha1": "df107309afccd4d704d72aae7af79798400c01c1",
+                "sha512": "a678f8465cbd29d18e95104003bcaf15e7f5963169f120f9d074db9aa46d140ce964bb41ffcc06c1e0ff8183bc81061da4a45251f4d91fe1fc94e39fbaa37f49"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/TEOa2X8B/versions/wV654RfI/AnvilNeverTooExpensive-neoforge-1.21%2B-1.2.1.jar",
+                "https://mediafilez.forgecdn.net/files/6056/726/AnvilNeverTooExpensive-neoforge-1.21%2b-1.2.1.jar",
+                "https://edge.forgecdn.net/files/6056/726/AnvilNeverTooExpensive-neoforge-1.21%2b-1.2.1.jar"
+            ],
+            "fileSize": 5237
+        },
+        {
+            "path": "mods/architectury-13.0.8-neoforge.jar",
+            "hashes": {
+                "sha1": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b",
+                "sha512": "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar",
+                "https://mediafilez.forgecdn.net/files/5786/327/architectury-13.0.8-neoforge.jar",
+                "https://edge.forgecdn.net/files/5786/327/architectury-13.0.8-neoforge.jar"
+            ],
+            "fileSize": 584004
+        },
+        {
+            "path": "mods/bookshelf-neoforge-1.21.1-21.1.68.jar",
+            "hashes": {
+                "sha1": "4574ea4b331a4a3524e566efce1531feff67936f",
+                "sha512": "60612ee3579cc60c836bd4576eb2746c20eacbb6c36e0351aa3ce091c16c0b9c6fea13a8b47644a3da167da0a6d719fdfbc722eaca8f61ffe03a7fe16bda8a99"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/uy4Cnpcm/versions/9MsWDFTs/bookshelf-neoforge-1.21.1-21.1.68.jar",
+                "https://mediafilez.forgecdn.net/files/6909/578/bookshelf-neoforge-1.21.1-21.1.68.jar",
+                "https://edge.forgecdn.net/files/6909/578/bookshelf-neoforge-1.21.1-21.1.68.jar"
+            ],
+            "fileSize": 336752
+        },
+        {
+            "path": "mods/BrandonsCore-1.21.1-3.2.1.307.jar",
+            "hashes": {
+                "sha1": "a3d235a8cfb29c62cea7a99d5e96ce72469d38b4",
+                "sha512": "900849c189a64f118b158388c38c5250182442ce1d0d4f9a94b6fbd39a810b062c16a21b6780b0dbeb4b6e93a67079beb4ce1f79af0040a0d8181d86f63bdaac"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/iFDWVIFV/versions/fiRrbwua/BrandonsCore-1.21.1-3.2.1.307.jar",
+                "https://mediafilez.forgecdn.net/files/6769/922/BrandonsCore-1.21.1-3.2.1.307.jar",
+                "https://edge.forgecdn.net/files/6769/922/BrandonsCore-1.21.1-3.2.1.307.jar"
+            ],
+            "fileSize": 1384991
+        },
+        {
+            "path": "mods/cloth-config-15.0.140-neoforge.jar",
+            "hashes": {
+                "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
+                "sha512": "aaf9b010955b8cd294e5a92f069985b18729fd5e2cf22d351f1dff9680f15488688803ec41e77e941cbde130ceb535014ca4c868047d80ab69c2d508e216654d"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar",
+                "https://mediafilez.forgecdn.net/files/5729/127/cloth-config-15.0.140-neoforge.jar",
+                "https://edge.forgecdn.net/files/5729/127/cloth-config-15.0.140-neoforge.jar"
+            ],
+            "fileSize": 1163890
+        },
+        {
+            "path": "mods/CodeChickenLib-1.21.1-4.6.1.524.jar",
+            "hashes": {
+                "sha1": "650681ac5a20b9db08c29e85fc1ca3ebc9a315ac",
+                "sha512": "c31e42c27bf1b9ee98f74833303f8c264ca45db77147db70f4e2a643c40aab3a57ac4b53f997e609760a294d28de3d0f8168cd9fa1cca201ba5eb7da2e96fd4b"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/2gq0ALnz/versions/bX3ALK0X/CodeChickenLib-1.21.1-4.6.1.524.jar",
+                "https://mediafilez.forgecdn.net/files/6583/751/CodeChickenLib-1.21.1-4.6.1.524.jar",
+                "https://edge.forgecdn.net/files/6583/751/CodeChickenLib-1.21.1-4.6.1.524.jar"
+            ],
+            "fileSize": 1525655
+        },
+        {
+            "path": "mods/collective-1.21.1-8.3.jar",
+            "hashes": {
+                "sha1": "ac856f7552dae7fa65e9616e2e33f89cd7cbbab6",
+                "sha512": "c15608926645d50a418a76a1cdde57c26e0322e15c871d611f2dcac3a3dcdde04eb0e70e809e9bbee698a24edd32a233ca25ab8514dbc7b93cef1cd918ab413f"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/e0M1UDsY/versions/ao7rZsss/collective-1.21.1-8.3.jar",
+                "https://mediafilez.forgecdn.net/files/6429/221/collective-1.21.1-8.3.jar",
+                "https://edge.forgecdn.net/files/6429/221/collective-1.21.1-8.3.jar"
+            ],
+            "fileSize": 934732
+        },
+        {
+            "path": "mods/createaddition-1.5.2.jar",
+            "hashes": {
+                "sha1": "6b75a30d34903383d4421cd059e5691d8ae1f29e",
+                "sha512": "c3292153f95509a3e493955afbfbb87110a06d41a76fbf87b88447727ab86091787f5e8845961044c7a7f18910533b3443660b830a07bafcdadd6748bab1b7f5"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/kU1G12Nn/versions/WrlIVx0v/createaddition-1.5.2.jar",
+                "https://mediafilez.forgecdn.net/files/6912/660/createaddition-1.5.2.jar",
+                "https://edge.forgecdn.net/files/6912/660/createaddition-1.5.2.jar"
+            ],
+            "fileSize": 1604381
+        },
+        {
+            "path": "mods/createfood-neoforge-1.21.1-2.0.0-beta-3.jar",
+            "hashes": {
+                "sha1": "d865b6a64ff1e662564cdb00f288fcdbdfe8ae0a",
+                "sha512": "138a415ce7885bb1797a25176d38b9e5414c8ebc58782b9c49ff471afef100138f609e0c8dc61d11db00e7552a93101eb2e0af2b53c1ef8d5dc8efd4b6106803"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/4HnO3el1/versions/Sd9pbQKb/createfood-neoforge-1.21.1-2.0.0-beta-3.jar",
+                "https://mediafilez.forgecdn.net/files/6741/509/createfood-neoforge-1.21.1-2.0.0-beta-3.jar",
+                "https://edge.forgecdn.net/files/6741/509/createfood-neoforge-1.21.1-2.0.0-beta-3.jar"
+            ],
+            "fileSize": 6913049
+        },
+        {
+            "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+            "hashes": {
+                "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+                "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6529/130/curios-neoforge-9.5.1%2b1.21.1.jar",
+                "https://edge.forgecdn.net/files/6529/130/curios-neoforge-9.5.1%2b1.21.1.jar"
+            ],
+            "fileSize": 410690
+        },
+        {
+            "path": "mods/embeddium-1.0.15+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "56063839172a000d079272794bad366f2ad4cbbd",
+                "sha512": "d073cf52dcf2aeec3ac9f746d4571c7b4b1ad746fa11d4bcc5a21a264ae3119ac6d341d08cc9a70042cf0ddffc3b3ef3329ed30217035d4551c9d6788b6dc1e6"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/sk9rgfiA/versions/J7b96IEd/embeddium-1.0.15%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6118/392/embeddium-1.0.15%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6118/392/embeddium-1.0.15%2bmc1.21.1.jar"
+            ],
+            "fileSize": 1048745
+        },
+        {
+            "path": "mods/emi-1.1.22+1.21.1+neoforge.jar",
+            "hashes": {
+                "sha1": "cbbd038194cd63249db185c53b1d50a1767f80a3",
+                "sha512": "6b4f2b93ccd40bbbf3d1f368a9d92b43777543c44243a76ed4010bd563a7f9658decdd58a3d79a3cdc04a288bf98e327a1cce93a5a9d2b8840306578fe633bca"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/fRiHVvU7/versions/ouSj7NfF/emi-1.1.22%2B1.21.1%2Bneoforge.jar",
+                "https://mediafilez.forgecdn.net/files/6420/931/emi-1.1.22%2b1.21.1%2bneoforge.jar",
+                "https://edge.forgecdn.net/files/6420/931/emi-1.1.22%2b1.21.1%2bneoforge.jar"
+            ],
+            "fileSize": 1038248
+        },
+        {
+            "path": "mods/ExtremeSoundMuffler-3.51_NeoForge-1.21.jar",
+            "hashes": {
+                "sha1": "d6616551985096068e4919f9bea4dda825d55be0",
+                "sha512": "6f60acb6314d493c1c48564bbf26fa7fe09a6e90306190385a716c8395c99c7ea61a8044866593abd35f5da30b47d3f7981d2cc2244fbef70c6d31914d26e4e3"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/5IIKsxiL/versions/ja8Dt0XL/ExtremeSoundMuffler-3.51_NeoForge-1.21.jar",
+                "https://mediafilez.forgecdn.net/files/6875/184/ExtremeSoundMuffler-3.51_NeoForge-1.21.jar",
+                "https://edge.forgecdn.net/files/6875/184/ExtremeSoundMuffler-3.51_NeoForge-1.21.jar"
+            ],
+            "fileSize": 264658
+        },
+        {
+            "path": "mods/fullbrightnesstoggle-1.21.1-4.3.jar",
+            "hashes": {
+                "sha1": "b7cb0e8a148dbbebe4546a5c7024191675602fb8",
+                "sha512": "a8110ab697a2f800d8068e21a51c5dbc7141bb3577b3b28c53d6b492ff1598eefc432d2c3c5051ce96748af031c802b23f5473d238ede3bb29adb5bb62a73b22"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/aEK1KhsC/versions/2BjVBEDx/fullbrightnesstoggle-1.21.1-4.3.jar",
+                "https://mediafilez.forgecdn.net/files/6185/953/fullbrightnesstoggle-1.21.1-4.3.jar",
+                "https://edge.forgecdn.net/files/6185/953/fullbrightnesstoggle-1.21.1-4.3.jar"
+            ],
+            "fileSize": 39681
+        },
+        {
+            "path": "mods/geckolib-neoforge-1.21.1-4.7.7.jar",
+            "hashes": {
+                "sha1": "36883f8ea9117932bb5f2643a29578c6506e2339",
+                "sha512": "4ad5e086bfe25150268e3cce9d1ee8e1aaa37b843fc4cd9b117d195c9a2141e14941debfd63dbac7f803bdc6994d3e038891fd502f70ae530af76280e4913331"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/8BmcQJ2H/versions/18qeSgOb/geckolib-neoforge-1.21.1-4.7.7.jar",
+                "https://mediafilez.forgecdn.net/files/6920/810/geckolib-neoforge-1.21.1-4.7.7.jar",
+                "https://edge.forgecdn.net/files/6920/810/geckolib-neoforge-1.21.1-4.7.7.jar"
+            ],
+            "fileSize": 593507
+        },
+        {
+            "path": "mods/Glodium-1.21-2.2-neoforge.jar",
+            "hashes": {
+                "sha1": "9f61a3162665ad0b37f6f268339ac98097af1a87",
+                "sha512": "56a387a1bdaf0146c9a7e14de0aca8b6f53f25d3ba9d46255f142043387282ed9e4fa0011d309e32d9ffe5362b129c07e301226dd4ac11eda9a4f42f27c0b5d1"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/UhW5uCKw/versions/pfbmdJ3b/Glodium-1.21-2.2-neoforge.jar",
+                "https://mediafilez.forgecdn.net/files/5821/676/Glodium-1.21-2.2-neoforge.jar",
+                "https://edge.forgecdn.net/files/5821/676/Glodium-1.21-2.2-neoforge.jar"
+            ],
+            "fileSize": 61377
+        },
+        {
+            "path": "mods/guideme-21.1.14.jar",
+            "hashes": {
+                "sha1": "70f385e3abdd51ef455ecd0739910040f3d5a3f9",
+                "sha512": "443d6de4dcee59bf2650bf5f7fdb14ae44017353bb69ec380b0eaf76ccc7b407d9e6c3d8b7572df6e6c524514ade7fb77ff507cc75f7356e0a555c3f4f14c143"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/Ck4E7v7R/versions/fTbylf08/guideme-21.1.14.jar",
+                "https://mediafilez.forgecdn.net/files/6812/25/guideme-21.1.14.jar",
+                "https://edge.forgecdn.net/files/6812/25/guideme-21.1.14.jar"
+            ],
+            "fileSize": 9308969
+        },
+        {
+            "path": "mods/iris-neoforge-1.8.12+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "a3e6355915c7d3b2bc392724795113e51d289378",
+                "sha512": "57b8026a3c3c433cf6123d63dc6ce7e11f6d480a72926370db1fc7f2b06059bc16a753ecd7e7af659c19e90b592103196b0e89585ce4f0744a4ca433f59bcf1a"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6661/598/iris-neoforge-1.8.12%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6661/598/iris-neoforge-1.8.12%2bmc1.21.1.jar"
+            ],
+            "fileSize": 2438548
+        },
+        {
+            "path": "mods/JAOPCA-1.21.1-5.0.12.18.jar",
+            "hashes": {
+                "sha1": "bd4586d3d3b329b8adda9f834a8955822487171a",
+                "sha512": "b9b0224996734e5e88c9b2d01ed0d438b05975f068cffbafe38078d0e5ff2e3f492fc7a043cb3eac5d8c937c4086c901d546e942639ffd262209184133045b62"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/P48mHi2j/versions/Om6No6O8/JAOPCA-1.21.1-5.0.12.18.jar",
+                "https://mediafilez.forgecdn.net/files/6879/35/JAOPCA-1.21.1-5.0.12.18.jar",
+                "https://edge.forgecdn.net/files/6879/35/JAOPCA-1.21.1-5.0.12.18.jar"
+            ],
+            "fileSize": 907291
+        },
+        {
+            "path": "mods/JustEnoughMekanismMultiblocks-1.21.1-7.7.jar",
+            "hashes": {
+                "sha1": "ff4e9eded15a0118f3cf1182cab2d1cd137d89af",
+                "sha512": "32cb1705b832cadc569c88d3aed11202d27d0d458ff2b88b70c46ccd832d112d7b3f25a8598e4c5533c07a73aa4ca17033d6245b15282b26bdb4988bffa40855"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/kRaE85yQ/versions/g0Exmy3H/JustEnoughMekanismMultiblocks-1.21.1-7.7.jar",
+                "https://mediafilez.forgecdn.net/files/6462/78/JustEnoughMekanismMultiblocks-1.21.1-7.7.jar",
+                "https://edge.forgecdn.net/files/6462/78/JustEnoughMekanismMultiblocks-1.21.1-7.7.jar"
+            ],
+            "fileSize": 137612
+        },
+        {
+            "path": "mods/kubejs-mekanism-neoforge-2101.1.6-build.6.jar",
+            "hashes": {
+                "sha1": "a3aafe7e047968d990dc9eb13c0e1c9f48da0127",
+                "sha512": "d4091f6585603037468b2d7825827d7ff598466bd2497c4c663ddfa0b8c738f4ac2686f8dd3fd88a8ba6bd846366f858b804542b12fb2a8ff9e0debc66d99982"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/sY2Fy24K/versions/dNUNgZXN/kubejs-mekanism-neoforge-2101.1.6-build.6.jar",
+                "https://mediafilez.forgecdn.net/files/5697/210/kubejs-mekanism-neoforge-2101.1.6-build.6.jar",
+                "https://edge.forgecdn.net/files/5697/210/kubejs-mekanism-neoforge-2101.1.6-build.6.jar"
+            ],
+            "fileSize": 49004
+        },
+        {
+            "path": "mods/kubejs-neoforge-2101.7.1-build.181.jar",
+            "hashes": {
+                "sha1": "be525f7d4d8d71a18b07718352035b3e59e50ebd",
+                "sha512": "25531dc40cee02012384c6cf645829db27816c5d107baa9aa118885fbd418237ff43974451a52f1671be6cd075dbf33cbeb20df5eaf33cd31421ef5f66413726"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/umyGl7zF/versions/3w2ufpfQ/kubejs-neoforge-2101.7.1-build.181.jar",
+                "https://mediafilez.forgecdn.net/files/5810/100/kubejs-neoforge-2101.7.1-build.181.jar",
+                "https://edge.forgecdn.net/files/5810/100/kubejs-neoforge-2101.7.1-build.181.jar"
+            ],
+            "fileSize": 1913809
+        },
+        {
+            "path": "mods/mechanicals-1.21.1-1.0.12.jar",
+            "hashes": {
+                "sha1": "ae10957216d3a3b08c0d6b1ffd21467a96e4eb82",
+                "sha512": "26b7dba2ff369be1f0e390788049ad409816d9276cfa2a2bd0088919807739caff742eeb855b4ecbf06bcdc0853fdcdf74286f2da411cf5de9d1e707326258f2"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/ProvjTA7/versions/UZo8s2tI/mechanicals-1.21.1-1.0.12.jar",
+                "https://mediafilez.forgecdn.net/files/6684/686/mechanicals-1.21.1-1.0.12.jar",
+                "https://edge.forgecdn.net/files/6684/686/mechanicals-1.21.1-1.0.12.jar"
+            ],
+            "fileSize": 495934
+        },
+        {
+            "path": "mods/monocle-0.2.2.ms.jar",
+            "hashes": {
+                "sha1": "9ba9abc90d71bf2e8c5fa56d2fad1ecff3e782ae",
+                "sha512": "233d65f722329c7dbd3c77992f5d400dfe6e76788207da8d0d4669526e662852d0f0832dc3af23cc6373577462c5fb2153e295267e73d6023e125164ad94d8eb"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/apRGdwku/versions/klSc1ush/monocle-0.2.2.ms.jar",
+                "https://mediafilez.forgecdn.net/files/6803/201/monocle-0.2.2.ms.jar",
+                "https://edge.forgecdn.net/files/6803/201/monocle-0.2.2.ms.jar"
+            ],
+            "fileSize": 562623
+        },
+        {
+            "path": "mods/moonlight-1.21-2.22.3-neoforge.jar",
+            "hashes": {
+                "sha1": "2d2ba025845a58cf0865e30163132bf8bc7daf27",
+                "sha512": "d93a7c651e4cec5015def293ad08390afadab9b10bd75aff711a804c089118ccb2b5e8bf5060df679831b340438e8111f8dc47a0db2190570a452de43416a758"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/twkfQtEc/versions/8iRz6cBI/moonlight-1.21-2.22.3-neoforge.jar",
+                "https://mediafilez.forgecdn.net/files/6933/460/moonlight-1.21-2.22.3-neoforge.jar",
+                "https://edge.forgecdn.net/files/6933/460/moonlight-1.21-2.22.3-neoforge.jar"
+            ],
+            "fileSize": 1218333
+        },
+        {
+            "path": "mods/Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+            "hashes": {
+                "sha1": "e0c36cd85d3d31cc2afb1bfc6b885f505245252f",
+                "sha512": "544f83caec2e894e7422571f154bb5a470e9156d5b5b70e6352c754f1bac47ac2c055893064faae2d05ca3a8bef699343c851c925c2c1f8c3ace7de38cfd67ed"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/bQh7xzFq/versions/8SBaRv1t/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.3%2B1.21.jar",
+                "https://mediafilez.forgecdn.net/files/6880/47/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.3%2b1.21.jar",
+                "https://edge.forgecdn.net/files/6880/47/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.3%2b1.21.jar"
+            ],
+            "fileSize": 23830
+        },
+        {
+            "path": "mods/OctoLib-NEOFORGE-0.6.0.4+1.21.jar",
+            "hashes": {
+                "sha1": "106ca4d0a3597e1a5c6489e98361c81436c528e0",
+                "sha512": "66b27e29aa3c15b1beef24f219cb1f3ed442aad4cdca2d276fc0516131b65dc977cacd17d6555433bad062ddb9feb8145d71ca87d7b99e70d9c5091542818785"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/RH2KUdKJ/versions/cSBObQER/OctoLib-NEOFORGE-0.6.0.4%2B1.21.jar",
+                "https://mediafilez.forgecdn.net/files/6932/487/OctoLib-NEOFORGE-0.6.0.4%2b1.21.jar",
+                "https://edge.forgecdn.net/files/6932/487/OctoLib-NEOFORGE-0.6.0.4%2b1.21.jar"
+            ],
+            "fileSize": 507443
+        },
+        {
+            "path": "mods/packetfixer-3.2.0-1.20.5-1.21.X-merged.jar",
+            "hashes": {
+                "sha1": "75ff036fb43f3a734b1603bdd4f99949c2e08257",
+                "sha512": "7babe47240e507af9e28093b1b923c37364acc8ffbc783c0a799698cbe0de209e87d362b8502ce8ace6b609478ade4e5085ce06dbed2d1b898b0cf61e822de3c"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/c7m1mi73/versions/KMH2c4rz/packetfixer-3.2.0-1.20.5-1.21.X-merged.jar",
+                "https://mediafilez.forgecdn.net/files/6931/760/packetfixer-3.2.0-1.20.5-1.21.X-merged.jar",
+                "https://edge.forgecdn.net/files/6931/760/packetfixer-3.2.0-1.20.5-1.21.X-merged.jar"
+            ],
+            "fileSize": 40738
+        },
+        {
+            "path": "mods/polyeng-0.4.1.jar",
+            "hashes": {
+                "sha1": "4add4d9e854807ed2b10c0cabf972244f862b21f",
+                "sha512": "7a2838f275ea229177b188632d482959408ab0caef274dd39bf4e33f49967d382137536127f75817649d58b3616b50b0d2fd0afff0d75eb86cdd947043a60694"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/VS1a14jA/versions/oxmWQs9t/polyeng-0.4.1.jar",
+                "https://mediafilez.forgecdn.net/files/5545/923/polyeng-0.4.1.jar",
+                "https://edge.forgecdn.net/files/5545/923/polyeng-0.4.1.jar"
+            ],
+            "fileSize": 20130
+        },
+        {
+            "path": "mods/prickle-neoforge-1.21.1-21.1.10.jar",
+            "hashes": {
+                "sha1": "7a6b8e3137bc678579ec929bf1b63a40fb8dc826",
+                "sha512": "26a441f853cd3a7f2fee1456921f8afff88eeb7e4e332cda8e6cd934fa9c2214792533302b0eec2abbea555e9f49f21e2e0246888811f7a3a15d3f467e84b293"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/aaRl8GiW/versions/jGBdTRi5/prickle-neoforge-1.21.1-21.1.10.jar",
+                "https://mediafilez.forgecdn.net/files/6910/558/prickle-neoforge-1.21.1-21.1.10.jar",
+                "https://edge.forgecdn.net/files/6910/558/prickle-neoforge-1.21.1-21.1.10.jar"
+            ],
+            "fileSize": 83726
+        },
+        {
+            "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+            "hashes": {
+                "sha1": "744394d979b422be560babf9df7a6800ede9ac5b",
+                "sha512": "9d4b2a1be5139c0fb2fad92ed21805b17d9e83b6ea48e637e018bb14063c1823a206390755dbfe8d025c20fd62ac11cdd84db53ddb956dabaeda01bff57bac50"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/kkmrDlKT/versions/6e8GCrLb/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+            ],
+            "fileSize": 120365
+        },
+        {
+            "path": "mods/terrablenderfix-neoforge-1.21.1-0.0.1.jar",
+            "hashes": {
+                "sha1": "90a0b2d9335817566552607aa148e3b489fdc621",
+                "sha512": "b54de742dec0d9227b1ac805f749850376a5ef89fc3d7370ab85ec96c509e63e00fc26c94eb56b91cbdd4408a01ac83b4b1571080c7dfa5fb2b0a71fe6a05c2d"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/t2pgJYye/versions/mj0Dc8K5/terrablenderfix-neoforge-1.21.1-0.0.1.jar",
+                "https://mediafilez.forgecdn.net/files/6060/237/terrablenderfix-neoforge-1.21.1-0.0.1.jar",
+                "https://edge.forgecdn.net/files/6060/237/terrablenderfix-neoforge-1.21.1-0.0.1.jar"
+            ],
+            "fileSize": 15278
+        },
+        {
+            "path": "mods/tiab-neoforge-6.5.0.jar",
+            "hashes": {
+                "sha1": "9b7a55827a3654c1947268055fbebfd1c9480019",
+                "sha512": "a16c4b38517055e06442d2355729d5c09dd7833da6e39251678b097f98f8e64677b0890f817dfd0c4ee84c3d7750d2bb25cef7af2a08e475456f9fa317b34354"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/LQdpBqdS/versions/K8iXBQOV/tiab-neoforge-6.5.0.jar"
+            ],
+            "fileSize": 76147
+        },
+        {
+            "path": "mods/xnetgases-1.21.1-6.0.1.jar",
+            "hashes": {
+                "sha1": "38e91879238ef6ca691c8a237da4da55e45b69dc",
+                "sha512": "6c0aaa394c8fdbce75f212545893b8afd232ab66c401dc819a020739d4fca655abc03a98b999e5767fe6f99c5ba3ef2f3c13b3be0e5855fe203ae5d9003cac2a"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/H1x2EwLg/versions/qfu7SkyK/xnetgases-1.21.1-6.0.1.jar",
+                "https://mediafilez.forgecdn.net/files/6825/812/xnetgases-1.21.1-6.0.1.jar",
+                "https://edge.forgecdn.net/files/6825/812/xnetgases-1.21.1-6.0.1.jar"
+            ],
+            "fileSize": 209911
+        },
+        {
+            "path": "mods/YungsApi-1.21.1-NeoForge-5.1.6.jar",
+            "hashes": {
+                "sha1": "e1c394779fb9e038e4f7a1b4558d0432607d263b",
+                "sha512": "5f36d5166a67a156df52699071f20219bc2320b3c4fbcd9dac38631f66136f034e3219ac89ff4bfb6e26e4c68513a94c833797f2e5ed5bf58cfa1531eeed162d"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/Ua7DFN59/versions/ZB22DE9q/YungsApi-1.21.1-NeoForge-5.1.6.jar",
+                "https://mediafilez.forgecdn.net/files/6715/463/YungsApi-1.21.1-NeoForge-5.1.6.jar",
+                "https://edge.forgecdn.net/files/6715/463/YungsApi-1.21.1-NeoForge-5.1.6.jar"
+            ],
+            "fileSize": 388678
+        },
+        {
+            "path": "mods/[3D 皮肤层] skinlayers3d-neoforge-1.9.0-mc1.21.jar",
+            "hashes": {
+                "sha1": "ec046d736a67626d774cae3cf6d37133eaccfbd4",
+                "sha512": "804e24078fd61220e4dddf5f975f9f47b2b99a7ce1149083f83a045f6c63bb9f88390e57a234f4bb8d3c2b38be141ab1004b17cd9005a39a155522ee0ced4906"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/zV5r3pPn/versions/BeFsM0V8/skinlayers3d-neoforge-1.9.0-mc1.21.jar"
+            ],
+            "fileSize": 876523
+        },
+        {
+            "path": "mods/[AE2无线终端] ae2wtlib-19.2.5.jar",
+            "hashes": {
+                "sha1": "d04630f34452f813e481e65799204bdf0082a36d",
+                "sha512": "64faa15ff938b29cb2c44dd55a96c3d2ee4e6310c5840b1c427ba87f70a0eac88dfd0e5850103d8bc27da4f87d6ff138b1693691c68c5f4b292ebc74d6171561"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/pNabrMMw/versions/UOlbVk0Q/ae2wtlib-19.2.5.jar",
+                "https://mediafilez.forgecdn.net/files/6838/39/ae2wtlib-19.2.5.jar",
+                "https://edge.forgecdn.net/files/6838/39/ae2wtlib-19.2.5.jar"
+            ],
+            "fileSize": 237860
+        },
+        {
+            "path": "mods/[AE2输入输出卡] ae2importexportcard-1.21-1.4.0.jar",
+            "hashes": {
+                "sha1": "24151e160a35fe2c21854d9ead6919930807b0b7",
+                "sha512": "a1fb2359b5196558722ff1c19ffe02d8efc3d42d5c14f528c806905ce970ef3ae89498d00e7978c20f1412a4ebed04d02b2f62714e678480f50ae3714dd95dbc"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/qelfSMnn/versions/UcKctWsx/ae2importexportcard-1.21-1.4.0.jar",
+                "https://mediafilez.forgecdn.net/files/5577/253/ae2importexportcard-1.21-1.4.0.jar",
+                "https://edge.forgecdn.net/files/5577/253/ae2importexportcard-1.21-1.4.0.jar"
+            ],
+            "fileSize": 188626
+        },
+        {
+            "path": "mods/[AI改进] AI-Improvements-1.21-0.5.3.jar",
+            "hashes": {
+                "sha1": "b4a8e11384454bcc341043b251db7fb5afdfdf45",
+                "sha512": "ded870e90953ea915d24ac4c81799b95b321dda39936cd4cd620302b48882141fa3b9f1af658bdc6c25dc48de003223b91f3669b69efcc92c8666a3983f0fccc"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/DSVgwcji/versions/dGNP90t0/AI-Improvements-1.21-0.5.3.jar",
+                "https://mediafilez.forgecdn.net/files/5426/792/AI-Improvements-1.21-0.5.3.jar",
+                "https://edge.forgecdn.net/files/5426/792/AI-Improvements-1.21-0.5.3.jar"
+            ],
+            "fileSize": 28984
+        },
+        {
+            "path": "mods/[JEI物品管理器] jei-1.21.1-neoforge-19.22.1.316.jar",
+            "hashes": {
+                "sha1": "ad7cd1f890ef4924c62c39534d186396cde66868",
+                "sha512": "63dba55f429f8504f600db45b87143ab2005fc68f7314adf364e82afb3399c7e6488008d66cc9a7b13b17e43bcef11bbb36f909f4313219308fc0a4a12400d0b"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/u6dRKJwZ/versions/oghFmDkL/jei-1.21.1-neoforge-19.22.1.316.jar",
+                "https://mediafilez.forgecdn.net/files/6829/86/jei-1.21.1-neoforge-19.22.1.316.jar",
+                "https://edge.forgecdn.net/files/6829/86/jei-1.21.1-neoforge-19.22.1.316.jar"
+            ],
+            "fileSize": 1474239
+        },
+        {
+            "path": "mods/[KubeJS 离线文档] kubejsoffline-neoforge-5.0.7.jar",
+            "hashes": {
+                "sha1": "e4a7c02dadae66d188607ab21a1c281618752195",
+                "sha512": "c8e7459eee1d9711460b3f2d0cc4536d49afdb4abdf464a724e105fb9bba6a1273ef3a224f341dba369a039f0ad33aff4b6d680ce11cf1255c3b252c92c94505"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/7I1fu1km/versions/o0bpP09M/kubejsoffline-neoforge-5.0.7.jar",
+                "https://mediafilez.forgecdn.net/files/6873/496/kubejsoffline-neoforge-5.0.7.jar",
+                "https://edge.forgecdn.net/files/6873/496/kubejsoffline-neoforge-5.0.7.jar"
+            ],
+            "fileSize": 1524527
+        },
+        {
+            "path": "mods/[WI变焦] WI-Zoom-1.6-MC1.21.1-NeoForge.jar",
+            "hashes": {
+                "sha1": "6b2079c846ffd0573a8fd9adf6e99b8325ab4ab6",
+                "sha512": "348b64cb57b322e7f36ce55a403cc17b86d4cd531ee89e8a45d574aa285f3b3bafc74db7174acbc110f13fae7d285bdbfc8342943c6785999a5686f447b71bd0"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/o7DitHWP/versions/NBm3hI80/WI-Zoom-1.6-MC1.21.1-NeoForge.jar",
+                "https://mediafilez.forgecdn.net/files/6288/498/WI-Zoom-1.6-MC1.21.1-NeoForge.jar",
+                "https://edge.forgecdn.net/files/6288/498/WI-Zoom-1.6-MC1.21.1-NeoForge.jar"
+            ],
+            "fileSize": 154879
+        },
+        {
+            "path": "mods/[YUNG的洞穴生物群系] YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar",
+            "hashes": {
+                "sha1": "bcab81f578b3cb31e599ae327c6634b9fa8d0f04",
+                "sha512": "9e88b5109e06c791f27c23df16ebd2c535b5b27cf9b748ee6a439dccf3e560d32110b81ace5ea7dcca2992394b439223c20e4f2688e80e263efa103e2b154024"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/cs7iGVq1/versions/HYGqXWqQ/YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar",
+                "https://mediafilez.forgecdn.net/files/6913/179/YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar",
+                "https://edge.forgecdn.net/files/6913/179/YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar"
+            ],
+            "fileSize": 13006621
+        },
+        {
+            "path": "mods/[乡村乐事] rusticdelight-neoforge-1.21-1.5.0.jar",
+            "hashes": {
+                "sha1": "1be350075fee205d136c0dd6025064c8a45adc72",
+                "sha512": "c89c30790ad08a7bfb556d698e497605a76fef9cee94ea67c1e805ab04b1553ae37c2eb8f11d1580c6bedf114272a05e70034f97f58719c735c6133edcb99d6c"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/foa4fGIH/versions/blOKWElv/rusticdelight-neoforge-1.21-1.5.0.jar"
+            ],
+            "fileSize": 532345
+        },
+        {
+            "path": "mods/[农夫乐事] FarmersDelight-1.21.1-1.2.9.jar",
+            "hashes": {
+                "sha1": "9abe078f48781e4b87288dbc59691c8ba1152d8d",
+                "sha512": "00a7db6776e6aa305aa7511c267866b43cf044c154f3825d344ef2685758049486a84a2f1f19920e3cd663ad7971fda326c9a501f8352abe506a170dc05f7104"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/R2OftAxM/versions/opCbq7uB/FarmersDelight-1.21.1-1.2.9.jar",
+                "https://mediafilez.forgecdn.net/files/6917/256/FarmersDelight-1.21.1-1.2.9.jar",
+                "https://edge.forgecdn.net/files/6917/256/FarmersDelight-1.21.1-1.2.9.jar"
+            ],
+            "fileSize": 2964387
+        },
+        {
+            "path": "mods/[卷帘门] RollingGate-neoforge-1.21.1-1.1.0+build.58.jar",
+            "hashes": {
+                "sha1": "8f58b6db533ff537f4b958f8fe69c510c96d7165",
+                "sha512": "67dc35430ce9956220042106aff1ca51ffc57449689c69c6080997e9a7ced114fadfad9f82d24394f3583e7abb17080be78710dfa9e81461c3c1c4221640946a"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/HXsmHiKu/versions/DXWmy1ct/RollingGate-neoforge-1.21.1-1.1.0%2Bbuild.58.jar",
+                "https://mediafilez.forgecdn.net/files/6790/139/RollingGate-neoforge-1.21.1-1.1.0%2bbuild.58.jar",
+                "https://edge.forgecdn.net/files/6790/139/RollingGate-neoforge-1.21.1-1.1.0%2bbuild.58.jar"
+            ],
+            "fileSize": 353874
+        },
+        {
+            "path": "mods/[多态合成] polymorph-neoforge-1.1.0+1.21.1.jar",
+            "hashes": {
+                "sha1": "84f8c539fa326dc723ae62b7a6916d6b01982d07",
+                "sha512": "37358e19d8f251b7d435ea5198eded7b1361e90d5728e11fcb15aeb55786f4ee10fd8fecd14b11f34a99bd92aea01a9977c0dbc46ab6bb07af61a6c89455b6ff"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/tagwiZkJ/versions/VEburL70/polymorph-neoforge-1.1.0%2B1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6794/589/polymorph-neoforge-1.1.0%2b1.21.1.jar",
+                "https://edge.forgecdn.net/files/6794/589/polymorph-neoforge-1.1.0%2b1.21.1.jar"
+            ],
+            "fileSize": 174972
+        },
+        {
+            "path": "mods/[妖怪们的归家] youkaishomecoming-3.0.8.jar",
+            "hashes": {
+                "sha1": "e25288594f06e43fead8002839fb561efee6565e",
+                "sha512": "80bf4859a5c1d0b9f9f88efb6db0b261c8b6fd47a84185c3d3457a7c1d45a74686354810a4ef6aefadd22666dc4a8ffe629ae34812f98b051554dc2fe098cf95"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/uJT3ahxz/versions/vu5Xy9Dk/youkaishomecoming-3.0.8.jar"
+            ],
+            "fileSize": 2543939
+        },
+        {
+            "path": "mods/[存档置顶] cherishedworlds-neoforge-10.1.1+1.21.1.jar",
+            "hashes": {
+                "sha1": "aefc8c79ba62606a71f509a9b3c881f3fc4cad5c",
+                "sha512": "b8872d92472417c15ebf91bc9772223653b5d2f5b1f4b9a5d43f4a400cd711204e5a7c07d06721c10d0f527f937e9a8f36684dd986af4a6d6dcc9fda76b3ade7"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/3azQ6p0W/versions/o5lwJaRU/cherishedworlds-neoforge-10.1.1%2B1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6353/949/cherishedworlds-neoforge-10.1.1%2b1.21.1.jar",
+                "https://edge.forgecdn.net/files/6353/949/cherishedworlds-neoforge-10.1.1%2b1.21.1.jar"
+            ],
+            "fileSize": 61728
+        },
+        {
+            "path": "mods/[属性修复] attributefix-neoforge-1.21.1-21.1.2.jar",
+            "hashes": {
+                "sha1": "c6df25744d52abca410c40ec6f29c0156ba50885",
+                "sha512": "bbfe003ed29a2bb0b4dd0a61d64b411748c9f5cb48ccbfd954dd2d813c452c540638749b6f19e7472e44ae1e966a3629b135190ffba3099cfdf45355618c0b97"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/lOOpEntO/versions/a0oKmnPU/attributefix-neoforge-1.21.1-21.1.2.jar",
+                "https://mediafilez.forgecdn.net/files/5824/104/attributefix-neoforge-1.21.1-21.1.2.jar",
+                "https://edge.forgecdn.net/files/5824/104/attributefix-neoforge-1.21.1-21.1.2.jar"
+            ],
+            "fileSize": 19798
+        },
+        {
+            "path": "mods/[帕秋莉手册] Patchouli-1.21.1-92-NEOFORGE.jar",
+            "hashes": {
+                "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c",
+                "sha512": "36cad2a2e5839fd4ee99165c4f275d1c3c0c71ed130413485e43f8506e7d2c3de2e2dbad40f90262378c6c6c5148140a473b0f7acd806e1a4bfede9c9a04600f"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/nU0bVIaL/versions/h6hKI2ob/Patchouli-1.21.1-92-NEOFORGE.jar",
+                "https://mediafilez.forgecdn.net/files/6842/247/Patchouli-1.21.1-92-NEOFORGE.jar",
+                "https://edge.forgecdn.net/files/6842/247/Patchouli-1.21.1-92-NEOFORGE.jar"
+            ],
+            "fileSize": 646486
+        },
+        {
+            "path": "mods/[应用能源2] appliedenergistics2-19.2.15.jar",
+            "hashes": {
+                "sha1": "b350e991afa2dedb51e4cfeef898662451fc6125",
+                "sha512": "cab23b5bfc2d6592d741f41d4dc6b3d1b7b18f16a64f2d824f75fb5b458090043025a651568b4a0c11956d78a36ca93cf67c84ba29b93080bcb179b80dd2ec9d"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/XxWD5pD3/versions/gl74ldr3/appliedenergistics2-19.2.15.jar",
+                "https://mediafilez.forgecdn.net/files/6890/346/appliedenergistics2-19.2.15.jar",
+                "https://edge.forgecdn.net/files/6890/346/appliedenergistics2-19.2.15.jar"
+            ],
+            "fileSize": 8225934
+        },
+        {
+            "path": "mods/[应用能源：通用机械附属] Applied-Mekanistics-1.6.2.jar",
+            "hashes": {
+                "sha1": "1d32e9a0d69f2ee723aea4e451300852f4bbff60",
+                "sha512": "681510daa2368fdc1432107fabc8edb7e4ef3542ae29f1bafce36ba905edad60cba21099c9ec92af90e9406b8496de721d4b11abc43aafb9dd99a25b84662545"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/IiATswDj/versions/Huen69N5/Applied-Mekanistics-1.6.2.jar",
+                "https://mediafilez.forgecdn.net/files/5978/711/Applied-Mekanistics-1.6.2.jar",
+                "https://edge.forgecdn.net/files/5978/711/Applied-Mekanistics-1.6.2.jar"
+            ],
+            "fileSize": 149680
+        },
+        {
+            "path": "mods/[扩充乐事] expandeddelight-0.1.3.2.jar",
+            "hashes": {
+                "sha1": "3ff3acb6b8736e454ca7ae95abf41cd8fd5a0a8f",
+                "sha512": "bd5244d26b81737e26b618879bd2f12056b959156141140d9219435c3f89b9a2ae840239a114727e5323d91a1f6acd53a9058a7a5ac7d5565d7cb88d83d68fa7"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/e9V6wFcR/versions/Ybvh4AVr/expandeddelight-0.1.3.2.jar",
+                "https://mediafilez.forgecdn.net/files/6785/113/expandeddelight-0.1.3.2.jar",
+                "https://edge.forgecdn.net/files/6785/113/expandeddelight-0.1.3.2.jar"
+            ],
+            "fileSize": 540641
+        },
+        {
+            "path": "mods/[搬运] carryon-neoforge-1.21.1-2.2.2.11.jar",
+            "hashes": {
+                "sha1": "081c4817a3059f06c387805c6504b315b554a2b0",
+                "sha512": "0a31ef680544d85c5842a54a2c61f4ead14776de69a97f36438db4076ee364cf852045d7bcd22efc269591d63fe4e2ee86bb73def795262617641b0060cb4f31"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/joEfVgkn/versions/79dpvD0M/carryon-neoforge-1.21.1-2.2.2.11.jar",
+                "https://mediafilez.forgecdn.net/files/5649/344/carryon-neoforge-1.21.1-2.2.2.11.jar",
+                "https://edge.forgecdn.net/files/5649/344/carryon-neoforge-1.21.1-2.2.2.11.jar"
+            ],
+            "fileSize": 347647
+        },
+        {
+            "path": "mods/[是，史蒂夫模型] yesstevemodel-neoforge-1.21-2.4.1-release.jar",
+            "hashes": {
+                "sha1": "929607dc7668cfee4f51221fdad6c20c69235f76",
+                "sha512": "3433e1e023598f208ebf48f0e2793439bab0d43fb493fdee9aca0aca3de27a0e108d84958a1e3a4804889a16a587cefc030c969c29e8aed4aca413bd625410a8"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/86xjpqqS/versions/J8adMI9b/yesstevemodel-neoforge-1.21-2.4.1-release.jar"
+            ],
+            "fileSize": 26641212
+        },
+        {
+            "path": "mods/[更多动画] notenoughanimations-neoforge-1.10.2-mc1.21.jar",
+            "hashes": {
+                "sha1": "adde8b2a8c5a197357c2026ed30219695dd26328",
+                "sha512": "ff8bae8d4acda707942c8f233c5c0f1336b8a257e065653b0c4f269105b6efde2675e66d050b2ac7a9abe00409003a4b5df3a7854bb16d70e7a8edc60270dc2e"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/MPCX6s5C/versions/gprItemc/notenoughanimations-neoforge-1.10.2-mc1.21.jar"
+            ],
+            "fileSize": 842009
+        },
+        {
+            "path": "mods/[更好的进度] BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+            "hashes": {
+                "sha1": "870521cfaa1a4cb6c830e2409e8b9e4cf179aff2",
+                "sha512": "b3deafd146dc3ea6e879fbc92f00de5797319a1aa620fb3b39be64c19271dab2efa07f824cda7139f8c22f2524ea413949357f5469bb6de584d1386de069c6b7"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/Q2OqKxDG/versions/FjTYILOi/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+                "https://mediafilez.forgecdn.net/files/5850/587/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+                "https://edge.forgecdn.net/files/5850/587/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar"
+            ],
+            "fileSize": 98641
+        },
+        {
+            "path": "mods/[更美观的血条] colorfulhearts-neoforge-1.21.1-10.5.9.jar",
+            "hashes": {
+                "sha1": "ec63110d126cf95dabe220116bd394e701265de7",
+                "sha512": "4791dddc6932a74c28a5e58b51865c09a6be0715bf235eb4d95a050a9130b4013cf4883d35f7c7ccea6997534a0e3cd0e5ec59b79acc8ce01f52d230d476a889"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/wQfMUdZT/versions/us0gze50/colorfulhearts-neoforge-1.21.1-10.5.9.jar",
+                "https://mediafilez.forgecdn.net/files/6830/399/colorfulhearts-neoforge-1.21.1-10.5.9.jar",
+                "https://edge.forgecdn.net/files/6830/399/colorfulhearts-neoforge-1.21.1-10.5.9.jar"
+            ],
+            "fileSize": 156588
+        },
+        {
+            "path": "mods/[末影接口] enderio-7.1.8-alpha.jar",
+            "hashes": {
+                "sha1": "363c9a9bfa5de766c30bdd70f3b9a09398f27acd",
+                "sha512": "30af0ba3a329b2c5541b2b23137bb6369b01038795e3b95b9e23b849b9333a0a5f080df8e363e1e9231d9a36dcf017d9cecd6529ec919e861b833e7052fb80e9"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/49ZofO4f/versions/ETpuDdei/enderio-7.1.8-alpha.jar",
+                "https://mediafilez.forgecdn.net/files/6363/527/enderio-7.1.8-alpha.jar",
+                "https://edge.forgecdn.net/files/6363/527/enderio-7.1.8-alpha.jar"
+            ],
+            "fileSize": 3745801
+        },
+        {
+            "path": "mods/[机械动力] create-1.21.1-6.0.6.jar",
+            "hashes": {
+                "sha1": "07453cffbd20bdc5acc8ea7afb472bf55538958b",
+                "sha512": "a65723abb0439ab5bb9dfae0b66db33a7c41422d015be7524912033b6cb39a1ef3a247b4b842981131cd541d141cc257d761b6de4e8837960a98b43054049228"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/LNytGWDc/versions/tS7ygzAE/create-1.21.1-6.0.6.jar",
+                "https://mediafilez.forgecdn.net/files/6641/610/create-1.21.1-6.0.6.jar",
+                "https://edge.forgecdn.net/files/6641/610/create-1.21.1-6.0.6.jar"
+            ],
+            "fileSize": 18599196
+        },
+        {
+            "path": "mods/[机械动力：中央厨房] create-central-kitchen-2.1.3.jar",
+            "hashes": {
+                "sha1": "bc08dd8acb2edf24a781129a30bbb88de2cd0a85",
+                "sha512": "462315adcf9157d122e4f2f4cdaeab257f23d6bc825ffa1db4f480fec1f306a17a87a7e3612f7a5241bfbca26e3acab5834df613a5a31086fd06896c0e84d011"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/btq68HMO/versions/Zi40zlxZ/create-central-kitchen-2.1.3.jar",
+                "https://mediafilez.forgecdn.net/files/6652/803/create-central-kitchen-2.1.3.jar",
+                "https://edge.forgecdn.net/files/6652/803/create-central-kitchen-2.1.3.jar"
+            ],
+            "fileSize": 240523
+        },
+        {
+            "path": "mods/[机械动力：伪装方块+] copycats-3.0.2+mc.1.21.1-neoforge.jar",
+            "hashes": {
+                "sha1": "49344745546ad3ee7c3bfeb8f846abdffcf4e5a4",
+                "sha512": "9032a85fdb1619eaab22947805591ea44c065f7cc20baef95a75331eaee2d8d3ef32b935949215c5cafa625834aed49b728bf70818f4de5bebb4ea9261363105"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/UT2M39wf/versions/wj2p9GZw/copycats-3.0.2%2Bmc.1.21.1-neoforge.jar",
+                "https://mediafilez.forgecdn.net/files/6650/33/copycats-3.0.2%2bmc.1.21.1-neoforge.jar",
+                "https://edge.forgecdn.net/files/6650/33/copycats-3.0.2%2bmc.1.21.1-neoforge.jar"
+            ],
+            "fileSize": 1790416
+        },
+        {
+            "path": "mods/[机械动力：矿石开掘] createoreexcavation-1.21-1.6.4.jar",
+            "hashes": {
+                "sha1": "1dbae7f877b93423dbb8ef0cd4f48a4c421e0fc3",
+                "sha512": "285c232770bcc65074f0647606b59200c02f5535ec1044db01fc4856abc3d211c259cd28ea7ab25158d56ad5aacbd62175c851db821a09c39cf452ffc23516ce"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/ResbpANg/versions/XF4zNKFN/createoreexcavation-1.21-1.6.4.jar",
+                "https://mediafilez.forgecdn.net/files/6633/60/createoreexcavation-1.21-1.6.4.jar",
+                "https://edge.forgecdn.net/files/6633/60/createoreexcavation-1.21-1.6.4.jar"
+            ],
+            "fileSize": 472555
+        },
+        {
+            "path": "mods/[机械动力：集成农业] create-integrated-farming-1.0.6.jar",
+            "hashes": {
+                "sha1": "c803ffae0fb7341342b361839e199f88afa288f6",
+                "sha512": "0855db8740c25103518a96984f719303d88d750f07fe02941b19a86b133d05b8d99edfebdad89d2eda9d3af2cba1aa6cd69d2edf81e35ac00cc06b4f081dd57a"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/9k1pAsfR/versions/xES2diWt/create-integrated-farming-1.0.6.jar",
+                "https://mediafilez.forgecdn.net/files/6652/809/create-integrated-farming-1.0.6.jar",
+                "https://edge.forgecdn.net/files/6652/809/create-integrated-farming-1.0.6.jar"
+            ],
+            "fileSize": 270149
+        },
+        {
+            "path": "mods/[机械动力：龙+] create-dragons-plus-1.6.1.jar",
+            "hashes": {
+                "sha1": "2a54a201ad680fd4a3194095d5893f87fcc6de99",
+                "sha512": "fa5af12d67974d40e0ce0f37c520b88b2a1ebb292af94634cbd404bed4315000e37169728385cf211ddcd91e3fb2a225039a2d80acb54102eb3775e31d0f6906"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/dzb1a5WV/versions/M71tJKIz/create-dragons-plus-1.6.1.jar",
+                "https://mediafilez.forgecdn.net/files/6652/868/create-dragons-plus-1.6.1.jar",
+                "https://edge.forgecdn.net/files/6652/868/create-dragons-plus-1.6.1.jar"
+            ],
+            "fileSize": 619619
+        },
+        {
+            "path": "mods/[森罗物语：烹饪] kaleidoscopecookery-1.0.1-neoforge+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "3deb769c5ec88e4d71f4bca17574913138dbd1de",
+                "sha512": "3fd0b8a0f3ff329f4fc05f0c9660074d181d266aa239aa724a4ff4abef1a3e2e7c4ad246885dddcff4d3be89259a4bff3112fef1914b923bad1b7874fd28bb72"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/v17FatAc/versions/NX96Z4HT/kaleidoscopecookery-1.0.1-neoforge%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6801/806/kaleidoscopecookery-1.0.1-neoforge%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6801/806/kaleidoscopecookery-1.0.1-neoforge%2bmc1.21.1.jar"
+            ],
+            "fileSize": 1538905
+        },
+        {
+            "path": "mods/[模块化路由器] modular-routers-13.2.3+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "8a97976c16a133cbd53d361a8ee3dfe1d1bd7bfb",
+                "sha512": "9050df20565d21e668841f9eb0182c16307a53ef6fb5fcd2a86099ead7ee074860cd47d3de3326983a76fe8ee28f5c42400e8029d9bb59fade43e2df855d7ccc"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/EuTS81Z3/versions/tnxKKShu/modular-routers-13.2.3%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6840/170/modular-routers-13.2.3%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6840/170/modular-routers-13.2.3%2bmc1.21.1.jar"
+            ],
+            "fileSize": 1282381
+        },
+        {
+            "path": "mods/[水产乐事] aquaculturedelight-1.2.0-neoforge-1.21.1.jar",
+            "hashes": {
+                "sha1": "111393c07a98f29cab1de0d91965cc1bc6d9d73f",
+                "sha512": "ef13ec67b0af25a94015d5dcd7a549b3a7759026cd3689923b107e92700f09cc0826f0c98d22fdeef37f2f8d5f1219f6d6edabb5f026b5fec9d347b5e1c23231"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/U9GJqWrI/versions/VFpyJiVp/aquaculturedelight-1.2.0-neoforge-1.21.1.jar"
+            ],
+            "fileSize": 213607
+        },
+        {
+            "path": "mods/[沉浸工程] ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+            "hashes": {
+                "sha1": "a4e90c2df8009040f6d022433c5d76635944dd59",
+                "sha512": "862523e84747a8b7eaa65f9b3c337fa832ef9efd0545c27f68e350e01f482c7a1242d0e4bdc2caff3d7eb033508b43a353fcd7150c9b544d0c05765ca2a551b3"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/tIm2nV03/versions/uNRARSH2/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+                "https://mediafilez.forgecdn.net/files/6733/669/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+                "https://edge.forgecdn.net/files/6733/669/ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+            ],
+            "fileSize": 14232121
+        },
+        {
+            "path": "mods/[玉 🔍] Jade-1.21.1-NeoForge-15.10.3.jar",
+            "hashes": {
+                "sha1": "0c7e9b04e2481d26c9080dd5d32351490d1fed3a",
+                "sha512": "351926187c564d1f2bae2f084c77f80fe850dc90837153ef01506c049f16b02307196ed383ae25cd334530106aa741b12dd90f5e1b205439fde2b74d09274bc0"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/nvQzSEkH/versions/43sRR8f6/Jade-1.21.1-NeoForge-15.10.3.jar",
+                "https://mediafilez.forgecdn.net/files/6853/386/Jade-1.21.1-NeoForge-15.10.3.jar",
+                "https://edge.forgecdn.net/files/6853/386/Jade-1.21.1-NeoForge-15.10.3.jar"
+            ],
+            "fileSize": 725736
+        },
+        {
+            "path": "mods/[现代化 UI] ModernUI-NeoForge-1.21.1-3.11.1.9-universal.jar",
+            "hashes": {
+                "sha1": "96ca459d86326a3a4482cba28160ed2bf888afa5",
+                "sha512": "6bd1da05ac7f80fa2985070a2c005208bca7565bc893c98183998fa1f97b673ab356dfa2410379b78f9866bfca08521d161d9b07ff58fce2bd5cc9c40681eb57"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/3sjzyvGR/versions/etOPDZ8u/ModernUI-NeoForge-1.21.1-3.11.1.9-universal.jar",
+                "https://mediafilez.forgecdn.net/files/6200/236/ModernUI-NeoForge-1.21.1-3.11.1.9-universal.jar",
+                "https://edge.forgecdn.net/files/6200/236/ModernUI-NeoForge-1.21.1-3.11.1.9-universal.jar"
+            ],
+            "fileSize": 25660619
+        },
+        {
+            "path": "mods/[现代化修复] modernfix-neoforge-5.24.3+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "f64b9458eea9c637a973f8319d5456e4961ea481",
+                "sha512": "3105b37c9ddf8652433067ea29567c21f36e179d3a904c0800c90585f94c51560bd45222d82e397939e1be7f57c5144e0994edf6764edccfeb64ac4cec53dded"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/nmDcB62a/versions/4SPHwiDB/modernfix-neoforge-5.24.3%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6766/126/modernfix-neoforge-5.24.3%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6766/126/modernfix-neoforge-5.24.3%2bmc1.21.1.jar"
+            ],
+            "fileSize": 558771
+        },
+        {
+            "path": "mods/[硅胶玩偶] SiliconeDolls-neoforge-1.21.1-1.0.0+build.49.jar",
+            "hashes": {
+                "sha1": "b70a4ea93ef4d344d29faf35747435248ece87e2",
+                "sha512": "0c32aa31874162ea8f88515bd6a06a6e6a690d3bf1d1f4f2131214e35d188081a25defc5e8d08ad3adb4f5f83a91430d5c7696e73785eabd820261da27b8d43f"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/7rBlSqmp/versions/RVgca7dO/SiliconeDolls-neoforge-1.21.1-1.0.0%2Bbuild.49.jar",
+                "https://mediafilez.forgecdn.net/files/6475/856/SiliconeDolls-neoforge-1.21.1-1.0.0%2bbuild.49.jar",
+                "https://edge.forgecdn.net/files/6475/856/SiliconeDolls-neoforge-1.21.1-1.0.0%2bbuild.49.jar"
+            ],
+            "fileSize": 329754
+        },
+        {
+            "path": "mods/[禁用聊天举报] NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+            "hashes": {
+                "sha1": "9edfc7861277ff661141304dc8216f83eacdd9af",
+                "sha512": "292a3623b5addb17e9f15681a4f2534562e9882ef809e504f49da4778fafc12e21a71995b5d05554d435201f401ace1e86af50e6e26f6ce9d203a5896a1ece21"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/qQyHxfxd/versions/ZV8eL55E/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+                "https://mediafilez.forgecdn.net/files/5885/735/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+                "https://edge.forgecdn.net/files/5885/735/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar"
+            ],
+            "fileSize": 306668
+        },
+        {
+            "path": "mods/[经验机制改革] Clumps-neoforge-1.21.1-19.0.0.1.jar",
+            "hashes": {
+                "sha1": "fa2576297c7bd12b28aa7070e8141792bd66da4c",
+                "sha512": "314d8d8e640d73041f27e0f3f2cad7aad8b4c77dbd7fb31700ef7760362261f77085eed5289555c725d99c3f47a114e7290cd608f39c9f0f12ef74958463bdcc"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+                "https://mediafilez.forgecdn.net/files/5623/731/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+                "https://edge.forgecdn.net/files/5623/731/Clumps-neoforge-1.21.1-19.0.0.1.jar"
+            ],
+            "fileSize": 18382
+        },
+        {
+            "path": "mods/[网络音乐机] netmusic-1.1.8-neoforge+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "9470faa3878b390712bb0d478aed009489e93b72",
+                "sha512": "a310dcc378dea4bdc8005fb5c6798e50de68bb6d08270e0731944f524025b1a75654e55ea81d1f732038bc8ca25fe34eb1468995cdf49e9534a5b099cfa9db24"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/gKNuqaQq/versions/sc6s5DUE/netmusic-1.1.8-neoforge%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6838/604/netmusic-1.1.8-neoforge%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6838/604/netmusic-1.1.8-neoforge%2bmc1.21.1.jar"
+            ],
+            "fileSize": 592616
+        },
+        {
+            "path": "mods/[聊天头像] chat_heads-0.13.20-neoforge-1.21.jar",
+            "hashes": {
+                "sha1": "b51555bbefffff14f6cf950b08fecd1eef4856ef",
+                "sha512": "a41d869cb59b9ef1217895bdac4ef8f22007f1c330ba68b255f840ee8c776fa5e8929cc2fc80ace5476134e47a0dd9dbbb6b0b03b45e2bf2f6f8c6fb2b6ef4c0"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/1XG8Av88/chat_heads-0.13.20-neoforge-1.21.jar",
+                "https://mediafilez.forgecdn.net/files/6850/151/chat_heads-0.13.20-neoforge-1.21.jar",
+                "https://edge.forgecdn.net/files/6850/151/chat_heads-0.13.20-neoforge-1.21.jar"
+            ],
+            "fileSize": 83369
+        },
+        {
+            "path": "mods/[自动汉化更新] I18nUpdateMod-3.6.2-all.jar",
+            "hashes": {
+                "sha1": "60c831f5f137e5591dd56d81f21f500339f69d2a",
+                "sha512": "6625efc9c85ad0bd861d03e1e4591ae1968d27dd98d19b67884e196e6a87bc9632a435fbce6cff1706420912e07975d4e0b4f6af9e52ca40d2390caf19aecb89"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/PWERr14M/versions/23iTpHt8/I18nUpdateMod-3.6.2-all.jar",
+                "https://mediafilez.forgecdn.net/files/6351/71/I18nUpdateMod-3.6.2-all.jar",
+                "https://edge.forgecdn.net/files/6351/71/I18nUpdateMod-3.6.2-all.jar"
+            ],
+            "fileSize": 45560
+        },
+        {
+            "path": "mods/[自然罗盘／生物群系指南针] NaturesCompass-1.21.1-3.0.3-neoforge.jar",
+            "hashes": {
+                "sha1": "4a91af947622a2bb2c0381db249cc6f06c1f1843",
+                "sha512": "4caa38ac13ac61ea57e75673845674d6904af3a8c481004ab99c27f19110160809c02b40ac2a4eff91ba6e4c55f68aa12018818ba097ca49b6092e0d17558daa"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/fPetb5Kh/versions/AqEmYPpi/NaturesCompass-1.21.1-3.0.3-neoforge.jar",
+                "https://mediafilez.forgecdn.net/files/5696/42/NaturesCompass-1.21.1-3.0.3-neoforge.jar",
+                "https://edge.forgecdn.net/files/5696/42/NaturesCompass-1.21.1-3.0.3-neoforge.jar"
+            ],
+            "fileSize": 216873
+        },
+        {
+            "path": "mods/[苹果皮] appleskin-neoforge-mc1.21-3.0.7.jar",
+            "hashes": {
+                "sha1": "8f76d97a7f61f8d61db6d84a83baf29a3bb56330",
+                "sha512": "03a94fe4143250b8e80abe97770918ba0af1265110bb73c25444674f9cdf86164464332a913cbac29af82d8ed02dce6ef19bbb62fced92620817a7ec1e761b71"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/EsAfCjCV/versions/kztxpjAA/appleskin-neoforge-mc1.21-3.0.7.jar",
+                "https://mediafilez.forgecdn.net/files/6616/291/appleskin-neoforge-mc1.21-3.0.7.jar",
+                "https://edge.forgecdn.net/files/6616/291/appleskin-neoforge-mc1.21-3.0.7.jar"
+            ],
+            "fileSize": 74100
+        },
+        {
+            "path": "mods/[超级工厂管理] Super Factory Manager (SFM)-MC1.21.1-4.24.0.jar",
+            "hashes": {
+                "sha1": "ddb6bbb77b85f1b17d0c45dc395e4a795e292326",
+                "sha512": "2c17ece96d621f218f59802b6ea6bcd86a41c931287573e3b0df42fc97c1640761d3e4367634d8649cc7b5cf5f0f20d092a546566479bf56398dc4fd6926188d"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/aecUorJQ/versions/HnzHij1h/Super%20Factory%20Manager%20%28SFM%29-MC1.21.1-4.24.0.jar",
+                "https://mediafilez.forgecdn.net/files/6924/252/Super%20Factory%20Manager%20(SFM)-MC1.21.1-4.24.0.jar",
+                "https://edge.forgecdn.net/files/6924/252/Super%20Factory%20Manager%20(SFM)-MC1.21.1-4.24.0.jar"
+            ],
+            "fileSize": 1317669
+        },
+        {
+            "path": "mods/[越肩视角重制] ShoulderSurfing-NeoForge-1.21.1-4.14.1.jar",
+            "hashes": {
+                "sha1": "7e196aa5f91b1ad47ce0481d09999e28906bc20c",
+                "sha512": "b0b37a0b6738c3cbdde19db3b4dc76e94e26773768d9fc97c2bce4b5f938573f767307492c28dd63ce1fd1f1a443fc92c624c4993bb40e5074830b6469980439"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/kepjj2sy/versions/n1O7cZsO/ShoulderSurfing-NeoForge-1.21.1-4.14.1.jar",
+                "https://mediafilez.forgecdn.net/files/6784/169/ShoulderSurfing-NeoForge-1.21.1-4.14.1.jar",
+                "https://edge.forgecdn.net/files/6784/169/ShoulderSurfing-NeoForge-1.21.1-4.14.1.jar"
+            ],
+            "fileSize": 233262
+        },
+        {
+            "path": "mods/[车万女仆] touhoulittlemaid-1.3.8-neoforge+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "390c520ec8a57f7f442669eeeb9be41053cff12b",
+                "sha512": "6e3865ca0293b6f4414f5e255707552c278af1732b50a449d90b42c3d2d9a69e497f381ba7a3ec61816b41406fa49fd48d77792e9679b3e55c76756cd369e907"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/R0bDWFAW/versions/FBv3nLoS/touhoulittlemaid-1.3.8-neoforge%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6911/706/touhoulittlemaid-1.3.8-neoforge%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6911/706/touhoulittlemaid-1.3.8-neoforge%2bmc1.21.1.jar"
+            ],
+            "fileSize": 20742177
+        },
+        {
+            "path": "mods/[通用拼音搜索] jecharacters-1.21-neoforge-4.5.22.jar",
+            "hashes": {
+                "sha1": "054f0735c08719fabdf92b71816109a7c9d52064",
+                "sha512": "9feb62fbff1263ffeab40b9fe72733f3a84582aecb3d5a04c6371229770a4f98fcc5aaa1d46c93f1f2104f45d3104dd1da1e544837fc1597d4c32415c172b5bb"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/I7k4B65h/versions/q4GD76n2/jecharacters-1.21-neoforge-4.5.22.jar",
+                "https://mediafilez.forgecdn.net/files/6681/787/jecharacters-1.21-neoforge-4.5.22.jar",
+                "https://edge.forgecdn.net/files/6681/787/jecharacters-1.21-neoforge-4.5.22.jar"
+            ],
+            "fileSize": 243014
+        },
+        {
+            "path": "mods/[通用机械] Mekanism-1.21.1-10.7.15.81.jar",
+            "hashes": {
+                "sha1": "944710d2c890a83fe79c324285b7946f36970e91",
+                "sha512": "36fe745fb42c68db193ea690a524e69cf806bdca5c254be024beed2832f0d1905be0d07e29a6bcfe9c535671e8b8e14a3d3387d44cf4325238afd07e2636e5d6"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/Ce6I4WUE/versions/zcaMNWl7/Mekanism-1.21.1-10.7.15.81.jar",
+                "https://mediafilez.forgecdn.net/files/6895/130/Mekanism-1.21.1-10.7.15.81.jar",
+                "https://edge.forgecdn.net/files/6895/130/Mekanism-1.21.1-10.7.15.81.jar"
+            ],
+            "fileSize": 11950204
+        },
+        {
+            "path": "mods/[通用机械发电机] MekanismGenerators-1.21.1-10.7.15.81.jar",
+            "hashes": {
+                "sha1": "a57b1769e92d22971d1a569b3d08342cc2ea0e6b",
+                "sha512": "1a75f8eb32f7e90d5afb2be4ddac3e03d32acf8a429f823be4042007cd119094c23e0d681fbc0f07a8d830431dc4c3ac733edfb7ea96d54d517f27ec35391932"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/OFVYKsAk/versions/rLQkpjiL/MekanismGenerators-1.21.1-10.7.15.81.jar",
+                "https://mediafilez.forgecdn.net/files/6895/133/MekanismGenerators-1.21.1-10.7.15.81.jar",
+                "https://edge.forgecdn.net/files/6895/133/MekanismGenerators-1.21.1-10.7.15.81.jar"
+            ],
+            "fileSize": 1104553
+        },
+        {
+            "path": "mods/[通用机械工具] MekanismTools-1.21.1-10.7.15.81.jar",
+            "hashes": {
+                "sha1": "a162337191d25e4dc27f180b35922d290bbe39c1",
+                "sha512": "c0d983eddf8529241c0d9e6d7a09b0cd3943840706f7fca27bd3ec80b284636a8360b2e79e9fffd46a5a661343e8dfdb02c36c29f82efea0268db6e8563ffea4"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/tqQpq1lt/versions/TiHNxSAS/MekanismTools-1.21.1-10.7.15.81.jar",
+                "https://mediafilez.forgecdn.net/files/6895/134/MekanismTools-1.21.1-10.7.15.81.jar",
+                "https://edge.forgecdn.net/files/6895/134/MekanismTools-1.21.1-10.7.15.81.jar"
+            ],
+            "fileSize": 520886
+        },
+        {
+            "path": "mods/[钠／Embeddium：动态光源] sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+            "hashes": {
+                "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652",
+                "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6044/477/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+                "https://edge.forgecdn.net/files/6044/477/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
+            ],
+            "fileSize": 299353
+        },
+        {
+            "path": "mods/[铁砧工艺：重力科技] anvilcraft-neoforge-1.21.1-1.4.10.jar",
+            "hashes": {
+                "sha1": "d72dcad6b748d0f1b6361d5346e4518e85f4229e",
+                "sha512": "932874a086aaa12295b76df94320bb65f3e8405920b541c8b886129fb946e260517a6ecad418b6d3a4554ff87bc09d499eea61bd0b7d4b88d200ce49ba172556"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/vuISAWPc/versions/bTLzHlqN/anvilcraft-neoforge-1.21.1-1.4.10.jar",
+                "https://mediafilez.forgecdn.net/files/6760/193/anvilcraft-neoforge-1.21.1-1.4.10.jar",
+                "https://edge.forgecdn.net/files/6760/193/anvilcraft-neoforge-1.21.1-1.4.10.jar"
+            ],
+            "fileSize": 7285526
+        },
+        {
+            "path": "mods/[锂] lithium-neoforge-0.15.0+mc1.21.1.jar",
+            "hashes": {
+                "sha1": "584c5a8186938dd58e43ecde316253e8e38f6650",
+                "sha512": "34c0250ab119e7d83eb069433315883a572cd197d025dcc043c5f7e399c1e350addd79aed756da0bda87cc76add1a8747c5f69293ec2b9278b0348a1c15cdb32"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/gvQqBUqZ/versions/xYxpXTIt/lithium-neoforge-0.15.0%2Bmc1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6290/413/lithium-neoforge-0.15.0%2bmc1.21.1.jar",
+                "https://edge.forgecdn.net/files/6290/413/lithium-neoforge-0.15.0%2bmc1.21.1.jar"
+            ],
+            "fileSize": 747405
+        },
+        {
+            "path": "mods/[锦致装饰] supplementaries-1.21-3.4.9-neoforge.jar",
+            "hashes": {
+                "sha1": "83396b0a6918f07765820b1e0a0f10e37554f4c9",
+                "sha512": "f919309ab28ed676985402a6855ab05a6ab628955f964904ff598971bebb271be6775dc2d58d0b12e629fa89a2901ef6b2aeac593a774e05ed950359c23ecb38"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/fFEIiSDQ/versions/h38aoc8L/supplementaries-1.21-3.4.9-neoforge.jar",
+                "https://mediafilez.forgecdn.net/files/6913/494/supplementaries-1.21-3.4.9-neoforge.jar",
+                "https://edge.forgecdn.net/files/6913/494/supplementaries-1.21-3.4.9-neoforge.jar"
+            ],
+            "fileSize": 12353210
+        },
+        {
+            "path": "mods/[高级AE] AdvancedAE-1.4.0-1.21.1.jar",
+            "hashes": {
+                "sha1": "9c478e49c1bb86ca5b31a0481277df00983dc778",
+                "sha512": "19c3bec7d7cac7ee995fe60588190b1c8979318db94949f38ce34c264748f124d39e0a130e08a29931b1f776842e9841e56fde12d54adcac7ebbb0f70fefc73a"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/rxYaglEe/versions/Ffc5FAuR/AdvancedAE-1.4.0-1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6932/981/AdvancedAE-1.4.0-1.21.1.jar",
+                "https://edge.forgecdn.net/files/6932/981/AdvancedAE-1.4.0-1.21.1.jar"
+            ],
+            "fileSize": 2548723
+        },
+        {
+            "path": "mods/[鼠标手势] MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+            "hashes": {
+                "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+                "sha512": "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+                "https://mediafilez.forgecdn.net/files/5637/846/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+                "https://edge.forgecdn.net/files/5637/846/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+            ],
+            "fileSize": 73938
+        },
+        {
+            "path": "mods/[龙之进化／龙之研究] Draconic-Evolution-1.21.1-3.1.3.625.jar",
+            "hashes": {
+                "sha1": "7137d67cebb87cd4d36d425f3622083dc5987184",
+                "sha512": "40f76e2ce0e52f431eb8dbb51e1d9ffda5da19a0ea1c7bbdbc4805a37b8f11209cdd6920fb208768b4e326e3c4ac96d0521b5ff6cebdc5a98789b68257313664"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/nBqivi8H/versions/Ycsve7Fo/Draconic-Evolution-1.21.1-3.1.3.625.jar",
+                "https://mediafilez.forgecdn.net/files/6835/420/Draconic-Evolution-1.21.1-3.1.3.625.jar",
+                "https://edge.forgecdn.net/files/6835/420/Draconic-Evolution-1.21.1-3.1.3.625.jar"
+            ],
+            "fileSize": 6042827
+        },
+        {
+            "path": "mods/balm-neoforge-1.21.1-21.0.49.jar",
+            "hashes": {
+                "sha1": "f7ed2be5f60c85cfce66c853e3baeb10d93d7e23",
+                "sha512": "a73e2d5ad2845a6d94bb3f497048d1b3f5160cdaf6af37f6696c9157259adacfac5eb66b7eda8d11a0cfd335c6bcc99b86e3147ae3f9bf5a6f41da3b006dedf3"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6841/890/balm-neoforge-1.21.1-21.0.49.jar",
+                "https://edge.forgecdn.net/files/6841/890/balm-neoforge-1.21.1-21.0.49.jar"
+            ],
+            "fileSize": 587445
+        },
+        {
+            "path": "mods/better_carryon_maid-1.21.1-1.0.2.jar",
+            "hashes": {
+                "sha1": "9dce52c197fe2646c54f549ac728facd965c33fe",
+                "sha512": "cf98e01049d974742e0d614448a7c6b9d0b4fa8c2ed373a5267733797fb2e3708b321d8dafe9a49d70d3501e4955e686bf68d96278000f09a1e712588efe49a7"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6670/999/better_carryon_maid-1.21.1-1.0.2.jar",
+                "https://edge.forgecdn.net/files/6670/999/better_carryon_maid-1.21.1-1.0.2.jar"
+            ],
+            "fileSize": 12749
+        },
+        {
+            "path": "mods/commoncapabilities-1.21.1-neoforge-2.9.12.jar",
+            "hashes": {
+                "sha1": "18ee4f572f12fd76cb4c3884c38209fc6bcccf35",
+                "sha512": "392d38cc13c8fc0c987810737caf38581c39f6cfb256d688fc47d0db6b11d1a18f355434a99ad8409c0f836c255b6cab613efc6ccbeb94357da53b867f93c0b8"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6888/589/commoncapabilities-1.21.1-neoforge-2.9.12.jar",
+                "https://edge.forgecdn.net/files/6888/589/commoncapabilities-1.21.1-neoforge-2.9.12.jar"
+            ],
+            "fileSize": 275626
+        },
+        {
+            "path": "mods/cyclopscore-1.21.1-neoforge-1.26.2-808.jar",
+            "hashes": {
+                "sha1": "7b79c7b863060423076e7824e2f78d0458cad29d",
+                "sha512": "245590e91d542c628a1c4552093c9b281b8d0b50c541284cd6cca178258ce247dcb96acc36d741fbc6089978be12ca6082416ab28b3055b0d0dc1c4a396e9ae1"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6864/888/cyclopscore-1.21.1-neoforge-1.26.2-808.jar",
+                "https://edge.forgecdn.net/files/6864/888/cyclopscore-1.21.1-neoforge-1.26.2-808.jar"
+            ],
+            "fileSize": 1139901
+        },
+        {
+            "path": "mods/ftb-essentials-neoforge-2101.1.6.jar",
+            "hashes": {
+                "sha1": "c639625861cfb585a2897771e605b325f2e0addf",
+                "sha512": "6a54e1c91eab2e0b48b6f8e78aca71c8ca5d539fc0d0393e84eacb2014339bec20fa4e3788c9bdc7516715c737752111a270f9f12a1545bcdf0de8b661974112"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6179/42/ftb-essentials-neoforge-2101.1.6.jar",
+                "https://edge.forgecdn.net/files/6179/42/ftb-essentials-neoforge-2101.1.6.jar"
+            ],
+            "fileSize": 195165
+        },
+        {
+            "path": "mods/ftb-jei-extras-21.1.7.jar",
+            "hashes": {
+                "sha1": "ef01126201a805991bbfe5351cff7d0a9e3a077b",
+                "sha512": "6c389021ee6eacc0a94d7a8236d6a21b52e8409e3f5245cce67c6f68eced3419252b02ef5e5d67c5fab3b970ecf07edc21f17146b084114ad412144905d1bba1"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6695/679/ftb-jei-extras-21.1.7.jar",
+                "https://edge.forgecdn.net/files/6695/679/ftb-jei-extras-21.1.7.jar"
+            ],
+            "fileSize": 69759
+        },
+        {
+            "path": "mods/ftb-library-neoforge-2101.1.19.jar",
+            "hashes": {
+                "sha1": "9587c6f37d19d0beba3cc60d7244e5b392b20921",
+                "sha512": "0bf65239579c71733b5e2470e83b57cc8d146a6db8dda05e7cc4eeff7f50e0a0461231a13464ae75ee712c2773ff424a971df79b57c2bb0e6e64476d92133f3f"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6874/538/ftb-library-neoforge-2101.1.19.jar",
+                "https://edge.forgecdn.net/files/6874/538/ftb-library-neoforge-2101.1.19.jar"
+            ],
+            "fileSize": 894236
+        },
+        {
+            "path": "mods/kubejsde-1.21.1-1.0.0.jar",
+            "hashes": {
+                "sha1": "485c2368f480a014985d5abd36aa1b32a745e8ee",
+                "sha512": "9cd6f46d065d55f131a77206ae6cb4fb9e005feadf55a790bbf479acdf93d717b2833c130cdc4d88bdcb7a7d90c20d9f9c3306716d181530e419462ba3a7074e"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6899/894/kubejsde-1.21.1-1.0.0.jar",
+                "https://edge.forgecdn.net/files/6899/894/kubejsde-1.21.1-1.0.0.jar"
+            ],
+            "fileSize": 10745
+        },
+        {
+            "path": "mods/kubejsdelight-1.21.1-1.1.2.jar",
+            "hashes": {
+                "sha1": "636826af6619709192b4fd4cbd45f6cd762b7d24",
+                "sha512": "99b94ce50182872c3f115bd75450cf72dc2b8c0d9c85829c088215f5b383d925b9fe849a9b71639e1a01a02c27599c21c126af1506371232251bb1590fb40052"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6803/22/kubejsdelight-1.21.1-1.1.2.jar",
+                "https://edge.forgecdn.net/files/6803/22/kubejsdelight-1.21.1-1.1.2.jar"
+            ],
+            "fileSize": 18938
+        },
+        {
+            "path": "mods/mcjtylib-1.21-9.0.12.jar",
+            "hashes": {
+                "sha1": "a5fec6c4500bbd93308c9225b9d4a9e359cd180b",
+                "sha512": "e8d3eb0e3b49922caf4579694eca0a2f05a6dfc7cc264e1305a81f9483ac056cbf185f5b3603c32d5c66c1eacb8352175c16b1ff9dbdd3e150c5da9d2caa78af"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6873/517/mcjtylib-1.21-9.0.12.jar",
+                "https://edge.forgecdn.net/files/6873/517/mcjtylib-1.21-9.0.12.jar"
+            ],
+            "fileSize": 706309
+        },
+        {
+            "path": "mods/pipez-neoforge-1.21.1-1.2.19.jar",
+            "hashes": {
+                "sha1": "760c1cd20e6e47ef86bd48ece413873cccddc972",
+                "sha512": "6c81ac7e659e8df3abc066d1cd67251fabc39b58d3de7b6c77d8a391d8d76f47d1cdc33e1790bdbcc4054433ed13f299ccba983808d5a386a2e8b1dfafd475c7"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5757/713/pipez-neoforge-1.21.1-1.2.19.jar",
+                "https://edge.forgecdn.net/files/5757/713/pipez-neoforge-1.21.1-1.2.19.jar"
+            ],
+            "fileSize": 446672
+        },
+        {
+            "path": "mods/Placebo-1.21.1-9.9.1.jar",
+            "hashes": {
+                "sha1": "1c2b8c38066d6f36209c5dadee25c184ef65202e",
+                "sha512": "ca0f45d55ef242679ebe8ec191fb7de9882d051c9e995d6674f79f628e21e363eb60f54a7026b20093e9ab3ba773349420f6d73c5d49a23ed97998c20e8f8031"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6926/281/Placebo-1.21.1-9.9.1.jar",
+                "https://edge.forgecdn.net/files/6926/281/Placebo-1.21.1-9.9.1.jar"
+            ],
+            "fileSize": 324056
+        },
+        {
+            "path": "mods/polylib-2100.0.3-build.172-neoforge.jar",
+            "hashes": {
+                "sha1": "fcf85e2805f631d875c921800457b5d3f5ff8c62",
+                "sha512": "4b001e537c0911bf3d6d5a58e556825ee4809bde32c10f3eed1491e65048f468b41b44ce04083f18e330c28699a28c69d9f2a2936f357c061d857650d5be7a34"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6350/931/polylib-2100.0.3-build.172-neoforge.jar",
+                "https://edge.forgecdn.net/files/6350/931/polylib-2100.0.3-build.172-neoforge.jar"
+            ],
+            "fileSize": 1297829
+        },
+        {
+            "path": "mods/ProbeJS-7.3.0.jar",
+            "hashes": {
+                "sha1": "89af802fdfd218d4c278c2961d51b1bd4e3e8181",
+                "sha512": "b1ff2a554924972b967567553e6249b59a319224b7191df771699e8d2f9befb322d07c6fa2c4bf096dd979b261cd94254c811e0d63aa727933e79f6228212795"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5651/850/ProbeJS-7.3.0.jar",
+                "https://edge.forgecdn.net/files/5651/850/ProbeJS-7.3.0.jar"
+            ],
+            "fileSize": 4169034
+        },
+        {
+            "path": "mods/ResourcefulTools-NeoForge-1.21.1-1.8.5.jar",
+            "hashes": {
+                "sha1": "5b8b1da61e2a7caef584265e806ca22710e315c5",
+                "sha512": "aa11d8b70083cabf23c7d8279195a3b9d17cfcff5ddd497a6836b4b17994acdd5291969e27eda28272fb2521c33d581a45892a4b3b7807a18bc0fa14d645eed5"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5615/297/ResourcefulTools-NeoForge-1.21.1-1.8.5.jar",
+                "https://edge.forgecdn.net/files/5615/297/ResourcefulTools-NeoForge-1.21.1-1.8.5.jar"
+            ],
+            "fileSize": 302220
+        },
+        {
+            "path": "mods/xnet-1.21-7.0.6.jar",
+            "hashes": {
+                "sha1": "a4f91c5652955bdf60a0c377448a275eeccdb841",
+                "sha512": "98b5ed6c1d710c91b2424fa4441db3b5ae12824c13263d88581bf55ecc77f5d1579ad77000eb675ce88aae06699ae392b1bb4be1db60b3d973df633d93e41581"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6563/957/xnet-1.21-7.0.6.jar",
+                "https://edge.forgecdn.net/files/6563/957/xnet-1.21-7.0.6.jar"
+            ],
+            "fileSize": 609288
+        },
+        {
+            "path": "mods/[AE2扩展] ExtendedAE-1.21-2.2.18-neoforge.jar",
+            "hashes": {
+                "sha1": "9c41836fd6d9e18a9b45f27fe59145c98f47188f",
+                "sha512": "bf4573321207611c6b6f42951043c1c3eae02f5a4886cab0e57e34162b23f972169a5873fa673f159886e32f255a566e537a90ca30735126224158d66eb06158"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6863/556/ExtendedAE-1.21-2.2.18-neoforge.jar",
+                "https://edge.forgecdn.net/files/6863/556/ExtendedAE-1.21-2.2.18-neoforge.jar"
+            ],
+            "fileSize": 1745847
+        },
+        {
+            "path": "mods/[FTB 区块] ftb-chunks-neoforge-2101.1.10.jar",
+            "hashes": {
+                "sha1": "b6d3cc2446e44237abdb858541d053a65f846e1b",
+                "sha512": "fee60650153e59148ac9c561b46d66e4a7112b990c95634914686dd6b2ecffff1b4cbaf522dbed037eb97ed04cf9fec2fbae6f7e31f8985ff6525ff349ff8154"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6900/454/ftb-chunks-neoforge-2101.1.10.jar",
+                "https://edge.forgecdn.net/files/6900/454/ftb-chunks-neoforge-2101.1.10.jar"
+            ],
+            "fileSize": 1085684
+        },
+        {
+            "path": "mods/[FTB 团队] ftb-teams-neoforge-2101.1.4.jar",
+            "hashes": {
+                "sha1": "a25e05078525e0a2956ba7e94ce84d4ebf17e931",
+                "sha512": "a33bef8e05755678f09d4a80a690b84fe5c814407ab29c89de22cd90fd5e96a8457f64f6cb3741470f4afef9384a34a375369a9573247094e0ef386977ac9c4a"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6930/910/ftb-teams-neoforge-2101.1.4.jar",
+                "https://edge.forgecdn.net/files/6930/910/ftb-teams-neoforge-2101.1.4.jar"
+            ],
+            "fileSize": 266167
+        },
+        {
+            "path": "mods/[FTB任务] ftb-quests-neoforge-2101.1.14.jar",
+            "hashes": {
+                "sha1": "b5be89e7e84cbb9fd4262f8627012f9965940f09",
+                "sha512": "be405118be50b25cf361bed2a374c68b7f77dae7b133164226f112cbb7c0bd9be29145d722342a058f2cb01a1a5613ffd586fd2072b16bc59d75042bdbc176fd"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6874/989/ftb-quests-neoforge-2101.1.14.jar",
+                "https://edge.forgecdn.net/files/6874/989/ftb-quests-neoforge-2101.1.14.jar"
+            ],
+            "fileSize": 1388303
+        },
+        {
+            "path": "mods/[FTB备份2] ftbbackups2-neoforge-1.21-1.0.28.jar",
+            "hashes": {
+                "sha1": "878753a228d620c51b2f7a521867cab78fa259fc",
+                "sha512": "18d9411d9298da63018bcfcaebcf0bce7535d32fd0278652b5cc2aced625f5436d53ae3daac2bfccab1d9a9c2280b17d413daed5b1f32b3edb7868d603d65143"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5501/351/ftbbackups2-neoforge-1.21-1.0.28.jar",
+                "https://edge.forgecdn.net/files/5501/351/ftbbackups2-neoforge-1.21-1.0.28.jar"
+            ],
+            "fileSize": 1936882
+        },
+        {
+            "path": "mods/[RF工具：基础] rftoolsbase-1.21-6.0.8.jar",
+            "hashes": {
+                "sha1": "c45bb206e475ab32fb9a94b3baed25a01691275f",
+                "sha512": "95e989b330dd11b6ed1b837962256f6c8c06de284c8048a54d90a460816fcc81a6eef5b37bd342ee2f824cc0832df10685a9e6f0d78a93539a412afd8ebce8ce"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6762/657/rftoolsbase-1.21-6.0.8.jar",
+                "https://edge.forgecdn.net/files/6762/657/rftoolsbase-1.21-6.0.8.jar"
+            ],
+            "fileSize": 431010
+        },
+        {
+            "path": "mods/[储物抽屉] StorageDrawers-neoforge-1.21.1-13.11.1.jar",
+            "hashes": {
+                "sha1": "7d42ce9f5fa8c0e953e13bb904cefc8407b92629",
+                "sha512": "e7279d970713b0f5401ad6c5fe21f7ba0c7ec2a949895574ec58c9fd32adbd333d4aaaf54c15d30c262543a7ecaec8e564390031d7aaf095114d9bcc2761534b"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6925/955/StorageDrawers-neoforge-1.21.1-13.11.1.jar",
+                "https://edge.forgecdn.net/files/6925/955/StorageDrawers-neoforge-1.21.1-13.11.1.jar"
+            ],
+            "fileSize": 1122157
+        },
+        {
+            "path": "mods/[傻瓜烹饪／懒人厨房] cookingforblockheads-neoforge-1.21.1-21.1.16.jar",
+            "hashes": {
+                "sha1": "723d1b274e79242d51dd6bd1a49664d3bfa63073",
+                "sha512": "e5253658dcb6bd7b422690c7cad34a51b3cce9b8c0ebfaaf3ba7766792c5f7539a933672aab1019fbc8aeb42eea488943c139e35b9d1e752f6dec6016ac59ceb"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6743/783/cookingforblockheads-neoforge-1.21.1-21.1.16.jar",
+                "https://edge.forgecdn.net/files/6743/783/cookingforblockheads-neoforge-1.21.1-21.1.16.jar"
+            ],
+            "fileSize": 1245623
+        },
+        {
+            "path": "mods/[动态联合／集成动力] integrateddynamics-1.21.1-neoforge-1.27.9-1308.jar",
+            "hashes": {
+                "sha1": "e64c75a366116eebfa2caa389b6fd68f248f807e",
+                "sha512": "ef0a58fc0c1bac0beffd4f2da9e39027c43f669b9b8044c4e0df46394fb3a1825bc77ad84802c7f9d742d3ed44b11f42624343d9783ade181d8deda3a5cdb25b"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6904/629/integrateddynamics-1.21.1-neoforge-1.27.9-1308.jar",
+                "https://edge.forgecdn.net/files/6904/629/integrateddynamics-1.21.1-neoforge-1.27.9-1308.jar"
+            ],
+            "fileSize": 4264611
+        },
+        {
+            "path": "mods/[合成树] ae2ct-1.21.1-1.1.0.jar",
+            "hashes": {
+                "sha1": "adbb79b1b822dc78c6c3784a6dc5d82daa4cc16f",
+                "sha512": "07539ff1d51b8b906f412f172fc25ce3941c242fbe4af9a3d3bb0cbd316d1bd73b5213f8eb054456d77e569e051b0a22cab51fb60123f7b1d3fbbf3c950b475b"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6695/418/ae2ct-1.21.1-1.1.0.jar",
+                "https://edge.forgecdn.net/files/6695/418/ae2ct-1.21.1-1.1.0.jar"
+            ],
+            "fileSize": 432450
+        },
+        {
+            "path": "mods/[女仆仓管] 1.21.1-maid_storage_manager-1.12.16.jar",
+            "hashes": {
+                "sha1": "9a2ef9ca99df24505f1ccfd251bb2f88564dd6b4",
+                "sha512": "b7b799984c293c4d7d8a47de93977a3ece5e658b0934b47a74def9ba9e78c2c78fd0b43db752ee4a9665594f5bf1e8261377cbedcdec69d705f9e0c5dffe9765"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6928/92/1.21.1-maid_storage_manager-1.12.16.jar",
+                "https://edge.forgecdn.net/files/6928/92/1.21.1-maid_storage_manager-1.12.16.jar"
+            ],
+            "fileSize": 2185204
+        },
+        {
+            "path": "mods/[女仆实用任务] 1.21.1-maid_useful_task-1.3.6-fix.jar",
+            "hashes": {
+                "sha1": "ffd8171866f28b653739f83edb0826a866ed8987",
+                "sha512": "d0e6ac323863ffcf0f26d1fcb9a30e73d021a5ad853bae71e39f4c89a5134aef540af47d6b3d5a265b402ce4a2370bc52e40fd9ee1c419716633e8908fd25eef"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6893/39/1.21.1-maid_useful_task-1.3.6-fix.jar",
+                "https://edge.forgecdn.net/files/6893/39/1.21.1-maid_useful_task-1.3.6-fix.jar"
+            ],
+            "fileSize": 150071
+        },
+        {
+            "path": "mods/[建筑棒] ConstructionSticks-1.21.1-1.2.3.jar",
+            "hashes": {
+                "sha1": "ef0d275a567eb9bbc69d0939874ed447b687863b",
+                "sha512": "b72c2a17ddb3ea84a2fe5344f86d95865caded6ec12d1d79c5047ceac62e6c24c0774c20c620e590de1259c920bdf4f3e71394a8a4e78409ced7b72154452402"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6912/513/ConstructionSticks-1.21.1-1.2.3.jar",
+                "https://edge.forgecdn.net/files/6912/513/ConstructionSticks-1.21.1-1.2.3.jar"
+            ],
+            "fileSize": 253982
+        },
+        {
+            "path": "mods/[时装盔甲重置版] cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+            "hashes": {
+                "sha1": "5f1e699cd0888b857ec63f01adaeb3571848bfea",
+                "sha512": "0bfae4647f98b172edc8029b782b4d812eb9a439decfb9f30460890e565f5c684b64e2377e1b8a1b820e9dc69f65e6cd48fee5d1d9fcebb8cd3278e9a4b8b318"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5610/814/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+                "https://edge.forgecdn.net/files/5610/814/cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+            ],
+            "fileSize": 92722
+        },
+        {
+            "path": "mods/[暮色森林] twilightforest-1.21.1-4.7.3196-universal.jar",
+            "hashes": {
+                "sha1": "a31f40b1fa70e08f3d7b40af827f7cee39698d35",
+                "sha512": "b23624350ad6d505c8dfe721ae23dfd55c241f97a922ebc4e38346d62647156c5de3a074e8e70ad0234ba7d51c9dcf1ba21d2d08b3bd13a0e510feddbb916d9d"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6472/889/twilightforest-1.21.1-4.7.3196-universal.jar",
+                "https://edge.forgecdn.net/files/6472/889/twilightforest-1.21.1-4.7.3196-universal.jar"
+            ],
+            "fileSize": 26100387
+        },
+        {
+            "path": "mods/[暮色风味乐事] twilightdelight-3.0.6.jar",
+            "hashes": {
+                "sha1": "f68ae6daa7606c0ae2a62870b3ed36d31380e7fa",
+                "sha512": "9fa1d57d6f3eb35f6e9ef62db410fe3321824bd6e7610b646f74e21d11fccde0b2ee6fe0c338ea5f64ec8b6c3bef90b1090db45cbad57df3920852b2caf31a26"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6802/454/twilightdelight-3.0.6.jar",
+                "https://edge.forgecdn.net/files/6802/454/twilightdelight-3.0.6.jar"
+            ],
+            "fileSize": 1308725
+        },
+        {
+            "path": "mods/[果园乐事] fruitsdelight-1.2.9.jar",
+            "hashes": {
+                "sha1": "6598100db227e83e1df11ee8814c4f73bcfd42e9",
+                "sha512": "3cf8710f97add651664cc1ef73e6a7f7e08c6b653835bd094b1ef8f16cb8b02783f7e85d2dcfe56bf89b2fbc0de5ccc5aa694aa56370f6661ca1e06175b78b92"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6849/126/fruitsdelight-1.2.9.jar",
+                "https://edge.forgecdn.net/files/6849/126/fruitsdelight-1.2.9.jar"
+            ],
+            "fileSize": 1913164
+        },
+        {
+            "path": "mods/[树叶快速腐烂] fastleafdecay-35.jar",
+            "hashes": {
+                "sha1": "589f05dcd58d3708cee9046b23fe11fb81a25d2e",
+                "sha512": "795f7e5a03b65705d18901fe28034df771e1843aabd16bfe49fe77b534938424ce26f3d0f723cd78ada058989bb758d14f091ca111f0b1e4d195e8baa031bbc5"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5849/90/fastleafdecay-35.jar",
+                "https://edge.forgecdn.net/files/5849/90/fastleafdecay-35.jar"
+            ],
+            "fileSize": 9511
+        },
+        {
+            "path": "mods/[模组目录] catalogue-neoforge-1.21.1-1.11.2.jar",
+            "hashes": {
+                "sha1": "6d67f855c20bc6392763cfb22e1152da4e8015b4",
+                "sha512": "32a29b34b4c25a9fce98fca9a31ee8061fd73533c09f935ff7f6207fd0a2417a60f8641656e15524e1736f3e8e149a8cfa03ec7e73667f8af016bae40adf1921"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6926/815/catalogue-neoforge-1.21.1-1.11.2.jar",
+                "https://edge.forgecdn.net/files/6926/815/catalogue-neoforge-1.21.1-1.11.2.jar"
+            ],
+            "fileSize": 302750
+        },
+        {
+            "path": "mods/[水产业2／水产品2] Aquaculture-1.21.1-2.7.14.jar",
+            "hashes": {
+                "sha1": "cc65a43df5cd086e7c4e5722b762dd61c6806443",
+                "sha512": "b62aac9467515f5fdd52c86cff73eec43f9574082b61324324659a9bebfd1e35ecb5af8096e7d66d2dadd7736e91a4fce57ef4571366c4ea36d9e87419d3b8cd"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6357/106/Aquaculture-1.21.1-2.7.14.jar",
+                "https://edge.forgecdn.net/files/6357/106/Aquaculture-1.21.1-2.7.14.jar"
+            ],
+            "fileSize": 604097
+        },
+        {
+            "path": "mods/[泰拉饰品] terra_curio-1.1.2.jar",
+            "hashes": {
+                "sha1": "f2e31be7ad9ac4cde962dbda37c07888935345ce",
+                "sha512": "7c15688cb7aaae5d34065b4b6b6f90029320814f6439211dd23932f048a49154168f8d9afc13a9fd9b7f76de8f85e3a454f3210d29b666abc46e2dfdf5ee66fa"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6881/159/terra_curio-1.1.2.jar",
+                "https://edge.forgecdn.net/files/6881/159/terra_curio-1.1.2.jar"
+            ],
+            "fileSize": 1833531
+        },
+        {
+            "path": "mods/[消息框控制] ToastControl-1.21.1-9.0.1.jar",
+            "hashes": {
+                "sha1": "33477c2db0479c9be33d1ca3b2fa47cf6c97988c",
+                "sha512": "c4f3a8c755a493e5c2de89c7175bc687141e8689a0faf6ecac8f397dec416f68fe64a33a07088f128f521fca803954575f928f059ec0199419f1a807e54f53af"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6751/464/ToastControl-1.21.1-9.0.1.jar",
+                "https://edge.forgecdn.net/files/6751/464/ToastControl-1.21.1-9.0.1.jar"
+            ],
+            "fileSize": 21079
+        },
+        {
+            "path": "mods/[犀牛] rhino-2101.2.7-build.77.jar",
+            "hashes": {
+                "sha1": "6542b1434417bc456191a4c76463d2ab954d9396",
+                "sha512": "2490ab51cbeb6748b33fc2a1663be051e6f3a85005fcc7e61fe500cbda5f191408fa39cca8624353458145fa28e1a430650e9773cd1e7ebc6086b43e6b9ad317"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6886/923/rhino-2101.2.7-build.77.jar",
+                "https://edge.forgecdn.net/files/6886/923/rhino-2101.2.7-build.77.jar"
+            ],
+            "fileSize": 881462
+        },
+        {
+            "path": "mods/[生活调味料：胡萝卜版] solcarrot-1.21.1-1.16.5.jar",
+            "hashes": {
+                "sha1": "cd70f4446b99b589702aebf9e4aaae86e376d4d7",
+                "sha512": "3ad041b5f9e4d25ba9bfd56c4232544861b055353a135234f53c1a0da568224fa26bd6ae925ad5cc92167a2379f501fcb578c2f68801368bc7347622342a0fef"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5957/429/solcarrot-1.21.1-1.16.5.jar",
+                "https://edge.forgecdn.net/files/5957/429/solcarrot-1.21.1-1.16.5.jar"
+            ],
+            "fileSize": 105333
+        },
+        {
+            "path": "mods/[精妙存储] sophisticatedstorage-1.21.1-1.4.50.1235.jar",
+            "hashes": {
+                "sha1": "a91655c1bdc8e40bcfc130ea522ce9f53e75ba7a",
+                "sha512": "614ac66bb52486004fe2ceb331e51f4c932b69ffb9c4a6f7501e86f2631cea964fee77a32d95ffb726607f145cb78eaf114c9a2eb27a685c36386598be5c6c3d"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6912/198/sophisticatedstorage-1.21.1-1.4.50.1235.jar",
+                "https://edge.forgecdn.net/files/6912/198/sophisticatedstorage-1.21.1-1.4.50.1235.jar"
+            ],
+            "fileSize": 1601200
+        },
+        {
+            "path": "mods/[精妙核心] sophisticatedcore-1.21.1-1.3.65.1096.jar",
+            "hashes": {
+                "sha1": "b501ed960c0fb6af0f1d0ac33933e85c6a79fb33",
+                "sha512": "9db68dcb8287fd40ad8c10c8705491ce4ce00a586e46473bcb1e224b7bb3f71f938566a628f8a1bcd8a4ba3ff6522130545f4e10c19bb33df77f97f77e88ff43"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6933/219/sophisticatedcore-1.21.1-1.3.65.1096.jar",
+                "https://edge.forgecdn.net/files/6933/219/sophisticatedcore-1.21.1-1.3.65.1096.jar"
+            ],
+            "fileSize": 1389347
+        },
+        {
+            "path": "mods/[精妙背包] sophisticatedbackpacks-1.21.1-3.24.21.1314.jar",
+            "hashes": {
+                "sha1": "94aeb43fba9df920e4045f96830c460f66305485",
+                "sha512": "5e816a09563a1a935ce93fe79259f745bf2c073c79c03e57a480877e2be977a57a7b87d47b60d4d57ba31ec35d70e04074645422ffc142a898448b903cde1ede"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6907/846/sophisticatedbackpacks-1.21.1-3.24.21.1314.jar",
+                "https://edge.forgecdn.net/files/6907/846/sophisticatedbackpacks-1.21.1-3.24.21.1314.jar"
+            ],
+            "fileSize": 937622
+        },
+        {
+            "path": "mods/[自定义局域网联机] lanserverproperties-1.13.2-neoforge.jar",
+            "hashes": {
+                "sha1": "be35dc531943b64e66295198276a0fcb38be0784",
+                "sha512": "ff85e99ec9e73f02d3d1ff21536c8b5cbd3b9756d5732f1146fd306b4e43d49bebf3a11aeba8853ca4cdcba186ed85deda12d7a4c7a9ffcd26de2312a8d5e35c"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5891/138/lanserverproperties-1.13.2-neoforge.jar",
+                "https://edge.forgecdn.net/files/5891/138/lanserverproperties-1.13.2-neoforge.jar"
+            ],
+            "fileSize": 44799
+        },
+        {
+            "path": "mods/[连锁破坏] ftb-ultimine-neoforge-2101.1.9.jar",
+            "hashes": {
+                "sha1": "72253077abc87162987fd2c724a143a7da9bb15f",
+                "sha512": "21fd821b5bbda919aa5947a9c9097220da88c5e35b662bb3d6a3fcfe4f7729247dcde904beb5d4f6fed2c47d67ca9681051584ec8353f59430769fe024e1800c"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6930/900/ftb-ultimine-neoforge-2101.1.9.jar",
+                "https://edge.forgecdn.net/files/6930/900/ftb-ultimine-neoforge-2101.1.9.jar"
+            ],
+            "fileSize": 165105
+        },
+        {
+            "path": "mods/[配置界面] configured-neoforge-1.21.1-2.6.0.jar",
+            "hashes": {
+                "sha1": "f118a9d2172368300627737b257bd2c0fb89e4d5",
+                "sha512": "2ef361d91174cbcf7851190ea18042258e7d3a007e1494a218e36923394f6770050007d841d9e9856a48e1e437bdd9cf313f360cb3908c1d66bb183a06b7aac5"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/5873/783/configured-neoforge-1.21.1-2.6.0.jar",
+                "https://edge.forgecdn.net/files/5873/783/configured-neoforge-1.21.1-2.6.0.jar"
+            ],
+            "fileSize": 428760
+        },
+        {
+            "path": "mods/[集成管道] integratedtunnels-1.21.1-neoforge-1.8.44-481.jar",
+            "hashes": {
+                "sha1": "467c35edabb08ffbf4d9f40fef5337a33275b34f",
+                "sha512": "aef6dea73b14f30f808a5ba4a4ea5d14702a359d584474e23a54b66cfe426eedda986b5f0d2000ea531e8d74aaffb418bce12b8a980d9ab37036a9a65bd9aae3"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/6864/901/integratedtunnels-1.21.1-neoforge-1.8.44-481.jar",
+                "https://edge.forgecdn.net/files/6864/901/integratedtunnels-1.21.1-neoforge-1.8.44-481.jar"
+            ],
+            "fileSize": 669047
+        },
+        {
+            "path": "mods/tacz-neoforge-1.21.1-1.1.6-hotfix-r5.jar",
+            "hashes": {
+                "sha1": "c4ea60bf4d76716e7e3a7b2f22eb2ab338df51a3",
+                "sha512": "c28a8a6137c4e89770c57a2251a21adae228609f7b757d18ce3958bc0325900e91d6a4b1eef44eaecab56d24dad120e0639b6dcda2f656d9a7a9df8c61df4e3d"
+            },
+            "downloads": [
+                "https://github.com/MUKSC/TACZ-1.21.1/releases/download/neoforge-1.1.6-hotfix-r5/tacz-neoforge-1.21.1-1.1.6-hotfix-r5.jar"
+            ],
+            "fileSize": 47612775
+        }
+    ],
+    "dependencies": {
+        "minecraft": "1.21.1",
+        "neoforge": "21.1.205"
+    }
+}

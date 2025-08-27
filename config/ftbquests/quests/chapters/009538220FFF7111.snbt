@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "009538220FFF7111"
+	group: ""
+	icon: {
+		id: "create:creative_crate"
+	}
+	id: "009538220FFF7111"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "draconicevolution:awakened_draconium_block"
+		}
+		id: "023A9F693CF1C527"
+		rewards: [
+			{
+				count: 4
+				id: "7DBE99DA6ACE84FA"
+				item: {
+					count: 1
+					id: "create:creative_crate"
+				}
+				type: "item"
+			}
+			{
+				id: "62B280F9F1236378"
+				item: {
+					components: {
+						"draconicevolution:config_properties": [
+							[
+								{
+									: "BOOLEAN"
+								}
+								{
+									default_value: 0b
+									formatter: "true_false"
+									name: "charge_held_item"
+									show_on_hud: 1b
+									value: 0b
+								}
+							]
+							[
+								{
+									: "BOOLEAN"
+								}
+								{
+									default_value: 0b
+									formatter: "true_false"
+									name: "charge_armor"
+									show_on_hud: 1b
+									value: 0b
+								}
+							]
+							[
+								{
+									: "BOOLEAN"
+								}
+								{
+									default_value: 0b
+									formatter: "true_false"
+									name: "charge_hot_bar"
+									show_on_hud: 1b
+									value: 0b
+								}
+							]
+							[
+								{
+									: "BOOLEAN"
+								}
+								{
+									default_value: 0b
+									formatter: "true_false"
+									name: "charge_main"
+									show_on_hud: 1b
+									value: 0b
+								}
+							]
+							[
+								{
+									: "BOOLEAN"
+								}
+								{
+									default_value: 0b
+									formatter: "true_false"
+									name: "charge_curios"
+									show_on_hud: 1b
+									value: 0b
+								}
+							]
+						]
+						"draconicevolution:module_entities": [ ]
+						"draconicevolution:provider_identity": [I;
+							2025853235
+							-603437745
+							-1967584977
+							-2072393252
+						]
+					}
+					count: 1
+					id: "draconicevolution:creative_capacitor"
+				}
+				type: "item"
+			}
+			{
+				id: "78E5DD3F6EE47448"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}
+			{
+				id: "584A691CB421629D"
+				item: {
+					count: 1
+					id: "create:creative_fluid_tank"
+				}
+				type: "item"
+			}
+			{
+				id: "6A47997C1C2633C4"
+				item: {
+					count: 1
+					id: "anvilcraft:creative_generator"
+				}
+				type: "item"
+			}
+			{
+				id: "3D6021B4D7DE93FD"
+				item: {
+					components: {
+						"mekanism:energy": {
+							energy_containers: [L;9223372036854775807L]
+						}
+						"mekanism:side_config": {
+							config: {
+								energy: {
+									eject: 1b
+									side: {
+										back: "output"
+										bottom: "output"
+										front: "output"
+										left: "output"
+										right: "output"
+										top: "output"
+									}
+								}
+								items: {
+									side: {
+										back: "input"
+										bottom: "input"
+										front: "output"
+										left: "input"
+										right: "input"
+										top: "input"
+									}
+								}
+							}
+						}
+					}
+					count: 1
+					id: "mekanism:creative_energy_cube"
+				}
+				type: "item"
+			}
+			{
+				id: "070722422E0092EE"
+				item: {
+					count: 1
+					id: "touhou_little_maid:substitute_jizo"
+				}
+				type: "item"
+			}
+		]
+		tasks: [
+			{
+				count: 24L
+				id: "54237B71B76BAB73"
+				item: { count: 24, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}
+			{
+				id: "4EC37F292E7AB1D3"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 100000000L
+			}
+			{
+				biome: "twilightforest:final_plateau"
+				id: "507E0DB1369A9459"
+				type: "biome"
+			}
+			{
+				entity: "minecraft:ender_dragon"
+				id: "0F9BC7E4AAC28931"
+				type: "kill"
+				value: 1L
+			}
+			{
+				entity: "minecraft:wither"
+				id: "3948C731A53BC378"
+				type: "kill"
+				value: 1L
+			}
+			{
+				entity: "draconicevolution:draconic_guardian"
+				id: "4EEFAED4FF33901E"
+				type: "kill"
+				value: 1L
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

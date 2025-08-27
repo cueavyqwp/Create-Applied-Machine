@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "149E5ABEA2D3799B"
+	group: "0B98FCF3ECEE2730"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "149E5ABEA2D3799B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+			id: "05FD6E299CE35C33"
+			rewards: [{
+				count: 8
+				id: "56C214CF82DA89F1"
+				item: {
+					count: 1
+					id: "mekanism:cardboard_box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "ae2:mysterious_cube"
+				}
+				id: "652F587969222812"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ae2:mysterious_cube"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "5452FBDAA29F0087"
+			rewards: [{
+				id: "260ACF0F006E0BA0"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7AE95C8591362DE3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

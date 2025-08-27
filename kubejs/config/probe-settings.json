@@ -1,0 +1,7 @@
+{
+    "probejs.enableDecompiler": true,
+    "probejs.modHash": -2,
+    "probejs.isolatedScope": true,
+    "probejs.enabled": true,
+    "probejs.complete": true
+}

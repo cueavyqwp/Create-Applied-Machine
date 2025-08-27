@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tacz"
+	group: "0B98FCF3ECEE2730"
+	icon: {
+		id: "tacz:gun_smith_table"
+	}
+	id: "0FB2CF453F9ADC27"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "568983BADFA07419"
+			rewards: [
+				{
+					id: "0BA0A10BE694186E"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								BlockId: "tacz:attachment_workbench"
+							}
+						}
+						count: 1
+						id: "tacz:workbench_c"
+					}
+					type: "item"
+				}
+				{
+					id: "064508E61640512E"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								BlockId: "tacz:ammo_workbench"
+							}
+						}
+						count: 1
+						id: "tacz:workbench_a"
+					}
+					type: "item"
+				}
+				{
+					id: "44B96079C20E6303"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Level: 2
+							}
+						}
+						count: 1
+						id: "tacz:ammo_box"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B9957D644DA1D94"
+				item: { count: 1, id: "tacz:gun_smith_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "06A482961A0386E8"
+			rewards: [{
+				id: "35839D60FDEA968B"
+				item: {
+					components: {
+						"immersiveengineering:blueprint": "specialBullet"
+					}
+					count: 1
+					id: "immersiveengineering:blueprint"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A88BA313C7C5DF6"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}

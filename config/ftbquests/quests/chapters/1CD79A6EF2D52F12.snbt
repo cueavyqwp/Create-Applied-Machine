@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1CD79A6EF2D52F12"
+	group: "454429E101019D89"
+	icon: {
+		id: "mekanism:alloy_atomic"
+	}
+	id: "1CD79A6EF2D52F12"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4BBE78258D628869"
+			rewards: [{
+				count: 64
+				id: "433F3CAFDC3320B3"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "237DAB1ADE1147BD"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BBE78258D628869"]
+			id: "59EC2C6969F129AE"
+			rewards: [{
+				count: 16
+				id: "423CB515A6E9A272"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2730BD2961DCDE06"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59EC2C6969F129AE"]
+			id: "15CD16923E8EF236"
+			rewards: [
+				{
+					count: 16
+					id: "56E6CA449A5DB9FC"
+					item: {
+						count: 1
+						id: "mekanism:enriched_carbon"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6E5F0F9B5B0F280F"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "260551F50F7FD6A3"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,317 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2C856BE2A85BD4AA"
+	group: ""
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "2C856BE2A85BD4AA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "529763941D578A3C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamerule keepInventory true"
+					icon: {
+						id: "minecraft:chest"
+					}
+					id: "3B7E6B559CBBC4FC"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6DD30D483E8650BA"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "233E294F382400A2"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+				{
+					id: "568409B347518A12"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "5A87D99CCA373D04"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_paxel"
+					}
+					type: "item"
+				}
+				{
+					id: "514BA23EE04C5D7E"
+					item: {
+						count: 1
+						id: "touhou_little_maid:smart_slab_init"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0798D03C2E312622"
+					item: {
+						count: 1
+						id: "tiab:time_in_a_bottle"
+					}
+					type: "item"
+				}
+				{
+					command: "/gamerule playersSleepingPercentage 0"
+					icon: {
+						id: "minecraft:white_bed"
+					}
+					id: "60FEF98182B5218B"
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "6454A7A3597B6F09"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["529763941D578A3C"]
+			id: "5DE9E122BB3FAD73"
+			tasks: [{
+				id: "400541A1A81FD27E"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DE9E122BB3FAD73"]
+			icon: {
+				id: "touhou_little_maid:power_point"
+			}
+			id: "50E8AC505EFDE3D8"
+			tasks: [{
+				id: "54F32AB198EB1EF9"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DE9E122BB3FAD73"]
+			id: "12242BAD022DA69A"
+			rewards: [
+				{
+					id: "0F018B8EDE19C363"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					id: "1928218B23973969"
+					item: {
+						count: 1
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2463738E37EA755F"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "06A103309872B364"
+					item: {
+						count: 1
+						id: "ae2:meteorite_compass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A90F1633E09C940"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DE9E122BB3FAD73"]
+			id: "4D46DD4A068F51FA"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule keepInventory false"
+				id: "26552FD7C76BBC90"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1CD549192916AFD5"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D46DD4A068F51FA"]
+			hide_until_deps_complete: true
+			id: "6738667BCDE99166"
+			optional: true
+			progression_mode: "linear"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule keepInventory true"
+				id: "6F5EACED5E036B5C"
+				type: "command"
+			}]
+			tasks: [{
+				id: "592718E9CB9ADA4E"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "02FE4016F976BE6E"
+			tasks: [{
+				id: "78B3D0A3F7A61B56"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "431BBB1CDFFD72A7"
+			rewards: [{
+				id: "1653DDF371AABA3D"
+				item: {
+					count: 1
+					id: "terra_curio:magiluminescence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F8CEE7BB9A5FF2E"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "010DE5A14EE35401"
+			rewards: [
+				{
+					id: "3374EE19B5B19FD6"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A661195A4449F11"
+					item: {
+						count: 1
+						id: "touhou_little_maid:ultramarine_orb_elixir"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "02B935F06AFAB9F0"
+					item: {
+						count: 1
+						id: "expandeddelight:grilled_cheese"
+					}
+					type: "item"
+				}
+				{
+					id: "711E8B50B17F1CA0"
+					item: {
+						count: 1
+						id: "touhou_little_maid:trumpet"
+					}
+					type: "item"
+				}
+				{
+					id: "7073917EE6C50FCE"
+					item: {
+						count: 1
+						id: "touhou_little_maid:servant_bell"
+					}
+					type: "item"
+				}
+				{
+					id: "362A11DA3D69ADEA"
+					item: {
+						count: 1
+						id: "touhou_little_maid:maid_backpack_big"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26C346ED442D5503"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "2FF40BDDE9445E4B"
+			tasks: [{
+				id: "272C9D9C48515713"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "0EC79B000B04FFF1"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/effect give @a minecraft:night_vision infinite 255 true"
+				id: "7ADC033CB42A6B8F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1DFD2D3227C50F71"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}
