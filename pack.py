@@ -47,8 +47,8 @@ if os.path.isfile("1.21.1-Create.jar"):
     print(f"文件: '{out}' 已更新")
 
 else:
-    if not os.path.isdir("mods"):
-        os.mkdir("mods")
+    if not os.path.isdir("./src/mods"):
+        os.mkdir("./src/mods")
 
     if not os.path.isfile("./src/mods/tiabcurio-neoforge-1.21.1-3.0.1.jar"):
         with open("./src/mods/tiabcurio-neoforge-1.21.1-3.0.1.jar", "wb") as fp:
