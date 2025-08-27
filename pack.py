@@ -50,19 +50,19 @@ else:
     if not os.path.isdir("mods"):
         os.mkdir("mods")
 
-    if not os.path.isfile("mods/tiabcurio-neoforge-1.21.1-3.0.1.jar"):
-        with open("mods/tiabcurio-neoforge-1.21.1-3.0.1.jar", "wb") as fp:
+    if not os.path.isfile("/src/mods/tiabcurio-neoforge-1.21.1-3.0.1.jar"):
+        with open("/src/mods/tiabcurio-neoforge-1.21.1-3.0.1.jar", "wb") as fp:
             fp.write(requests.get(
                 "https://mediafilez.forgecdn.net/files/6109/580/tiabcurio-neoforge-1.21.1-3.0.1.jar").content)
 
-    os.mkdir("dist")
-    os.mkdir("output")
-    os.mkdir("output/overrides")
-    shutil.move("modrinth.index.json", "output/modrinth.index.json")
-    for path in os.listdir():
-        if path not in (".github", "output", "pack.py", ".gitignore", "export_config.txt"):
-            shutil.move(path, f"output/overrides/{path}")
-    with zipfile.ZipFile(f"dist/1.21.1-Create-{__version__}.zip", "w") as zf:
+    os.mkdir("/dist")
+    os.makedirs("/output/overrides")
+    shutil.move("/src/modrinth.index.json", "/output/modrinth.index.json")
+    for path in os.listdir("/src/"):
+        path = os.path.join("/src", path)
+        if path not in (".github", "pack.py", ".gitignore", "export_config.txt"):
+            shutil.move(path, f"/output/overrides/{os.path.basename(path)}")
+    with zipfile.ZipFile(f"/dist/1.21.1-Create-{__version__}.zip", "w") as zf:
         for root, _, files in os.walk("output"):
             for file in files:
                 zf.write(os.path.join(root, file))
