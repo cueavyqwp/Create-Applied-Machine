@@ -23,17 +23,17 @@ jobs:
           python pack.py
           unzip ./dist/1.21.1-Create-*.zip -d ./dist/out
 
+      - name: Get information
+        run: |
+          VERSION=$(python -c "print(__import__('pack').__version__)")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: 1.21.1-Create-${{ env.VERSION }}
           path: ./dist/out
-
-      - name: Get release information
-        run: |
-          VERSION=$(python -c "print(__import__('pack').__version__)")
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
