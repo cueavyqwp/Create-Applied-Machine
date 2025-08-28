@@ -21,12 +21,13 @@ jobs:
         run: |
           mv ./src/pack.py ./pack.py
           python pack.py
+          unzip ./dist/1.21.1-Create-*.zip -d ./dist/out
 
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
-          name: output
-          path: dist
+          name: 1.21.1-Create-${{ env.VERSION }}
+          path: ./dist/out
 
       - name: Get release information
         run: |

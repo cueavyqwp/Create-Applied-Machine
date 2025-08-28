@@ -33,3 +33,4 @@ if __name__ == "__main__":
                 if file in skip:
                     continue
                 zf.write(os.path.join(root, file))
+    os.chdir("..")
