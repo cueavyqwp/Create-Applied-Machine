@@ -17,25 +17,6 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Get release information
-        run: |
-          cd ./src
-          VERSION=$(python -c "print(__import__('pack').__version__)")
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-
-          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-          if [ -z "$LAST_TAG" ]; then
-              CHANGELOG=$(git log --pretty=format:"- %s (%h)" --no-merges)
-          else
-              CHANGELOG=$(git log ${LAST_TAG}..HEAD --pretty=format:"- %s (%h)" --no-merges)
-          fi
-
-          echo "CHANGELOG<<EOF" >> $GITHUB_ENV
-          echo "$CHANGELOG" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-          cd ..
-
       - name: Pack
         run: |
           mv ./src/pack.py ./pack.py
@@ -47,6 +28,12 @@ jobs:
           name: output
           path: dist
 
+      - name: Get release information
+        run: |
+          VERSION=$(python -c "print(__import__('pack').__version__)")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         env:
@@ -57,9 +44,5 @@ jobs:
           name: Release v${{ env.VERSION }}
           body: |
             已更新至 `v${{ env.VERSION }}`
-
-            ## 更新日志
-
-            ${{ env.CHANGELOG }}
           files: |
             dist/*
