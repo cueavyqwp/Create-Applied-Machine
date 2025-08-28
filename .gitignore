@@ -3,9 +3,11 @@
 
 !/LICENSE
 !/README.md
+!/update.py
 !/.github/**
 !/.gitignore
 !/options.txt
+!/CHANGELOG.md
 !/export_config.txt
 
 !/tacz/**
@@ -44,3 +46,5 @@
 
 !tiabcurio-neoforge-1.21.1-3.0.1.jar
 !realcamera-1.21.1-neoforge-0.7.0-alpha.6-1ef3ac1.jar
+
+.probe

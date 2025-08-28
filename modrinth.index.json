@@ -71,6 +71,19 @@
             "fileSize": 1384991
         },
         {
+            "path": "mods/clientsort-neoforge-2.0.0-beta.4+1.21.jar",
+            "hashes": {
+                "sha1": "947489931fdc851e7702c701308940568016fb29",
+                "sha512": "847bd9ee0b4b76fff2081147e1a10a90a49f137845783170731f973a01f2c900631c341c94e309c6d40865ad5162250cc2501b67f24d5a7f86b133599992b411"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/K0AkAin6/versions/vXnpRnjU/clientsort-neoforge-2.0.0-beta.4%2B1.21.jar",
+                "https://mediafilez.forgecdn.net/files/6690/715/clientsort-neoforge-2.0.0-beta.4%2b1.21.jar",
+                "https://edge.forgecdn.net/files/6690/715/clientsort-neoforge-2.0.0-beta.4%2b1.21.jar"
+            ],
+            "fileSize": 225033
+        },
+        {
             "path": "mods/cloth-config-15.0.140-neoforge.jar",
             "hashes": {
                 "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
