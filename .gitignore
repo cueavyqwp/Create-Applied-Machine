@@ -14,6 +14,8 @@
 /tacz/tacz_default_gun
 
 !/kubejs/**
+/kubejs/README.txt
+
 !/shaderpacks/BSL_v10.0.zip.txt
 
 !config/ftbquests/**
