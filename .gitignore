@@ -30,6 +30,8 @@
 !config/modernfix-mixins.properties
 !config/twilightforest-common.toml
 !config/terra_curio-client.toml
+!config/ftbultimine-client.snbt
+!config/ftbultimine-server.snbt
 !config/ftblibrary-client.snbt
 !config/embeddium-options.json
 !config/ModernUI/client.toml
@@ -47,6 +49,5 @@
 *test*
 
 !tiabcurio-neoforge-1.21.1-3.0.1.jar
-!realcamera-1.21.1-neoforge-0.7.0-alpha.6-1ef3ac1.jar
 
 .probe
