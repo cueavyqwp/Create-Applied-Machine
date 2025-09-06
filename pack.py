@@ -25,7 +25,6 @@ if __name__ == "__main__":
         import pathlib
         import shutil
         os.mkdir("./dist")
-        os.makedirs("./output/overrides")
         shutil.move("./src/modrinth.index.json",
                     "./output/modrinth.index.json")
         shutil.move("./src/CHANGELOG.md", "./output/CHANGELOG.md")
@@ -37,5 +36,7 @@ if __name__ == "__main__":
                 if file in skip:
                     continue
                 path = os.path.join(root, file)
+                to = pathlib.Path().joinpath(*pathlib.Path(path).parts[1:])
+                os.makedirs(os.path.dirname(to), exist_ok=True)
                 shutil.move(path, os.path.join(
-                    "./output/overrides", pathlib.Path().joinpath(*pathlib.Path(path).parts[1:])))
+                    "./output/overrides", to))
