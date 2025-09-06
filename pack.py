@@ -37,7 +37,7 @@ if __name__ == "__main__":
                 if file in skip:
                     continue
                 path = os.path.join(root, file)
-                to = pathlib.Path().joinpath(*pathlib.Path(path).parts[1:])
+                to = os.path.join(
+                    "./output/overrides", pathlib.Path().joinpath(*pathlib.Path(path).parts[1:]))
                 os.makedirs(os.path.dirname(to), exist_ok=True)
-                shutil.move(path, os.path.join(
-                    "./output/overrides", to))
+                shutil.move(path, to)
