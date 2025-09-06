@@ -2,7 +2,7 @@
 __version__ = "0.0.3"
 
 skip = (".gitignore", "export_config.txt",
-        "README.md", "cover.py", "update.py")
+        "README.md", "cover.py", "update.py", "pack-server.py")
 
 if __name__ == "__main__":
     import zipfile
