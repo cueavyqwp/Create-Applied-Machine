@@ -24,7 +24,6 @@ if __name__ == "__main__":
     else:
         import pathlib
         import shutil
-        os.mkdir("./dist")
         os.mkdir("./output")
         shutil.move("./src/modrinth.index.json",
                     "./output/modrinth.index.json")

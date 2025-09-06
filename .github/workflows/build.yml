@@ -19,14 +19,13 @@ jobs:
 
       - name: Pack
         run: |
-          mv ./src/pack.py ./pack.py
-          python pack.py
-
-      - name: Get information
-        run: |
           VERSION=$(python -c "print(__import__('pack').__version__)")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           echo "version=$VERSION" >> $GITHUB_OUTPUT
+          mv ./src/pack.py ./pack.py
+          python pack.py
+          mkdir ./dist
+          zip -r ./dist/1.21.1-Create-${{ env.VERSION }}.zip ./output/*
 
       - name: Upload
         uses: actions/upload-artifact@v4
