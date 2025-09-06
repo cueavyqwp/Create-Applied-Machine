@@ -40,6 +40,6 @@ if __name__ == "__main__":
                 for file in files:
                     if file in skip:
                         continue
-                    ret = os.path.join(root, file)
+                    ret = os.path.join("./src", root, file)
                     zf.write(ret, pathlib.Path().joinpath(
-                        *pathlib.Path(ret).parts[1:]))
+                        *pathlib.Path(ret).parts[2:]))
