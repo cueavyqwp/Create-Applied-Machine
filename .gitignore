@@ -38,9 +38,11 @@
 !config/ftbchunks-client.snbt
 !config/ftbquests-client.snbt
 !config/create-server.toml
+!config/fml.toml
 !config/emi.css
 
 !modrinth.index.json
+!pack-server.py
 !pack.py
 
 *.html
