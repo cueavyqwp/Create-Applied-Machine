@@ -1,8 +1,8 @@
 
 __version__ = "0.0.3"
 
-skip = (".git", ".github", "__pycache__", ".gitignore",
-        "export_config.txt", "README.md", "cover.py", "update.py")
+skip = (".gitignore", "export_config.txt",
+        "README.md", "cover.py", "update.py")
 
 if __name__ == "__main__":
     import zipfile
@@ -30,16 +30,12 @@ if __name__ == "__main__":
                     "./output/modrinth.index.json")
         shutil.move("./src/CHANGELOG.md", "./output/CHANGELOG.md")
         shutil.move("./src/LICENSE", "./output/LICENSE")
-        for path in os.listdir("./src"):
-            if path in skip:
+        for root, _, files in os.walk("./src"):
+            if ".git" in root or ".github" in root or "__pycache__" in root:
                 continue
-            path = os.path.join("./src", path)
-            shutil.move(path, f"./output/overrides/{os.path.basename(path)}")
-        with zipfile.ZipFile(f"./dist/1.21.1-Create-{__version__}.zip", "w") as zf:
-            for root, _, files in os.walk("./src"):
-                for file in files:
-                    if file in skip:
-                        continue
-                    ret = os.path.join("./src", root, file)
-                    zf.write(ret, pathlib.Path().joinpath(
-                        *pathlib.Path(ret).parts[2:]))
+            for file in files:
+                if file in skip:
+                    continue
+                path = os.path.join(root, file)
+                shutil.move(path, os.path.join(
+                    "./output/overrides", pathlib.Path().joinpath(*pathlib.Path(path).parts[1:])))
