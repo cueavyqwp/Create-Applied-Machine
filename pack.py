@@ -36,7 +36,7 @@ if __name__ == "__main__":
             path = os.path.join("./src", path)
             shutil.move(path, f"./output/overrides/{os.path.basename(path)}")
         with zipfile.ZipFile(f"./dist/1.21.1-Create-{__version__}.zip", "w") as zf:
-            for root, _, files in os.walk("."):
+            for root, _, files in os.walk("./src"):
                 for file in files:
                     if file in skip:
                         continue
