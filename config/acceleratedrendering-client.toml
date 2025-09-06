@@ -5,17 +5,17 @@
 	#Changing this value may affects your FPS. Smaller value means less in-flight frames, while larger values means more in-flight frames. More in-flight frames means more FPS but more VRAM.
 	# Default: 5
 	# Range: > 1
-	pooled_buffer_set_size = 5
+	pooled_buffer_set_size = 10
 	#Count of batches of RenderTypes that is allowed in a draw call.
 	#Changing this value may affects your FPS. Smaller value means less batches allowed in a draw call, while larger values means more batches. More batches means more FPS but more VRAM and more CPU pressure on handling RenderTypes.
 	# Default: 32
 	# Range: > 1
-	pooled_element_buffer_size = 32
+	pooled_element_buffer_size = 64
 	#Count of images that cached for static mesh culling.
 	#Changing this value may affects your FPS. Smaller value means less images allowed to be cached, while larger means more cached images. More cached images means more FPS but more RAM pressure.
 	# Default: 32
 	# Range: > 1
-	cached_image_size = 32
+	cached_image_size = 64
 	#- DISABLED: Debug context will be disabled, which may cause significant rendering glitches on some NVIDIA cards because of the "theaded optimization".
 	#- ENABLED: Debug context will be enabled, which can prevent NVIDIA driver from applying the "threaded optimization" that causes the glitches.
 	#Allowed Values: DISABLED, ENABLED
@@ -52,7 +52,7 @@
 	#- CLIENT: Cached mesh will be stored on the client side (CPU), which will use less VRAM but take more time to upload to the server side (GPU) during rendering.
 	#- SERVER: Cached mesh will be stored on the server side (GPU), which may speed up rendering but will use more VRAM to store the mesh.
 	#Allowed Values: SERVER, CLIENT
-	mesh_type = "CLIENT"
+	mesh_type = "SERVER"
 
 #Accelerated Item Rendering Settings
 #Accelerated Item Rendering uses GPU to cache and transform vertices while rendering item models, instead of generating and transforming vertices every time the item models are rendered in CPU.
@@ -72,7 +72,7 @@
 	#- CLIENT: Cached mesh will be stored on the client side (CPU), which will use less VRAM but take more time to upload to the server side (GPU) during rendering.
 	#- SERVER: Cached mesh will be stored on the server side (GPU), which may speed up rendering but will use more VRAM to store the mesh.
 	#Allowed Values: SERVER, CLIENT
-	mesh_type = "CLIENT"
+	mesh_type = "SERVER"
 
 #Accelerated Text Rendering Settings
 #Accelerated Text Rendering uses GPU to cache and transform vertices while rendering text through BakedGlyph, instead of generating and transforming vertices every time the text are rendered in CPU.
@@ -88,7 +88,7 @@
 	#- CLIENT: Cached mesh will be stored on the client side (CPU), which will use less VRAM but take more time to upload to the server side (GPU) during rendering.
 	#- SERVER: Cached mesh will be stored on the server side (GPU), which may speed up rendering but will use more VRAM to store the mesh.
 	#Allowed Values: SERVER, CLIENT
-	mesh_type = "CLIENT"
+	mesh_type = "SERVER"
 
 #Simple Orientation Face Culling Settings
 #Simple Orientation face culling uses an compute shader before the draw call to discard faces that is not visible on screen by checking if it is facing to the screen using a determinant of 3 * 3 matrix.

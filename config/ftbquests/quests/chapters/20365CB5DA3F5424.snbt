@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20365CB5DA3F5424"
+	group: "454429E101019D89"
+	icon: {
+		id: "immersiveengineering:hammer"
+	}
+	id: "20365CB5DA3F5424"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "36D8930D6C00C44C"
+		rewards: [{
+			id: "5B7904B6E706C399"
+			item: {
+				count: 1
+				id: "immersiveengineering:hammer"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			count: 27L
+			id: "1BD37DD34DFEC4A8"
+			item: { count: 27, id: "immersiveengineering:cokebrick" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

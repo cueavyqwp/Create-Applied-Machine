@@ -1,5 +1,5 @@
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 
 skip = (".gitignore", "export_config.txt",
         "README.md", "cover.py", "update.py", "pack-server.py")
@@ -13,7 +13,8 @@ if __name__ == "__main__":
     if os.path.isfile("1.21.1-Create.jar"):
         import subprocess
         print("改用本地打包方式")
-        os.mkdir("./dist")
+        if not os.path.isdir("./dist"):
+            os.mkdir("./dist")
         with zipfile.ZipFile(f"./dist/1.21.1-Create-{__version__}.zip", "w") as zf:
             for path in subprocess.run(("git", "ls-files"), capture_output=True, text=True, check=True).stdout.strip().split("\n"):
                 # 简化打包内容

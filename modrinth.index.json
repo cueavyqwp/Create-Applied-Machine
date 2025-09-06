@@ -1,7 +1,7 @@
 {
     "game": "minecraft",
     "formatVersion": 1,
-    "versionId": "0.0.2",
+    "versionId": "0.0.4",
     "name": "1.21.1-Create",
     "summary": "1.21.1-Create",
     "files": [
@@ -926,17 +926,17 @@
             "fileSize": 18599196
         },
         {
-            "path": "mods/[机械动力：中央厨房] create-central-kitchen-2.2.0.jar",
+            "path": "mods/[机械动力：中央厨房] create-central-kitchen-2.2.2.jar",
             "hashes": {
-                "sha1": "2f95517ac3fa38857ec06d41a015fb921b4db271",
-                "sha512": "1f1ae2b7d7362bda2b8cf5b0e2916d54d77a2815af4b9e690daf2b4e236b10d3ccdcd8daaf10c2359a51c601ac2b4479bbd0eb38ee0b4a002d1dd8ee71f1e6f4"
+                "sha1": "28389a9d745c9d6eb65794dcf6f139568eb9835b",
+                "sha512": "c832cc5ab6171e4a8df2e58eaf01fed9c709ead18df365d5aba7399072548757f3c13c1c584a8ce6b11b6c561c8d554efc1b615c9ee0bba7dfc68ef71e48ac95"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/btq68HMO/versions/j1pxIiKq/create-central-kitchen-2.2.0.jar",
-                "https://mediafilez.forgecdn.net/files/6961/56/create-central-kitchen-2.2.0.jar",
-                "https://edge.forgecdn.net/files/6961/56/create-central-kitchen-2.2.0.jar"
+                "https://cdn.modrinth.com/data/btq68HMO/versions/RzO4WcPO/create-central-kitchen-2.2.2.jar",
+                "https://mediafilez.forgecdn.net/files/6968/234/create-central-kitchen-2.2.2.jar",
+                "https://edge.forgecdn.net/files/6968/234/create-central-kitchen-2.2.2.jar"
             ],
-            "fileSize": 325580
+            "fileSize": 326570
         },
         {
             "path": "mods/[机械动力：伪装方块+] copycats-3.0.2+mc.1.21.1-neoforge.jar",
@@ -978,17 +978,17 @@
             "fileSize": 312983
         },
         {
-            "path": "mods/[机械动力：龙+] create-dragons-plus-1.7.0.jar",
+            "path": "mods/[机械动力：龙+] create-dragons-plus-1.7.1b.jar",
             "hashes": {
-                "sha1": "2d65fe9224965ba219b535b2b75e0eda6809fdf0",
-                "sha512": "7aa06bf665782cd1b3139b65a5231646ace5ceae3cdfa656cee6ab52ec030d46bc53cf5d39cdb1850c98713e442c0fb126e9c3d375e2b9b28b775923896b2a13"
+                "sha1": "1a7627f630106adffbf52de2104c72d1ef7b0992",
+                "sha512": "61fc7cab82b61ab29c8800b7a16763a1e68d83f6bff005f5cb03deea7c6f2515e919add7fcc4765c8c8a9875bae71ac7079270ddeada71dc51c62527f7103a00"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/dzb1a5WV/versions/F7VSvV1i/create-dragons-plus-1.7.0.jar",
-                "https://mediafilez.forgecdn.net/files/6946/959/create-dragons-plus-1.7.0.jar",
-                "https://edge.forgecdn.net/files/6946/959/create-dragons-plus-1.7.0.jar"
+                "https://cdn.modrinth.com/data/dzb1a5WV/versions/89YYM1kc/create-dragons-plus-1.7.1b.jar",
+                "https://mediafilez.forgecdn.net/files/6968/227/create-dragons-plus-1.7.1b.jar",
+                "https://edge.forgecdn.net/files/6968/227/create-dragons-plus-1.7.1b.jar"
             ],
-            "fileSize": 628523
+            "fileSize": 628425
         },
         {
             "path": "mods/[森罗物语：烹饪] kaleidoscopecookery-1.0.1-neoforge+mc1.21.1.jar",
@@ -1668,16 +1668,16 @@
             "fileSize": 431010
         },
         {
-            "path": "mods/[储物抽屉] StorageDrawers-neoforge-1.21.1-13.11.2.jar",
+            "path": "mods/[储物抽屉] StorageDrawers-neoforge-1.21.1-13.11.3.jar",
             "hashes": {
-                "sha1": "c8d3548255565be2b10fac258537a3c1e85a45a3",
-                "sha512": "ee94329385f454f6c6c2004b50fa03d0563b4d13b4be207cf30e30a56323a9669a5d3c338242aeaef3f2a8e756c4f1ef4e74c924c4ef9100a638ec45b6536f59"
+                "sha1": "225dda6047636362fcc089982ffb1008075d6bce",
+                "sha512": "e51b02b78bcebbae4e49777e3af6ec91c5fe527f2bf10a43a4e8ebc41aafbb191abf7771dcbddca7aaa67fe77e824fd84360211789613000ff55953c0faee5b3"
             },
             "downloads": [
-                "https://mediafilez.forgecdn.net/files/6961/730/StorageDrawers-neoforge-1.21.1-13.11.2.jar",
-                "https://edge.forgecdn.net/files/6961/730/StorageDrawers-neoforge-1.21.1-13.11.2.jar"
+                "https://mediafilez.forgecdn.net/files/6967/730/StorageDrawers-neoforge-1.21.1-13.11.3.jar",
+                "https://edge.forgecdn.net/files/6967/730/StorageDrawers-neoforge-1.21.1-13.11.3.jar"
             ],
-            "fileSize": 1127933
+            "fileSize": 1128069
         },
         {
             "path": "mods/[傻瓜烹饪／懒人厨房] cookingforblockheads-neoforge-1.21.1-21.1.16.jar",
@@ -1716,16 +1716,16 @@
             "fileSize": 432450
         },
         {
-            "path": "mods/[女仆仓管] 1.21.1-maid_storage_manager-1.13.0.jar",
+            "path": "mods/[女仆仓管] 1.21.1-maid_storage_manager-1.13.1.jar",
             "hashes": {
-                "sha1": "7f4dce34acaf79897a6fc11ccafc15642ef8932d",
-                "sha512": "5e383a2e161d9acd9f9f4d1ac5fd5f6e7c6f9d27bed64b37f3d7ba74165deef037ee582fbeba5a88bc41384bed8886aa5047acb5de20a3313d1aca546425d393"
+                "sha1": "2c5a79ae4e8ee356613b19b5f1dc752590158978",
+                "sha512": "48f80ca3337003288b7611e6682792614ee6008b0891b992843bf8f8ac38b7dc02e19667c97425c455a026a000a812a0f4e40d1fc6ec9998c50df98ca6d7e4e6"
             },
             "downloads": [
-                "https://mediafilez.forgecdn.net/files/6962/299/1.21.1-maid_storage_manager-1.13.0.jar",
-                "https://edge.forgecdn.net/files/6962/299/1.21.1-maid_storage_manager-1.13.0.jar"
+                "https://mediafilez.forgecdn.net/files/6966/431/1.21.1-maid_storage_manager-1.13.1.jar",
+                "https://edge.forgecdn.net/files/6966/431/1.21.1-maid_storage_manager-1.13.1.jar"
             ],
-            "fileSize": 2239320
+            "fileSize": 2258453
         },
         {
             "path": "mods/[女仆实用任务] 1.21.1-maid_useful_task-1.3.6-fix.jar",
@@ -1932,18 +1932,6 @@
             "fileSize": 44799
         },
         {
-            "path": "mods/[资源包惰性重载／抑验怠载] 0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
-            "hashes": {
-                "sha1": "9654ef43899b5f1e18defdd1eaffc5062e48f39b",
-                "sha512": "48f6da0b521827acab6bf6b443650de2173173fec26cb5c7d7b4cd78aa44cfc4bdef6c41f656443195f466779303ac536b45b3824feb145cc335060ee5bcf925"
-            },
-            "downloads": [
-                "https://mediafilez.forgecdn.net/files/6786/683/0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
-                "https://edge.forgecdn.net/files/6786/683/0Pack2Reload-NeoForge-1.21.1-1.0.1.jar"
-            ],
-            "fileSize": 5561
-        },
-        {
             "path": "mods/[连锁破坏] ftb-ultimine-neoforge-2101.1.9.jar",
             "hashes": {
                 "sha1": "72253077abc87162987fd2c724a143a7da9bb15f",
@@ -2000,6 +1988,28 @@
                 "https://cdn.modrinth.com/data/Q1vvjJYV/versions/jRn8y2VF/BSL_v10.0.zip"
             ],
             "fileSize": 1121678
+        },
+        {
+            "path": "resourcepacks/3D-Default.zip",
+            "hashes": {
+                "sha1": "94af4e0f831dcf2ca84f2dd92919da6a04da4bb6",
+                "sha512": "24834da3945db195bfc57932fde4a22a062d14718bda3eece666778e02b1c6b0200edf3c9a25f4ae2760fccc7db7bfd498dc3479a3f7a330b33867fd5ac6fe8f"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/5aPp18Lx/versions/QkY0fhSG/3D%20Default%201.20%2B%20v1.12.0.zip"
+            ],
+            "fileSize": 856491
+        },
+        {
+            "path": "resourcepacks/Borderless-Glass.zip",
+            "hashes": {
+                "sha1": "0e64157157dd39936164f7f201284e306f6a59d4",
+                "sha512": "6d433c65233ee5fb7b38b9eef33f10d448f0397238cbf7e28383d1566992a9cf83584cffed0338b535863388a12cf87d32e0b3e60f9431e596e14896ab0a7717"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/1Ja8Sg6j/versions/AaBDFaRI/Borderless%2BGlass%2Bv1.0%28mc-1.21%29.zip"
+            ],
+            "fileSize": 20766
         }
     ],
     "dependencies": {

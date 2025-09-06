@@ -30,7 +30,6 @@ skip = (
     "toastcontrol",
     "modernui",
     "realcamera",
-    "0pack2reload",
     "configured",
     "sodiumdynamiclights"
 )
@@ -69,7 +68,7 @@ for name in os.listdir("mods"):
 for root, _, files in os.walk("config"):
     for file in files:
         path = os.path.join(root, file)
-        if "client" in file or ".bak" in file or ".md" in file or "iris" in file or "jech" in file or "catalogue" in file or "cache" in path or "jei" in path or "jade" in path or "NoChatReports" in path:
+        if "client" in file or ".bak" in file or ".md" in file or "iris" in file or "emi" in file or "entityculling" in file or "colorfulhearts" in file or "realcamera" in file or "jech" in file or "catalogue" in file or "cache" in path or "jei" in path or "jade" in path or "NoChatReports" in path or "touhou_little_maid" in path or "ModernUI" in path:
             continue
         print(f"配置: {path}")
         target.append(path)
@@ -77,7 +76,7 @@ for root, _, files in os.walk("config"):
 for root, _, files in os.walk("kubejs"):
     for file in files:
         path = os.path.join(root, file)
-        if "documentation" in path or "README" in path or "client_scripts" in path or ("startup_scripts" in path and file == "tacz.js"):
+        if "documentation" in path or "README" in path or "client" in path or ("startup_scripts" in path and file == "tacz.js"):
             continue
         print(f"魔改: {path}")
         target.append(path)
@@ -86,6 +85,12 @@ for file in os.listdir("tacz"):
     path = os.path.join("tacz", file)
     if os.path.isfile(path) and os.path.splitext(file)[-1] == ".zip":
         print(f"枪包: {file}")
+        target.append(path)
+
+for file in os.listdir("tlm_custom_pack"):
+    path = os.path.join("tlm_custom_pack", file)
+    if os.path.isfile(path) and os.path.splitext(file)[-1] == ".zip":
+        print(f"女仆: {file}")
         target.append(path)
 
 print("导出至dist文件夹")

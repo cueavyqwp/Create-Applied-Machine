@@ -3,12 +3,15 @@
 	chapter.0FB2CF453F9ADC27.title: "TaCZ"
 	chapter.149E5ABEA2D3799B.title: "探索"
 	chapter.1CD79A6EF2D52F12.title: "通用机械"
+	chapter.20365CB5DA3F5424.title: "沉浸工程"
 	chapter.2C856BE2A85BD4AA.title: "起点"
 	chapter.4235E3FA2C702FA3.title: "集成动力"
+	chapter.4A260219D60432D4.title: "物流"
 	chapter.58C3F4AF645E3310.title: "机械动力"
 	chapter.601D2E67C615782F.title: "应用能源2"
 	chapter_group.0B98FCF3ECEE2730.title: "冒险"
 	chapter_group.0E073CD52BFD9662.title: "杂项"
+	chapter_group.17F4030327181C9D.title: "实用物件"
 	chapter_group.454429E101019D89.title: "科技"
 	quest.010DE5A14EE35401.quest_desc: [
 		"对地面右键初始送的魂符可以召唤女仆"
@@ -50,6 +53,7 @@
 		"然后输入/ysm model reload 来重载模型"
 	]
 	quest.301651ACF747D03A.quest_subtitle: "水车仙人"
+	quest.36D8930D6C00C44C.title: "焦炉"
 	quest.3B95FBF7E2B4B245.quest_desc: [
 		"通过上方踩来压"
 		"输入红石信号重置"
