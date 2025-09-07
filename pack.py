@@ -1,8 +1,14 @@
 
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 
-skip = (".gitignore", "export_config.txt",
-        "README.md", "cover.py", "update.py", "pack-server.py")
+skip = (
+    ".gitignore",
+    "export_config.txt",
+    "README.md",
+    "cover.py",
+    "update.py",
+    "pack-server.py"
+)
 
 if __name__ == "__main__":
     import zipfile
@@ -22,6 +28,7 @@ if __name__ == "__main__":
                     continue
                 zf.write(path, None if path == "modrinth.index.json" else os.path.join(
                     "overrides", path))
+        print(f"完成!\n已保存至: ./dist/1.21.1-Create-{__version__}.zip")
     else:
         import pathlib
         import shutil

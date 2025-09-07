@@ -34,6 +34,18 @@ skip = (
     "sodiumdynamiclights"
 )
 
+config = (
+    "constructionstick-server",
+    "cookingforblockheads-common",
+    "create-server",
+    "fml",
+    "ftbchunks-world",
+    "ftbultimine-server",
+    "integrateddynamics-common",
+    "modernfix-mixins",
+    "twilightforest-common"
+)
+
 os.chdir(os.path.dirname(__file__))
 
 target = []
@@ -68,7 +80,9 @@ for name in os.listdir("mods"):
 for root, _, files in os.walk("config"):
     for file in files:
         path = os.path.join(root, file)
-        if "client" in file or ".bak" in file or ".md" in file or "iris" in file or "emi" in file or "entityculling" in file or "colorfulhearts" in file or "realcamera" in file or "jech" in file or "catalogue" in file or "cache" in path or "jei" in path or "jade" in path or "NoChatReports" in path or "touhou_little_maid" in path or "ModernUI" in path:
+        if "ftbquests" in path or ("yes_steve_model" in path and "custom" in path):
+            pass
+        elif "client" in path or ".bak" in path or any(False if file in item else True for item in config):
             continue
         print(f"配置: {path}")
         target.append(path)
@@ -87,14 +101,8 @@ for file in os.listdir("tacz"):
         print(f"枪包: {file}")
         target.append(path)
 
-for file in os.listdir("tlm_custom_pack"):
-    path = os.path.join("tlm_custom_pack", file)
-    if os.path.isfile(path) and os.path.splitext(file)[-1] == ".zip":
-        print(f"女仆: {file}")
-        target.append(path)
-
 print("导出至dist文件夹")
 with zipfile.ZipFile(f"./dist/1.21.1-Create-server-{__version__}.zip", "w") as zf:
     for path in target:
         zf.write(path)
-print("完成!")
+print(f"完成!\n已保存至: ./dist/1.21.1-Create-server-{__version__}.zip")
