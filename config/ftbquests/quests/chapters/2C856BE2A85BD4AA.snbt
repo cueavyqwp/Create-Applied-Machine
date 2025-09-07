@@ -35,14 +35,6 @@
 					type: "item"
 				}
 				{
-					id: "233E294F382400A2"
-					item: {
-						count: 1
-						id: "minecraft:crafting_table"
-					}
-					type: "item"
-				}
-				{
 					id: "568409B347518A12"
 					item: {
 						count: 1
@@ -68,14 +60,7 @@
 					type: "item"
 				}
 				{
-					id: "0798D03C2E312622"
-					item: {
-						count: 1
-						id: "tiab:time_in_a_bottle"
-					}
-					type: "item"
-				}
-				{
+					auto: "enabled"
 					command: "/gamerule playersSleepingPercentage 0"
 					icon: {
 						id: "minecraft:white_bed"
@@ -120,22 +105,6 @@
 			id: "12242BAD022DA69A"
 			rewards: [
 				{
-					id: "0F018B8EDE19C363"
-					item: {
-						count: 1
-						id: "create:wrench"
-					}
-					type: "item"
-				}
-				{
-					id: "1928218B23973969"
-					item: {
-						count: 1
-						id: "create:goggles"
-					}
-					type: "item"
-				}
-				{
 					count: 64
 					id: "2463738E37EA755F"
 					item: {
@@ -157,45 +126,8 @@
 				id: "3A90F1633E09C940"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 5.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["5DE9E122BB3FAD73"]
-			id: "4D46DD4A068F51FA"
-			optional: true
-			rewards: [{
-				auto: "enabled"
-				command: "/gamerule keepInventory false"
-				id: "26552FD7C76BBC90"
-				type: "command"
-			}]
-			tasks: [{
-				id: "1CD549192916AFD5"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4D46DD4A068F51FA"]
-			hide_until_deps_complete: true
-			id: "6738667BCDE99166"
-			optional: true
-			progression_mode: "linear"
-			rewards: [{
-				auto: "enabled"
-				command: "/gamerule keepInventory true"
-				id: "6F5EACED5E036B5C"
-				type: "command"
-			}]
-			tasks: [{
-				id: "592718E9CB9ADA4E"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 3.0d
 		}
 		{
 			id: "02FE4016F976BE6E"
@@ -203,8 +135,8 @@
 				id: "78B3D0A3F7A61B56"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			id: "431BBB1CDFFD72A7"
@@ -220,10 +152,11 @@
 				id: "5F8CEE7BB9A5FF2E"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["50E8AC505EFDE3D8"]
 			id: "010DE5A14EE35401"
 			rewards: [
 				{
@@ -282,16 +215,17 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["50E8AC505EFDE3D8"]
 			id: "2FF40BDDE9445E4B"
 			tasks: [{
 				id: "272C9D9C48515713"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true

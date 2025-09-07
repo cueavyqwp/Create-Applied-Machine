@@ -30,7 +30,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4BBE78258D628869"]
 			id: "59EC2C6969F129AE"
 			rewards: [{
 				count: 16
@@ -50,7 +49,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["59EC2C6969F129AE"]
 			id: "15CD16923E8EF236"
 			rewards: [
 				{

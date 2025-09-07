@@ -45,7 +45,7 @@
 			rewards: [{
 				id: "260ACF0F006E0BA0"
 				type: "xp_levels"
-				xp_levels: 30
+				xp_levels: 10
 			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -55,6 +55,37 @@
 			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			id: "5D282D4073E5B971"
+			rewards: [
+				{
+					id: "4E31FE839DFB1710"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "5219D649FFA65268"
+					item: {
+						count: 1
+						id: "twilightforest:magic_map"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: {
+					id: "twilightforest:magic_map_focus"
+				}
+				id: "0E4DA91E31CF5AD4"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 }

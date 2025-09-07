@@ -6,12 +6,11 @@
 	chapter.20365CB5DA3F5424.title: "沉浸工程"
 	chapter.2C856BE2A85BD4AA.title: "起点"
 	chapter.4235E3FA2C702FA3.title: "集成动力"
-	chapter.4A260219D60432D4.title: "物流"
 	chapter.58C3F4AF645E3310.title: "机械动力"
 	chapter.601D2E67C615782F.title: "应用能源2"
+	chapter.604B3951A08F8163.title: "实用物件"
 	chapter_group.0B98FCF3ECEE2730.title: "冒险"
 	chapter_group.0E073CD52BFD9662.title: "杂项"
-	chapter_group.17F4030327181C9D.title: "实用物件"
 	chapter_group.454429E101019D89.title: "科技"
 	quest.010DE5A14EE35401.quest_desc: [
 		"对地面右键初始送的魂符可以召唤女仆"
@@ -20,8 +19,6 @@
 		"你可以空手蹲下右键女仆来公主抱"
 	]
 	quest.010DE5A14EE35401.quest_subtitle: "快给我炒俩菜去("
-	quest.023A9F693CF1C527.quest_subtitle: "完结撒花"
-	quest.023A9F693CF1C527.title: "完结"
 	quest.02FE4016F976BE6E.quest_desc: [
 		"FTB Backups 每隔一段时间会自动备份"
 		"间隔时间可在配置文件中调整"
@@ -43,9 +40,13 @@
 		"所以采取了个折中的方式(虽然部分枪的材料过多导致无法制造)"
 	]
 	quest.06A482961A0386E8.title: "奇怪的组合"
+	quest.0BF48A1262EA228A.quest_subtitle: "水槽和它的附属厨房"
 	quest.0EC79B000B04FFF1.title: "无限夜视"
 	quest.12242BAD022DA69A.quest_subtitle: "游戏开始!"
 	quest.15CD16923E8EF236.quest_subtitle: "不会吧,不会吧,不会有人不富集就直接灌注了吧"
+	quest.24B21BB3A74C23CC.quest_desc: ["你知道吗,只要一边转就能用了"]
+	quest.24B21BB3A74C23CC.quest_subtitle: "别把自己粉碎了"
+	quest.2EC3B98C94D927E4.quest_subtitle: "超频!"
 	quest.2FF40BDDE9445E4B.quest_desc: [
 		"你可以通过Alt+Y来选择模型"
 		"模型文件夹在[版本文件夹]\\config\\yes_steve_model\\custom"
@@ -69,6 +70,7 @@
 		"或者直接在电池槽里塞红石供电(真Redstone Flux)"
 	]
 	quest.4BBE78258D628869.quest_subtitle: "不清洁能源"
+	quest.4E8712465D9E4BF8.quest_subtitle: "耐摔"
 	quest.50E8AC505EFDE3D8.quest_desc: [
 		"本整合包包含了:车万女仆,  是,史蒂夫模型 以及 网络音乐机 来丰富游戏体验"
 		"感谢酒石酸菌以及其他作者们的努力"
@@ -78,8 +80,10 @@
 	quest.529763941D578A3C.title: "初入世界"
 	quest.5452FBDAA29F0087.quest_subtitle: "大人,时代变了"
 	quest.568983BADFA07419.quest_subtitle: "大人,时代变了"
+	quest.58683078F4BD6218.quest_subtitle: "手摇发电"
 	quest.59EC2C6969F129AE.quest_desc: ["你的第一台机器"]
 	quest.59EC2C6969F129AE.quest_subtitle: "万恶之源"
+	quest.5D282D4073E5B971.title: "暮色森林"
 	quest.5DE9E122BB3FAD73.quest_desc: [
 		"&l&4请务必启用允许命令,以免部分任务出错&r&r"
 		"本整合包是一个少量魔改,以科技模组为主的整合包"
@@ -90,17 +94,17 @@
 		"任务书会大致介绍每个模组"
 	]
 	quest.5DE9E122BB3FAD73.quest_subtitle: "关于此整合包"
-	quest.6738667BCDE99166.quest_subtitle: "你为什么又来开死亡不掉落呢?"
+	quest.6AF416C1059794E9.quest_subtitle: "氢动力"
 	quest.6B7FA9A8BE9BC9AA.quest_desc: ["虽然铁砧工艺使得金属压力板也能当金属板来用,使得你可以提前制作鼓风机("]
 	quest.6B7FA9A8BE9BC9AA.quest_subtitle: "你的第一台机器"
 	reward.3B7E6B559CBBC4FC.title: "死亡不掉落"
+	reward.60FEF98182B5218B.title: "修改入睡比例"
 	task.1CD549192916AFD5.title: "关闭死亡不掉落"
 	task.26C346ED442D5503.title: "车万女仆"
 	task.272C9D9C48515713.title: "是, 史蒂夫模型"
 	task.3A90F1633E09C940.title: "开始吧!"
 	task.3F83E31AB0EFC196.title: "去TMD频道限制"
 	task.400541A1A81FD27E.title: "关于整合包"
-	task.507E0DB1369A9459.title: "到达终焉高原"
 	task.54F32AB198EB1EF9.title: "伟大,无需多言"
 	task.592718E9CB9ADA4E.title: "开启死亡不掉落"
 	task.5F8CEE7BB9A5FF2E.title: "光影"

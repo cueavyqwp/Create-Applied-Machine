@@ -13,7 +13,7 @@
 		{
 			id: "6B7FA9A8BE9BC9AA"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "1E0CD45A551BBB2E"
 				item: {
 					count: 1
@@ -31,42 +31,60 @@
 		}
 		{
 			id: "301651ACF747D03A"
-			rewards: [
-				{
-					count: 64
-					id: "62CBCB44B0860581"
-					item: {
-						count: 1
-						id: "create:cogwheel"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "128AB65537C72D25"
-					item: {
-						count: 1
-						id: "create:large_cogwheel"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "6A90117D336215BB"
-					item: {
-						count: 1
-						id: "create:shaft"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "00C7F7BEDF3938E2"
 				item: { count: 1, id: "create:large_water_wheel" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "4E45FC6F9565B676"
+			rewards: [{
+				id: "6826CF84D062E60A"
+				item: {
+					count: 1
+					id: "create:basin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F46501D56DD4AEA"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "24B21BB3A74C23CC"
+			tasks: [{
+				id: "6EA17D855DF89C12"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "2569C58D54BD2247"
+			rewards: [{
+				count: 32
+				id: "14230E1F17CF8803"
+				item: {
+					count: 1
+					id: "create:white_sail"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F3B6D2B8522A84"
+				item: { count: 1, id: "create:windmill_bearing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 }

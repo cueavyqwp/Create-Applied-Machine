@@ -9,23 +9,53 @@
 	id: "601D2E67C615782F"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "ae2:fluix_glass_cable"
+	quests: [
+		{
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			id: "43C54F2F2C9559F2"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/ae2 channelmode infinite"
+				id: "77BE0CCE67B8C30F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3F83E31AB0EFC196"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
-		id: "43C54F2F2C9559F2"
-		optional: true
-		rewards: [{
-			auto: "enabled"
-			command: "/ae2 channelmode infinite"
-			id: "77BE0CCE67B8C30F"
-			type: "command"
-		}]
-		tasks: [{
-			id: "3F83E31AB0EFC196"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+		{
+			id: "58683078F4BD6218"
+			rewards: [{
+				id: "14DADEF899FFDC26"
+				item: {
+					count: 1
+					id: "ae2:crank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7313874081BA3BDC"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "696A9C44E90A5951"
+			tasks: [{
+				id: "42474361021B42BF"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 }

@@ -1,0 +1,13 @@
+{
+    "game": "minecraft",
+    "formatVersion": 1,
+    "versionId": "0.0.5",
+    "name": "1.21.1-Create",
+    "summary": "1.21.1-Create",
+    "files": [
+    ],
+    "dependencies": {
+        "minecraft": "1.21.1",
+        "neoforge": "21.1.207"
+    }
+}
