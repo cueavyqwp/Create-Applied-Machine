@@ -1,11 +1,4 @@
 ServerEvents.recipes(event => {
-    // 曲柄之间互换
-    event.shapeless("create:hand_crank", ["ae2:crank"]).id("kjs/crank/0")
-    event.shapeless("create:hand_crank", ["supplementaries:crank"]).id("kjs/crank/1")
-    event.shapeless("ae2:crank", ["create:hand_crank"]).id("kjs/crank/2")
-    event.shapeless("ae2:crank", ["supplementaries:crank"]).id("kjs/crank/3")
-    event.shapeless("supplementaries:crank", ["ae2:crank"]).id("kjs/crank/4")
-    event.shapeless("supplementaries:crank", ["create:hand_crank"]).id("kjs/crank/5")
     // 书
     event.shapeless("minecraft:book", ["#minecraft:bookshelf_books"]).id("kjs/book/0")
     event.shapeless("minecraft:book", ['patchouli:guide_book[patchouli:book="touhou_little_maid:memorizable_gensokyo"]']).id("kjs/book/1")

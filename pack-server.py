@@ -12,6 +12,7 @@ need = (
     "rhino",
     "jupiter",
     "yungsapi",
+    "megacells",
     "patchouli"
 )
 
@@ -19,7 +20,6 @@ skip = (
     "colorwheel",
     "extremeSoundmuffler",
     "fullbrightnesstoggle",
-    "probejs",
     "searchables",
     "skinlayers3d",
     "kubejsoffline",
@@ -43,7 +43,8 @@ config = (
     "ftbultimine-server",
     "integrateddynamics-common",
     "modernfix-mixins",
-    "twilightforest-common"
+    "twilightforest-common",
+    "solcarrot-server"
 )
 
 os.chdir(os.path.dirname(__file__))
@@ -80,9 +81,9 @@ for name in os.listdir("mods"):
 for root, _, files in os.walk("config"):
     for file in files:
         path = os.path.join(root, file)
-        if "ftbquests" in path or ("yes_steve_model" in path and "custom" in path):
+        if "ftbquests" in path or ("yes_steve_model" in path and "custom" in path and (".ysm" in file or ".zip" in file)):
             pass
-        elif "client" in path or ".bak" in path or any(False if file in item else True for item in config):
+        elif "client" in path or ".bak" in path or all(False if item in file else True for item in config):
             continue
         print(f"配置: {path}")
         target.append(path)
@@ -90,7 +91,7 @@ for root, _, files in os.walk("config"):
 for root, _, files in os.walk("kubejs"):
     for file in files:
         path = os.path.join(root, file)
-        if "documentation" in path or "README" in path or "client" in path or ("startup_scripts" in path and file == "tacz.js"):
+        if "documentation" in path or "README" in path or "client" in path:
             continue
         print(f"魔改: {path}")
         target.append(path)
@@ -102,7 +103,7 @@ for file in os.listdir("tacz"):
         target.append(path)
 
 print("导出至dist文件夹")
-with zipfile.ZipFile(f"./dist/1.21.1-Create-server-{__version__}.zip", "w") as zf:
+with zipfile.ZipFile(f"./dist/Create-Applied-Machine-server-{__version__}.zip", "w") as zf:
     for path in target:
         zf.write(path)
-print(f"完成!\n已保存至: ./dist/1.21.1-Create-server-{__version__}.zip")
+print(f"完成!\n已保存至: ./dist/Create-Applied-Machine-server-{__version__}.zip")

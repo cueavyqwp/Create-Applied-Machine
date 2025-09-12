@@ -1,5 +1,6 @@
 <div align = "center" >
-    <h1>Create: Applied Machine</h1>
+    <h1>机械动力: 应用机器</h1>
+    <i>Create: Applied Machine</i>
     <hr>
 </div>
 
@@ -21,11 +22,11 @@
 
 ### 下载源码
 
-点击[这里](https://github.com/cueavyqwp/1.21.1-Create/archive/refs/heads/main.zip)下载
+点击[这里](https://github.com/cueavyqwp/Create-Applied-Machine/archive/refs/heads/main.zip)下载
 
 ### 安装游戏
 
-安装一个`1.21.1`版本的`NeoForge`客户端,命名为`1.21.1-Create`
+安装一个`1.21.1`版本的`NeoForge`客户端,命名为`Create-Applied-Machine`
 
 ### 覆盖文件
 

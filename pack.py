@@ -16,19 +16,19 @@ if __name__ == "__main__":
 
     os.chdir(os.path.dirname(__file__))
 
-    if os.path.isfile("1.21.1-Create.jar"):
+    if os.path.isfile("Create-Applied-Machine.jar"):
         import subprocess
         print("改用本地打包方式")
         if not os.path.isdir("./dist"):
             os.mkdir("./dist")
-        with zipfile.ZipFile(f"./dist/1.21.1-Create-{__version__}.zip", "w") as zf:
+        with zipfile.ZipFile(f"./dist/Create-Applied-Machine-{__version__}.zip", "w") as zf:
             for path in subprocess.run(("git", "ls-files"), capture_output=True, text=True, check=True).stdout.strip().split("\n"):
                 # 简化打包内容
                 if ".github" in path or ".gitignore" in path or "LICENSE" in path or ".md" in path in path or ".py" in path or "export_config.txt" in path:
                     continue
                 zf.write(path, None if path == "modrinth.index.json" else os.path.join(
                     "overrides", path))
-        print(f"完成!\n已保存至: ./dist/1.21.1-Create-{__version__}.zip")
+        print(f"完成!\n已保存至: ./dist/Create-Applied-Machine-{__version__}.zip")
     else:
         import pathlib
         import shutil

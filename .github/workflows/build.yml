@@ -24,12 +24,12 @@ jobs:
           VERSION=$(python -c "print(__import__('pack').__version__)")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           mkdir ./dist
-          zip -r ./dist/1.21.1-Create-$VERSION.zip ./output/*
+          zip -r ./dist/Create-Applied-Machine-$VERSION.zip ./output/*
 
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
-          name: 1.21.1-Create-${{ env.VERSION }}
+          name: Create-Applied-Machine-${{ env.VERSION }}
           path: ./output
 
       - name: Create GitHub Release
