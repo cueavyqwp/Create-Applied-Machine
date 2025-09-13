@@ -24,8 +24,8 @@ jobs:
           VERSION=$(python -c "print(__import__('pack').__version__)")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           mkdir ./dist
-          cd ./dist
-          zip -r ../Create-Applied-Machine-$VERSION.zip ./*
+          cd ./output
+          zip -r ../dist/Create-Applied-Machine-$VERSION.zip ./*
 
       - name: Upload
         uses: actions/upload-artifact@v4
