@@ -10,8 +10,9 @@
 !/CHANGELOG.md
 !/export_config.txt
 
-!/tacz/**
-/tacz/tacz_default_gun
+!/tacz/*.zip
+!/tacz/cover.py
+!/tacz/README.md
 
 !/kubejs/**
 /kubejs/README.txt
@@ -21,6 +22,7 @@
 !config/ftbquests/**
 
 !config/immersiveengineering-client.toml
+!config/immersiveengineering-server.toml
 !config/acceleratedrendering-client.toml
 !config/cookingforblockheads-common.toml
 !config/integrateddynamics-common.toml
@@ -39,7 +41,12 @@
 !config/ftbchunks-client.snbt
 !config/ftbquests-client.snbt
 !config/solcarrot-server.toml
+!config/curios-common.toml
+!config/create-client.toml
 !config/create-server.toml
+!config/rolling_gate.json
+!config/xnet-server.toml
+!config/xnetgases.toml
 !config/fml.toml
 !config/emi.css
 

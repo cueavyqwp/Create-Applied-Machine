@@ -1,7 +1,7 @@
 {
     "game": "minecraft",
     "formatVersion": 1,
-    "versionId": "0.0.5",
+    "versionId": "0.0.6",
     "name": "Create: Applied Machine",
     "summary": "机械动力: 应用机器",
     "files": [
@@ -227,19 +227,6 @@
             "fileSize": 264658
         },
         {
-            "path": "mods/fullbrightnesstoggle-1.21.1-4.3.jar",
-            "hashes": {
-                "sha1": "b7cb0e8a148dbbebe4546a5c7024191675602fb8",
-                "sha512": "a8110ab697a2f800d8068e21a51c5dbc7141bb3577b3b28c53d6b492ff1598eefc432d2c3c5051ce96748af031c802b23f5473d238ede3bb29adb5bb62a73b22"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/aEK1KhsC/versions/2BjVBEDx/fullbrightnesstoggle-1.21.1-4.3.jar",
-                "https://mediafilez.forgecdn.net/files/6185/953/fullbrightnesstoggle-1.21.1-4.3.jar",
-                "https://edge.forgecdn.net/files/6185/953/fullbrightnesstoggle-1.21.1-4.3.jar"
-            ],
-            "fileSize": 39681
-        },
-        {
             "path": "mods/geckolib-neoforge-1.21.1-4.7.7.jar",
             "hashes": {
                 "sha1": "36883f8ea9117932bb5f2643a29578c6506e2339",
@@ -303,6 +290,19 @@
                 "https://edge.forgecdn.net/files/6131/911/Immersive-Energistics-1.1.0-beta.jar"
             ],
             "fileSize": 40560
+        },
+        {
+            "path": "mods/ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
+            "hashes": {
+                "sha1": "5e9dda03c6142400b95dc3114675e07c943d554d",
+                "sha512": "bff82f778fc42a88a4b5d98759498ad85f086b23527e51f5c4c717a2fe9d1bcfa583f38ae12ff2d4403580c734cdfcef2daedbe19cb470bdea203f0595a687a7"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/9wv7LuMc/versions/wtmSnIFo/ImmersiveUI-NEOFORGE-0.3.3%2B1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/6886/575/ImmersiveUI-NEOFORGE-0.3.3%2b1.21.1.jar",
+                "https://edge.forgecdn.net/files/6886/575/ImmersiveUI-NEOFORGE-0.3.3%2b1.21.1.jar"
+            ],
+            "fileSize": 217081
         },
         {
             "path": "mods/iris-neoforge-1.8.12+mc1.21.1.jar",
@@ -939,6 +939,19 @@
             "fileSize": 842009
         },
         {
+            "path": "mods/[更好的Tab] BetterTab-neoforge-1.21.1-1.0.0+build.11.jar",
+            "hashes": {
+                "sha1": "9d8396264e0f99db6c33e7ec6a5d4f5d72d0fa94",
+                "sha512": "a008268b3f116e8901a730072fb48eda6706c24441c679b479c397524e864fcaaf6e1ed622c64442e29d0407bd0e563a12713692e82ce4a3065895cd621ecbac"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/woulhAPh/versions/VVw4TROM/BetterTab-neoforge-1.21.1-1.0.0%2Bbuild.11.jar",
+                "https://mediafilez.forgecdn.net/files/6459/817/BetterTab-neoforge-1.21.1-1.0.0%2bbuild.11.jar",
+                "https://edge.forgecdn.net/files/6459/817/BetterTab-neoforge-1.21.1-1.0.0%2bbuild.11.jar"
+            ],
+            "fileSize": 338633
+        },
+        {
             "path": "mods/[更好的进度] BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
             "hashes": {
                 "sha1": "870521cfaa1a4cb6c830e2409e8b9e4cf179aff2",
@@ -1067,30 +1080,30 @@
             "fileSize": 472555
         },
         {
-            "path": "mods/[机械动力：集成农业] create-integrated-farming-1.1.0.jar",
+            "path": "mods/[机械动力：集成农业] create-integrated-farming-1.1.1.jar",
             "hashes": {
-                "sha1": "e714814db7bdcf1791f816c0f5ac933e38d347ef",
-                "sha512": "5d0be8e8d80b120b5314da343ec477fe317a4b736db5f1a9941186e8cba87925386e959d0516f73df3a269e1bbf44a191a52136641b9df5ee69d75a649ba3178"
+                "sha1": "4a03486350e2c6ea8f3dc8bb2aee2b95a5c9cec3",
+                "sha512": "97a378800610e7f068ae2d458781d2ccf02af9d212be7a60f120bce3435c862dd1bbe4be0cdd107e6ed5ff0f206e53161ef36470163d8776860f67c9ee3ea8e6"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/9k1pAsfR/versions/qui5reGn/create-integrated-farming-1.1.0.jar",
-                "https://mediafilez.forgecdn.net/files/6963/63/create-integrated-farming-1.1.0.jar",
-                "https://edge.forgecdn.net/files/6963/63/create-integrated-farming-1.1.0.jar"
+                "https://cdn.modrinth.com/data/9k1pAsfR/versions/bAXRBciL/create-integrated-farming-1.1.1.jar",
+                "https://mediafilez.forgecdn.net/files/6991/3/create-integrated-farming-1.1.1.jar",
+                "https://edge.forgecdn.net/files/6991/3/create-integrated-farming-1.1.1.jar"
             ],
-            "fileSize": 312983
+            "fileSize": 314266
         },
         {
-            "path": "mods/[机械动力：龙+] create-dragons-plus-1.8.0.jar",
+            "path": "mods/[机械动力：龙+] create-dragons-plus-1.8.0b.jar",
             "hashes": {
-                "sha1": "9236a201f632cc633a3b7814fd4bd1c8111f12a4",
-                "sha512": "830081c6132d4792d00b03b22dbb7e3fd9a5ea7a988c06fee1d6f1ad6131879126ceebcfe8f9c306d4d58c5172fe3ae64e823c25f6081bda616fba461bb80795"
+                "sha1": "6206d78a2dd936cbe7877a3de9537d60ca7fe8ae",
+                "sha512": "434b275cc43f5d56192cd5f512cc5b6caa4905618b30419803b39c4f1e422f405c0ef1226f7e7971bed6bc6672a149907fd79590daf188ed08f5ddb6c2f82326"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/dzb1a5WV/versions/aKSU3f9Y/create-dragons-plus-1.8.0.jar",
-                "https://mediafilez.forgecdn.net/files/6971/584/create-dragons-plus-1.8.0.jar",
-                "https://edge.forgecdn.net/files/6971/584/create-dragons-plus-1.8.0.jar"
+                "https://cdn.modrinth.com/data/dzb1a5WV/versions/mtkNQBGC/create-dragons-plus-1.8.0b.jar",
+                "https://mediafilez.forgecdn.net/files/6990/984/create-dragons-plus-1.8.0b.jar",
+                "https://edge.forgecdn.net/files/6990/984/create-dragons-plus-1.8.0b.jar"
             ],
-            "fileSize": 641430
+            "fileSize": 643400
         },
         {
             "path": "mods/[森罗物语：烹饪] kaleidoscopecookery-1.0.1-neoforge+mc1.21.1.jar",
@@ -1468,6 +1481,19 @@
             "fileSize": 77555
         },
         {
+            "path": "mods/[阿卡什宝典] AkashicTome-1.8-29.jar",
+            "hashes": {
+                "sha1": "d5588c9982a8114b17efc703c67bd49f81a94295",
+                "sha512": "59eb5167bd671aaeb0c5aba0434b06d597254109b345876bedb0a06d24dd064bfb0ca4102e040b82d3b2f7f04fdbddcbc68cd51ff2310b89d9ad50f96ac242d7"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/JBthPdnp/versions/iezuV4Rx/AkashicTome-1.8-29.jar",
+                "https://mediafilez.forgecdn.net/files/6049/929/AkashicTome-1.8-29.jar",
+                "https://edge.forgecdn.net/files/6049/929/AkashicTome-1.8-29.jar"
+            ],
+            "fileSize": 49388
+        },
+        {
             "path": "mods/[高级AE] AdvancedAE-1.4.3-1.21.1.jar",
             "hashes": {
                 "sha1": "a1e419d5cb16f3ec3521b6d280af409d2d2a4ee1",
@@ -1843,16 +1869,16 @@
             "fileSize": 6459
         },
         {
-            "path": "mods/[女仆仓管] 1.21.1-maid_storage_manager-1.13.5.jar",
+            "path": "mods/[女仆仓管] 1.21.1-maid_storage_manager-1.13.6.jar",
             "hashes": {
-                "sha1": "f4470e4d13c7734104ba8dc9939aa604a1d5f5d0",
-                "sha512": "633c7088cf9f1b767ec68a1b66bf1a5a58ac54759c87e24d4923213d209013944ca98bdce83db462130c16490017c7d7fb0feecaef72aad1108093a05164f766"
+                "sha1": "934f2a4bc1169e608eac0269b6745f52373d2c71",
+                "sha512": "11afed74a225518c14123f32f86ec6fb76c0ad39a1874ec9302df0b71de48cbe534af64f1a64b5fe3c455580cbd51a3acd81d668e7275bfb0287fc901f0ea656"
             },
             "downloads": [
-                "https://mediafilez.forgecdn.net/files/6986/179/1.21.1-maid_storage_manager-1.13.5.jar",
-                "https://edge.forgecdn.net/files/6986/179/1.21.1-maid_storage_manager-1.13.5.jar"
+                "https://mediafilez.forgecdn.net/files/6989/904/1.21.1-maid_storage_manager-1.13.6.jar",
+                "https://edge.forgecdn.net/files/6989/904/1.21.1-maid_storage_manager-1.13.6.jar"
             ],
-            "fileSize": 2283023
+            "fileSize": 2286448
         },
         {
             "path": "mods/[女仆实用任务] 1.21.1-maid_useful_task-1.3.6-fix.jar",
@@ -2035,16 +2061,16 @@
             "fileSize": 1390645
         },
         {
-            "path": "mods/[精妙背包] sophisticatedbackpacks-1.21.1-3.25.4.1352.jar",
+            "path": "mods/[精妙背包] sophisticatedbackpacks-1.21.1-3.25.5.1357.jar",
             "hashes": {
-                "sha1": "bf34304b09c2a429973b6cd2093c0cf02f1ac1f2",
-                "sha512": "fd107f15f833bb496279a74b055af5d7477a74542d14484f2a33f5075d30fbd37351b3fc384856649a5da972a6c02fa43bd54b3771998f57184548995f6d9b73"
+                "sha1": "1ba7a5709187ffe00ab3d6c5b702a106db8e156c",
+                "sha512": "ef6b785b1a28903d5c507080b15b9a4fca7517327814fe137e16dcfc91cbc8c9e08ce324d89d634178b99214d1164950efd60fc91f467e8fdcd00bd70bb48978"
             },
             "downloads": [
-                "https://mediafilez.forgecdn.net/files/6986/298/sophisticatedbackpacks-1.21.1-3.25.4.1352.jar",
-                "https://edge.forgecdn.net/files/6986/298/sophisticatedbackpacks-1.21.1-3.25.4.1352.jar"
+                "https://mediafilez.forgecdn.net/files/6989/591/sophisticatedbackpacks-1.21.1-3.25.5.1357.jar",
+                "https://edge.forgecdn.net/files/6989/591/sophisticatedbackpacks-1.21.1-3.25.5.1357.jar"
             ],
-            "fileSize": 974845
+            "fileSize": 974840
         },
         {
             "path": "mods/[自定义局域网联机] lanserverproperties-1.13.2-neoforge.jar",
@@ -2069,18 +2095,6 @@
                 "https://edge.forgecdn.net/files/6930/900/ftb-ultimine-neoforge-2101.1.9.jar"
             ],
             "fileSize": 165105
-        },
-        {
-            "path": "mods/[遗物] relics-1.21.1-0.11.jar",
-            "hashes": {
-                "sha1": "9255479c964806665b48b5a639c16a8020fef028",
-                "sha512": "24e02c794319cb915d5016d3a2365573481cfb63a1b5d7c7534875e2c3201cb4e80ea1c7261246a0e62ff88015d0dad46a9eaba83bab6bd44d0b5217c6fdc0ac"
-            },
-            "downloads": [
-                "https://mediafilez.forgecdn.net/files/6885/667/relics-1.21.1-0.11.jar",
-                "https://edge.forgecdn.net/files/6885/667/relics-1.21.1-0.11.jar"
-            ],
-            "fileSize": 3124276
         },
         {
             "path": "mods/[配置界面] configured-neoforge-1.21.1-2.6.0.jar",
@@ -2127,28 +2141,6 @@
                 "https://cdn.modrinth.com/data/Q1vvjJYV/versions/jRn8y2VF/BSL_v10.0.zip"
             ],
             "fileSize": 1121678
-        },
-        {
-            "path": "resourcepacks/3D-Default.zip",
-            "hashes": {
-                "sha1": "94af4e0f831dcf2ca84f2dd92919da6a04da4bb6",
-                "sha512": "24834da3945db195bfc57932fde4a22a062d14718bda3eece666778e02b1c6b0200edf3c9a25f4ae2760fccc7db7bfd498dc3479a3f7a330b33867fd5ac6fe8f"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/5aPp18Lx/versions/QkY0fhSG/3D%20Default%201.20%2B%20v1.12.0.zip"
-            ],
-            "fileSize": 856491
-        },
-        {
-            "path": "resourcepacks/Borderless-Glass.zip",
-            "hashes": {
-                "sha1": "0e64157157dd39936164f7f201284e306f6a59d4",
-                "sha512": "6d433c65233ee5fb7b38b9eef33f10d448f0397238cbf7e28383d1566992a9cf83584cffed0338b535863388a12cf87d32e0b3e60f9431e596e14896ab0a7717"
-            },
-            "downloads": [
-                "https://cdn.modrinth.com/data/1Ja8Sg6j/versions/AaBDFaRI/Borderless%2BGlass%2Bv1.0%28mc-1.21%29.zip"
-            ],
-            "fileSize": 20766
         }
     ],
     "dependencies": {

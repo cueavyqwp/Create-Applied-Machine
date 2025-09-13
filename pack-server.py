@@ -35,16 +35,21 @@ skip = (
 )
 
 config = (
-    "constructionstick-server",
     "cookingforblockheads-common",
-    "create-server",
-    "fml",
-    "ftbchunks-world",
-    "ftbultimine-server",
+    "immersiveengineering-server",
     "integrateddynamics-common",
-    "modernfix-mixins",
+    "constructionstick-server",
     "twilightforest-common",
-    "solcarrot-server"
+    "ftbultimine-server",
+    "solcarrot-server",
+    "modernfix-mixins",
+    "ftbchunks-world",
+    "create-server",
+    "curios-common",
+    "rolling_gate",
+    "xnet-server",
+    "xnetgases",
+    "fml",
 )
 
 os.chdir(os.path.dirname(__file__))

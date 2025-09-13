@@ -4,7 +4,7 @@
 	default_quest_disable_jei: false
 	default_quest_shape: "circle"
 	default_reward_team: true
-	detection_delay: 20
+	detection_delay: 10
 	disable_gui: false
 	drop_book_on_death: false
 	drop_loot_crates: false
@@ -12,6 +12,9 @@
 	fallback_locale: "zh_cn"
 	grid_scale: 0.5d
 	hide_excluded_quests: false
+	icon: {
+		id: "ae2:singularity"
+	}
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0

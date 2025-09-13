@@ -23,16 +23,19 @@
 						id: "minecraft:chest"
 					}
 					id: "3B7E6B559CBBC4FC"
+					permission_level: 4
+					team_reward: false
 					type: "command"
 				}
 				{
-					count: 64
-					id: "6DD30D483E8650BA"
-					item: {
-						count: 1
-						id: "minecraft:cooked_beef"
+					auto: "enabled"
+					command: "/gamerule playersSleepingPercentage 0"
+					icon: {
+						id: "minecraft:white_bed"
 					}
-					type: "item"
+					id: "60FEF98182B5218B"
+					permission_level: 4
+					type: "command"
 				}
 				{
 					id: "568409B347518A12"
@@ -60,13 +63,106 @@
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					command: "/gamerule playersSleepingPercentage 0"
-					icon: {
-						id: "minecraft:white_bed"
+					count: 64
+					id: "5B873B2CACB98459"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
 					}
-					id: "60FEF98182B5218B"
-					type: "command"
+					type: "item"
+				}
+				{
+					id: "04ADDC49D7C709C7"
+					item: {
+						components: {
+							"akashictome:tool_content": [
+								{
+									components: {
+										"akashictome:defined_mod": "modularrouters"
+										"patchouli:book": "modularrouters:book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "immersiveengineering"
+									}
+									count: 1
+									id: "immersiveengineering:manual"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "ae2"
+									}
+									count: 1
+									id: "ae2:guide"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "integratedtunnels"
+									}
+									count: 1
+									id: "integrateddynamics:on_the_dynamics_of_integration"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "cookingforblockheads"
+									}
+									count: 1
+									id: "cookingforblockheads:crafting_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "anvilcraft"
+										"akashictome:is_morphed": 1b
+										"akashictome:og_display_name": "{\"translate\":\"item.anvilcraft.guide_book\"}"
+										"minecraft:custom_name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"铁砧工艺指南\"}]}"
+									}
+									count: 1
+									id: "anvilcraft:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "touhou_little_maid"
+										"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "solcarrot"
+									}
+									count: 1
+									id: "solcarrot:food_book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "ftbquests"
+										"akashictome:is_morphed": 1b
+										"akashictome:og_display_name": "{\"translate\":\"item.ftbquests.book\"}"
+										"minecraft:custom_name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"任务书\"}]}"
+									}
+									count: 1
+									id: "ftbquests:book"
+								}
+								{
+									components: {
+										"akashictome:defined_mod": "rftoolsbase"
+										"akashictome:is_morphed": 1b
+										"akashictome:og_display_name": "{\"translate\":\"item.rftoolsbase.manual\"}"
+										"minecraft:custom_name": "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"科技指南\"}]}"
+									}
+									count: 1
+									id: "rftoolsbase:manual"
+								}
+							]
+						}
+						count: 1
+						id: "akashictome:tome"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -103,25 +199,6 @@
 		{
 			dependencies: ["5DE9E122BB3FAD73"]
 			id: "12242BAD022DA69A"
-			rewards: [
-				{
-					count: 64
-					id: "2463738E37EA755F"
-					item: {
-						count: 1
-						id: "minecraft:torch"
-					}
-					type: "item"
-				}
-				{
-					id: "06A103309872B364"
-					item: {
-						count: 1
-						id: "ae2:meteorite_compass"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "3A90F1633E09C940"
 				type: "checkmark"
@@ -139,24 +216,10 @@
 			y: 1.5d
 		}
 		{
-			id: "431BBB1CDFFD72A7"
-			rewards: [{
-				id: "1653DDF371AABA3D"
-				item: {
-					count: 1
-					id: "terra_curio:magiluminescence"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5F8CEE7BB9A5FF2E"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["50E8AC505EFDE3D8"]
+			icon: {
+				id: "touhou_little_maid:hakurei_gohei"
+			}
 			id: "010DE5A14EE35401"
 			rewards: [
 				{
@@ -168,7 +231,15 @@
 					type: "item"
 				}
 				{
-					count: 4
+					id: "7073917EE6C50FCE"
+					item: {
+						count: 1
+						id: "touhou_little_maid:servant_bell"
+					}
+					type: "item"
+				}
+				{
+					count: 2
 					id: "6A661195A4449F11"
 					item: {
 						count: 1
@@ -185,30 +256,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "711E8B50B17F1CA0"
-					item: {
-						count: 1
-						id: "touhou_little_maid:trumpet"
-					}
-					type: "item"
-				}
-				{
-					id: "7073917EE6C50FCE"
-					item: {
-						count: 1
-						id: "touhou_little_maid:servant_bell"
-					}
-					type: "item"
-				}
-				{
-					id: "362A11DA3D69ADEA"
-					item: {
-						count: 1
-						id: "touhou_little_maid:maid_backpack_big"
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "26C346ED442D5503"
@@ -219,6 +266,9 @@
 		}
 		{
 			dependencies: ["50E8AC505EFDE3D8"]
+			icon: {
+				id: "minecraft:player_head"
+			}
 			id: "2FF40BDDE9445E4B"
 			tasks: [{
 				id: "272C9D9C48515713"
@@ -235,16 +285,36 @@
 			id: "0EC79B000B04FFF1"
 			optional: true
 			rewards: [{
-				auto: "enabled"
-				command: "/effect give @a minecraft:night_vision infinite 255 true"
-				id: "7ADC033CB42A6B8F"
-				type: "command"
+				exclude_from_claim_all: true
+				id: "698FF9822D4A3F10"
+				table_id: 143946665591306613L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "1DFD2D3227C50F71"
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "068231F9D38527B5"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BF4451A137C1283"
+				table_id: 1380773948096382979L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0BA1515BEF3A7674"
+				type: "checkmark"
+			}]
+			x: 4.0d
 			y: 1.5d
 		}
 	]

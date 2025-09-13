@@ -1,0 +1,24 @@
+{
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "13297E9713660803"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			command: "/gamerule keepInventory true"
+			id: "1FF921AF90769F45"
+			permission_level: 4
+			team_reward: false
+			type: "command"
+		}
+		{
+			command: "/gamerule keepInventory false"
+			id: "39F1A37CA6079906"
+			permission_level: 4
+			team_reward: false
+			type: "command"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "open_fake_player_inventory": true,
+  "open_real_player_inventory": "false",
+  "command_bot": "true",
+  "fake_player_resident": true,
+  "fake_player_auto_fish": true,
+  "show_mobcaps": true,
+  "allow_listing_fake_players": true
+}

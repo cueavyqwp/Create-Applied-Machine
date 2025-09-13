@@ -20,6 +20,7 @@
 				auto: "enabled"
 				command: "/ae2 channelmode infinite"
 				id: "77BE0CCE67B8C30F"
+				permission_level: 4
 				type: "command"
 			}]
 			tasks: [{

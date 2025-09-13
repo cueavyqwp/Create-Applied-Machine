@@ -25,4 +25,58 @@ ServerEvents.recipes(event => {
     event.shapeless("minecraft:red_dye", ["minecraft:redstone"]).id("kjs/red_dye")
     // 龙蛋再生
     event.shapeless("2x minecraft:dragon_egg", ["minecraft:dragon_egg", "draconicevolution:dragon_heart"]).id("kjs/dragon_egg")
+    // 深板岩圆石
+    event.custom({
+        "type": "create:compacting",
+        "heat_requirement": "heated",
+        "ingredients": [{
+            "item": "minecraft:cobblestone"
+        }, {
+            "item": "minecraft:cobblestone"
+        }, {
+            "item": "minecraft:cobblestone"
+        }, {
+            "item": "minecraft:cobblestone"
+        }, {
+            "item": "minecraft:cobblestone"
+        }, {
+            "item": "minecraft:cobblestone"
+        }, {
+            "item": "minecraft:cobblestone"
+        }, {
+            "item": "minecraft:cobblestone"
+        },
+        ],
+        "results": [
+            {
+                "id": "minecraft:cobbled_deepslate"
+            }
+        ]
+    }).id("kjs/cobbled_deepslate")
+    // 附魔金苹果
+    event.shaped("minecraft:enchanted_golden_apple", ["GGG", "GAG", "GGG"], { G: "minecraft:gold_block", A: "minecraft:golden_apple" }).id("kjs/enchanted_golden_apple")
+    // 原木箱子
+    event.shaped("4x minecraft:chest", ["LLL", "L L", "LLL"], { L: "#minecraft:logs" }).id("kjs/chest")
+    // 量子缠绕态奇点复制
+    // 尾缀`_manual_only`防止生成自动搅拌配方
+    event.shapeless("2x ae2:quantum_entangled_singularity", ["ae2:singularity", "ae2:quantum_entangled_singularity"]).id("kjs/quantum_entangled_singularity_manual_only")
+})
+
+ItemEvents.crafted(event => {
+    if (event.item == "ae2:quantum_entangled_singularity") {
+        let data
+        // 使用for循环而非直接getItems以兼容AE2合成终端
+        for (let i = 0; i < 9; i++) {
+            let item = event.getInventory().getItem(i)
+            if (item.id == "ae2:quantum_entangled_singularity") {
+                data = item.toJson()
+                break
+            }
+        }
+        if (data.has("components")) {
+            // 是在找不到修改物品components的方法,用给玩家物品的方式实现
+            event.item.copyAndClear()
+            event.player.give(`2x ae2:quantum_entangled_singularity[ae2:entangled_singularity_id=${data.get("components").get("ae2:entangled_singularity_id")}L]`)
+        }
+    }
 })

@@ -1,0 +1,23 @@
+{
+	icon: {
+		id: "minecraft:ender_eye"
+	}
+	id: "01FF66BACD2BF975"
+	loot_size: 2
+	order_index: 0
+	rewards: [
+		{
+			command: "/kubejs stages add @s night_vision"
+			id: "26A4E1863B8F30CF"
+			permission_level: 4
+			type: "command"
+		}
+		{
+			command: "/kubejs stages remove @s night_vision"
+			id: "4161389D5507C347"
+			permission_level: 4
+			type: "command"
+		}
+	]
+	use_title: true
+}
