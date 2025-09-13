@@ -57,6 +57,8 @@ ServerEvents.recipes(event => {
     event.shaped("minecraft:enchanted_golden_apple", ["GGG", "GAG", "GGG"], { G: "minecraft:gold_block", A: "minecraft:golden_apple" }).id("kjs/enchanted_golden_apple")
     // 原木箱子
     event.shaped("4x minecraft:chest", ["LLL", "L L", "LLL"], { L: "#minecraft:logs" }).id("kjs/chest")
+    // 树皮锯锯末
+    event.recipes.mekanismSawing("2x mekanism:sawdust", "4x farmersdelight:tree_bark").id("kjs/sawdust")
     // 量子缠绕态奇点复制
     // 尾缀`_manual_only`防止生成自动搅拌配方
     event.shapeless("2x ae2:quantum_entangled_singularity", ["ae2:singularity", "ae2:quantum_entangled_singularity"]).id("kjs/quantum_entangled_singularity_manual_only")

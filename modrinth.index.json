@@ -1,7 +1,7 @@
 {
     "game": "minecraft",
     "formatVersion": 1,
-    "versionId": "0.0.6",
+    "versionId": "0.0.7",
     "name": "Create: Applied Machine",
     "summary": "机械动力: 应用机器",
     "files": [
@@ -1869,16 +1869,16 @@
             "fileSize": 6459
         },
         {
-            "path": "mods/[女仆仓管] 1.21.1-maid_storage_manager-1.13.6.jar",
+            "path": "mods/[女仆仓管] 1.21.1-maid_storage_manager-1.13.7.jar",
             "hashes": {
-                "sha1": "934f2a4bc1169e608eac0269b6745f52373d2c71",
-                "sha512": "11afed74a225518c14123f32f86ec6fb76c0ad39a1874ec9302df0b71de48cbe534af64f1a64b5fe3c455580cbd51a3acd81d668e7275bfb0287fc901f0ea656"
+                "sha1": "6f4bf2f9674324c3a5e9bab71fe0a5f58ca196b2",
+                "sha512": "33403102a040ae00e84cd5aecd4417e8ac0c4f4bb5909cbee6d7a0d04356fc82d80d2a4c798edc7695070c3235b5c33ca49b900ee31ec56f210001a1d512d45e"
             },
             "downloads": [
-                "https://mediafilez.forgecdn.net/files/6989/904/1.21.1-maid_storage_manager-1.13.6.jar",
-                "https://edge.forgecdn.net/files/6989/904/1.21.1-maid_storage_manager-1.13.6.jar"
+                "https://mediafilez.forgecdn.net/files/6991/483/1.21.1-maid_storage_manager-1.13.7.jar",
+                "https://edge.forgecdn.net/files/6991/483/1.21.1-maid_storage_manager-1.13.7.jar"
             ],
-            "fileSize": 2286448
+            "fileSize": 2286728
         },
         {
             "path": "mods/[女仆实用任务] 1.21.1-maid_useful_task-1.3.6-fix.jar",

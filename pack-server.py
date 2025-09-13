@@ -96,7 +96,7 @@ for root, _, files in os.walk("config"):
 for root, _, files in os.walk("kubejs"):
     for file in files:
         path = os.path.join(root, file)
-        if "documentation" in path or "README" in path or "client" in path:
+        if "documentation" in path or "README" in path or "client" in path or "assets" in path:
             continue
         print(f"魔改: {path}")
         target.append(path)
