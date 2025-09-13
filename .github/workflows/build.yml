@@ -25,7 +25,7 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           mkdir ./dist
           cd ./dist
-          zip -r ../Create-Applied-Machine-$VERSION.zip
+          zip -r ../Create-Applied-Machine-$VERSION.zip ./*
 
       - name: Upload
         uses: actions/upload-artifact@v4
