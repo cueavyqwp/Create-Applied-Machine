@@ -1,9 +1,7 @@
 if __name__ != "__main__":
     exit()
 
-import pack
-
-__version__ = pack.__version__
+import info
 
 import zipfile
 import os
@@ -11,7 +9,6 @@ import os
 need = (
     "rhino",
     "jupiter",
-    "yungsapi",
     "megacells",
     "patchouli"
 )
@@ -93,6 +90,9 @@ for root, _, files in os.walk("config"):
         print(f"配置: {path}")
         target.append(path)
 
+print(f"配置: defaultconfigs/ftbessentials-server.snbt")
+target.append("defaultconfigs/ftbessentials-server.snbt")
+
 for root, _, files in os.walk("kubejs"):
     for file in files:
         path = os.path.join(root, file)
@@ -108,7 +108,7 @@ for file in os.listdir("tacz"):
         target.append(path)
 
 print("导出至dist文件夹")
-with zipfile.ZipFile(f"./dist/Create-Applied-Machine-server-{__version__}.zip", "w") as zf:
+with zipfile.ZipFile(f"./dist/{info.out_server}", "w") as zf:
     for path in target:
         zf.write(path)
-print(f"完成!\n已保存至: ./dist/Create-Applied-Machine-server-{__version__}.zip")
+print(f"完成!\n已保存至: ./dist/{info.out_server}")

@@ -21,7 +21,7 @@ jobs:
         run: |
           mv ./src/pack.py ./pack.py
           python pack.py
-          VERSION=$(python -c "print(__import__('pack').__version__)")
+          VERSION=$(python -c "print(__import__('info').version)")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           mkdir ./dist
           cd ./output
