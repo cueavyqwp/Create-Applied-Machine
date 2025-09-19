@@ -20,6 +20,7 @@ jobs:
       - name: Pack
         run: |
           mv ./src/pack.py ./pack.py
+          mv ./src/info.py ./info.py
           python pack.py
           VERSION=$(python -c "print(__import__('info').version)")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
