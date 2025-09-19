@@ -16,7 +16,7 @@ need = (
 skip = (
     "colorwheel",
     "extremeSoundmuffler",
-    "fullbrightnesstoggle",
+    "entityculling"
     "searchables",
     "skinlayers3d",
     "kubejsoffline",
@@ -39,7 +39,6 @@ config = (
     "twilightforest-common",
     "ftbultimine-server",
     "solcarrot-server",
-    "modernfix-mixins",
     "ftbchunks-world",
     "create-server",
     "curios-common",

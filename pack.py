@@ -2,12 +2,11 @@
 import info
 
 skip = (
-    ".gitignore",
     "export_config.txt",
+    "pack-server.py",
+    ".gitignore",
     "README.md",
-    "cover.py",
-    "update.py",
-    "pack-server.py"
+    "info.py"
 )
 
 if __name__ == "__main__":

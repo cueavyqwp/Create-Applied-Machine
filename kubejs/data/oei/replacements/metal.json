@@ -1,0 +1,197 @@
+[
+    {
+        "matchItems": [
+            "immersiveengineering:dust_steel"
+        ],
+        "resultItems": "mekanism:dust_steel"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:ingot_steel"
+        ],
+        "resultItems": "mekanism:ingot_steel"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:nugget_steel"
+        ],
+        "resultItems": "mekanism:nugget_steel"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:raw_lead",
+            "anvilcraft:raw_lead"
+        ],
+        "resultItems": "mekanism:raw_lead"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:raw_block_lead",
+            "anvilcraft:raw_lead_block"
+        ],
+        "resultItems": "mekanism:block_raw_lead"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:ingot_lead",
+            "anvilcraft:lead_ingot"
+        ],
+        "resultItems": "mekanism:ingot_lead"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:nugget_lead",
+            "anvilcraft:lead_nugget"
+        ],
+        "resultItems": "mekanism:nugget_lead"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:dust_uranium"
+        ],
+        "resultItems": "mekanism:dust_uranium"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:raw_uranium",
+            "anvilcraft:raw_uranium"
+        ],
+        "resultItems": "mekanism:raw_uranium"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:raw_block_uranium",
+            "anvilcraft:raw_uranium_block"
+        ],
+        "resultItems": "mekanism:block_raw_uranium"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:ingot_uranium",
+            "anvilcraft:uranium_ingot"
+        ],
+        "resultItems": "mekanism:ingot_uranium"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:nugget_uranium",
+            "anvilcraft:uranium_nugget"
+        ],
+        "resultItems": "mekanism:nugget_uranium"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:raw_silver"
+        ],
+        "resultItems": "anvilcraft:raw_silver"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:raw_block_silver"
+        ],
+        "resultItems": "anvilcraft:raw_silver_block"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:ingot_silver"
+        ],
+        "resultItems": "anvilcraft:silver_ingot"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:nugget_silver"
+        ],
+        "resultItems": "anvilcraft:silver_nugget"
+    },
+    {
+        "matchItems": [
+            "create:raw_zinc"
+        ],
+        "resultItems": "anvilcraft:raw_zinc"
+    },
+    {
+        "matchItems": [
+            "create:raw_zinc_block"
+        ],
+        "resultItems": "anvilcraft:raw_zinc_block"
+    },
+    {
+        "matchItems": [
+            "create:zinc_ingot"
+        ],
+        "resultItems": "anvilcraft:zinc_ingot"
+    },
+    {
+        "matchItems": [
+            "create:zinc_nugget"
+        ],
+        "resultItems": "anvilcraft:zinc_nugget"
+    },
+    {
+        "matchItems": [
+            "anvilcraft:raw_tin"
+        ],
+        "resultItems": "mekanism:raw_tin"
+    },
+    {
+        "matchItems": [
+            "anvilcraft:raw_tin_block"
+        ],
+        "resultItems": "mekanism:block_raw_tin"
+    },
+    {
+        "matchItems": [
+            "anvilcraft:tin_ingot"
+        ],
+        "resultItems": "mekanism:ingot_tin"
+    },
+    {
+        "matchItems": [
+            "anvilcraft:tin_nugget"
+        ],
+        "resultItems": "mekanism:nugget_tin"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:nugget_copper",
+            "create:copper_nugget"
+        ],
+        "resultItems": "anvilcraft:copper_nugget"
+    },
+    {
+        "matchItems": [
+            "create:brass_nugget"
+        ],
+        "resultItems": "anvilcraft:brass_nugget"
+    },
+    {
+        "matchItems": [
+            "create:brass_ingot"
+        ],
+        "resultItems": "anvilcraft:brass_ingot"
+    },
+    {
+        "matchItems": [
+            "anvilcraft:bronze_ingot"
+        ],
+        "resultItems": "mekanism:ingot_bronze"
+    },
+    {
+        "matchItems": [
+            "anvilcraft:bronze_nugget"
+        ],
+        "resultItems": "mekanism:nugget_bronze"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:ingot_electrum"
+        ],
+        "resultItems": "createaddition:electrum_ingot"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:nugget_electrum"
+        ],
+        "resultItems": "createaddition:electrum_nugget"
+    }
+]
