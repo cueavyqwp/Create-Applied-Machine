@@ -7,6 +7,14 @@
 		id: "minecraft:grass_block"
 	}
 	id: "2C856BE2A85BD4AA"
+	images: [{
+		height: 3.0d
+		image: "kubejs:textures/title.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -5.0d
+		y: -0.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -35,25 +43,31 @@
 					}
 					id: "60FEF98182B5218B"
 					permission_level: 4
+					team_reward: false
 					type: "command"
 				}
 				{
+					auto: "enabled"
 					id: "568409B347518A12"
 					item: {
 						count: 1
 						id: "sophisticatedbackpacks:backpack"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					id: "5A87D99CCA373D04"
 					item: {
 						count: 1
 						id: "mekanismtools:refined_obsidian_paxel"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					id: "514BA23EE04C5D7E"
 					item: {
 						count: 1
@@ -63,15 +77,18 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					count: 64
 					id: "5B873B2CACB98459"
 					item: {
 						count: 1
 						id: "minecraft:cooked_beef"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					id: "04ADDC49D7C709C7"
 					item: {
 						components: {
@@ -169,6 +186,7 @@
 						count: 1
 						id: "akashictome:tome"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]

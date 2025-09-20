@@ -24,11 +24,12 @@
 				type: "command"
 			}]
 			tasks: [{
-				id: "3F83E31AB0EFC196"
-				type: "checkmark"
+				id: "1602F0D58E0C0FBE"
+				item: { count: 1, id: "ae2:cell_component_256k" }
+				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "58683078F4BD6218"

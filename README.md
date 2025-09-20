@@ -46,7 +46,7 @@
 
 注意先读取配置`export_config.txt`然后再导出
 
-运行`update.py`来更新`modrinth.index.json`
+运行`info.py`来更新`modrinth.index.json`
 
 ## 打包客户端
 
@@ -59,5 +59,3 @@
 运行`pack-server.py`
 
 打包后的压缩包在`dist`文件夹下
-
-记得启用命令方块(`enable-command-block=true`)

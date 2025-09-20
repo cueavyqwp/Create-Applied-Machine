@@ -3,6 +3,7 @@ let tacz = JsonIO.read("kubejs/data/tacz.json")
 let num = 0
 
 ServerEvents.recipes(event => {
+    // 沉浸工程自动化生产弹药
     for (let key in ammo) {
         let category = key.includes("AmmoId:'tacz:") ? "bullet" : "specialBullet"
         event.custom({

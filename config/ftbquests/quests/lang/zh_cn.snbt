@@ -51,6 +51,7 @@
 	quest.15CD16923E8EF236.quest_subtitle: "不会吧,不会吧,不会有人不富集就直接灌注了吧"
 	quest.24B21BB3A74C23CC.quest_desc: ["你知道吗,只要一边转就能用了"]
 	quest.24B21BB3A74C23CC.quest_subtitle: "别把自己粉碎了"
+	quest.27782B5B20AB8687.quest_subtitle: "纸箱搬万物"
 	quest.2EC3B98C94D927E4.quest_subtitle: "超频!"
 	quest.2FF40BDDE9445E4B.quest_desc: [
 		"你可以通过Alt+Y来选择模型"
@@ -68,6 +69,7 @@
 		"输入红石信号重置"
 	]
 	quest.3B95FBF7E2B4B245.quest_subtitle: "压啊压"
+	quest.43C54F2F2C9559F2.title: "去除频道限制"
 	quest.4BBE78258D628869.quest_desc: [
 		"你知道吗?让发电机与机器放一块儿就不需要电线了"
 		"或者直接在电池槽里塞红石供电(真Redstone Flux)"
@@ -112,7 +114,6 @@
 	task.26C346ED442D5503.title: "车万女仆"
 	task.272C9D9C48515713.title: "是, 史蒂夫模型"
 	task.3A90F1633E09C940.title: "开始吧!"
-	task.3F83E31AB0EFC196.title: "去TMD频道限制"
 	task.400541A1A81FD27E.title: "关于整合包"
 	task.54F32AB198EB1EF9.title: "伟大,无需多言"
 	task.592718E9CB9ADA4E.title: "开启死亡不掉落"

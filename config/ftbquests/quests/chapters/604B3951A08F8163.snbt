@@ -95,5 +95,15 @@
 			x: 2.0d
 			y: -2.0d
 		}
+		{
+			id: "27782B5B20AB8687"
+			tasks: [{
+				id: "78B76B53D07E5A7F"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 }

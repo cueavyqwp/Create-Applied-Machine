@@ -1,4 +1,17 @@
-# v0.0.7
+# v0.1.0
+
+- 更新枪包
+- 统一各种金属材料
+- 移除AnvilNeverTooExpensive
+- 移除YungsCaveBiomes
+- 加入MaidUseHandCrank
+- 加入ferritecore
+- 修改solcarrot里程碑
+- 增大ftbchunks申请区块上限
+- 增加机械动力与通用机械的联动
+- 解决TACZ合成配方的问题
+- 附加`3D Default`材质包
+- 附加`Borderless Glass`材质包
 
 # v0.0.6
 
