@@ -39,10 +39,11 @@
 	quest.05FD6E299CE35C33.quest_subtitle: "神秘外星科技"
 	quest.05FD6E299CE35C33.title: "天外来物"
 	quest.06A482961A0386E8.quest_desc: [
-		"由于TaCZ移植版不兼容旧的第三方枪包合成配方"
-		"所以采取了个折中的方式(虽然部分枪的材料过多导致无法制造)"
+		"由于1.21.1物品标签改变,导致很多的配方无法合成"
+		"但是,整合包里修复了这个问题"
+		"顺便你还可以通过沉浸工程来自动化生产子弹"
 	]
-	quest.06A482961A0386E8.title: "奇怪的组合"
+	quest.06A482961A0386E8.title: "自动化生产子弹"
 	quest.0BF48A1262EA228A.quest_subtitle: "水槽和它的附属厨房"
 	quest.0EC79B000B04FFF1.quest_subtitle: "光よ！"
 	quest.0EC79B000B04FFF1.title: "无限夜视"

@@ -63,17 +63,30 @@
 		}
 		{
 			id: "06A482961A0386E8"
-			rewards: [{
-				id: "35839D60FDEA968B"
-				item: {
-					components: {
-						"immersiveengineering:blueprint": "specialBullet"
+			rewards: [
+				{
+					id: "35839D60FDEA968B"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "specialBullet"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
 					}
-					count: 1
-					id: "immersiveengineering:blueprint"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "571762E11CB3FB18"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "bullet"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4A88BA313C7C5DF6"
 				item: { count: 1, id: "immersiveengineering:workbench" }

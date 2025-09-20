@@ -1,18 +1,22 @@
-let data = JsonIO.read("kubejs/tacz.json")
-let skip = [43, 188]
+let ammo = JsonIO.read("kubejs/data/ammo.json")
+let tacz = JsonIO.read("kubejs/data/tacz.json")
+let num = 0
+
 ServerEvents.recipes(event => {
-    let num = 0
-    for (let key in data) {
-        if (skip.includes(num)) {
-            num++
-            continue
-        }
+    for (let key in ammo) {
+        let category = key.includes("AmmoId:'tacz:") ? "bullet" : "specialBullet"
         event.custom({
             type: "immersiveengineering:blueprint",
-            category: "specialBullet",
+            category: category,
             result: Item.of(key).toJson(),
-            inputs: data[key]
-        }).id(`kjs/tac/${num}`)
+            inputs: ammo[key]
+        }).id(`kjs/tacz/${num}`)
+        num++
+    }
+    // js限制,不允许JSON文件最外层必须是数组
+    for (let key in tacz["data"]) {
+        console.log(tacz["data"][key]["materials"])
+        event.custom(tacz["data"][key]).id(`kjs/tacz/${num}`)
         num++
     }
 })

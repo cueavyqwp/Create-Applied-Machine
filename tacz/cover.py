@@ -3,46 +3,71 @@ import os
 
 os.chdir(os.path.dirname(__file__))
 
-l = [i for i in os.listdir(".") if os.path.isdir(i)
-     and i != "tacz_default_gun"]
-
-ret = {}
-
-TYPE = {
-    "gun": "tacz:modern_kinetic_gun[custom_data={GunFireMode:'SEMI',GunId:'{id}'}]",
-    "ammo": "tacz:ammo[custom_data={AmmoId:'{id}'}]",
-    "attachment": "tacz:attachment[custom_data={AttachmentId:'{id}'}]"
-}
+ammo = {}
+recipe = []
 
 
-def c(p):
-    with open(p, "r", encoding="utf-8") as fp:
+def fix(text):
+    text = text.replace("forge:heads", "minecraft:skulls").replace("forge:glass_blocks_panes", "c:glass_panes").replace(
+        "forge:leather", "c:leathers").replace("forge:gunpowder", "c:gunpowders").replace("forge:", "c:")
+    text = {"c:glass": "c:glass_blocks",
+            "c:glass/light_blue": "c:glass_panes"}.get(text, text)
+    return text
+
+
+for file in os.listdir("src/ammo"):
+    path = os.path.join("src/ammo", file)
+    with open(path, "r", encoding="utf-8") as fp:
         data = json.load(fp)
-    ingredients = []
-    for i in data["materials"]:
-        j = i["item"]
-        if "tag" in j:
-            j = {"tag": j["tag"].replace("forge:", "c:").replace("c:gunpowder", "c:gunpowders").replace("c:gunpowderss", "c:gunpowders").replace(
-                "c:glass", "c:glass_blocks").replace(
-                "c:glass_blocks_blocks", "c:glass_blocks").replace("c:glass_blocks_panes", "c:glass_panes").replace("c:heads", "minecraft:skulls")}
-        c = i["count"] if "count" in i else 1
-        ingredients.append({"basePredicate": j, "count": c})
-    s = TYPE[data["result"]["type"]].replace(
-        "{id}", data["result"]["id"])
-    s = str(data["result"].get("count", 1))+"x "+s
-    ret[s] = ingredients
+    item = []
+    for value in data["materials"]:
+        ret = {}
+        if "count" in value:
+            ret["count"] = value["count"]
+        else:
+            ret["count"] = 1
+        material = value["item"]
+        if "tag" in material:
+            material["tag"] = fix(material["tag"])
+        else:
+            material["item"] = fix(material["item"])
+        if "tag" in material:
+            ret["basePredicate"] = {
+                "tag": material["tag"]}
+        else:
+            ret["basePredicate"] = {"item": material["item"]}
+        item.append(ret)
+    ammo[f"tacz:ammo[custom_data={{AmmoId:'{data["result"]["id"]}'}}]"] = item
+    if "tacz:" not in data["result"]["id"]:
+        recipe.append(data)
+with open("../kubejs/data/ammo.json", "w", encoding="utf-8")as fp:
+    json.dump(
+        dict(sorted(ammo.items(), key=lambda x: x[0])), fp, ensure_ascii=False)
 
+for file in os.listdir("src/attachments"):
+    path = os.path.join("src/attachments", file)
+    with open(path, "r", encoding="utf-8") as fp:
+        data = json.load(fp)
+    for value in data["materials"]:
+        material = value["item"]
+        if "tag" in material:
+            material["tag"] = fix(material["tag"])
+        else:
+            material["item"] = fix(material["item"])
+    recipe.append(data)
 
-for i in l:
-    p = os.path.join(i, "data")
-    p = os.path.join(p, os.listdir(
-        p)[0], "recipe" if i == "tacz_default_gun" else "recipes")
-    for i in os.listdir(p):
-        pa = os.path.join(p, i)
-        if os.path.isdir(pa):
-            for i in os.listdir(pa):
-                path = os.path.join(pa, i)
-                c(path)
+for file in os.listdir("src/gun"):
+    path = os.path.join("src/gun", file)
+    with open(path, "r", encoding="utf-8") as fp:
+        data = json.load(fp)
+    for value in data["materials"]:
+        material = value["item"]
+        if "tag" in material:
+            material["tag"] = fix(material["tag"])
+        else:
+            material["item"] = fix(material["item"])
+    recipe.append(data)
 
-with open("../kubejs/tacz.json", "w", encoding="utf-8")as fp:
-    json.dump(ret, fp, ensure_ascii=False)
+with open("../kubejs/data/tacz.json", "w", encoding="utf-8")as fp:
+    json.dump({"data": sorted(
+        recipe, key=lambda x: x["result"]["id"])}, fp, ensure_ascii=False)
