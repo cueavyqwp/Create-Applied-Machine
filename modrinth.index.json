@@ -227,17 +227,17 @@
             "fileSize": 264658
         },
         {
-            "path": "mods/geckolib-neoforge-1.21.1-4.8.jar",
+            "path": "mods/geckolib-neoforge-1.21.1-4.8.1.jar",
             "hashes": {
-                "sha1": "4ca6a6aedce49d051c3b1ff2422a0b4b6d9880c0",
-                "sha512": "b7417b3a64c662809adf9bf6fa57d7223d8a41bab56de3dcaf21bf67d579b5f20308035cfafd8518c14394236eba65948e5997a4ca7a0e90b667c2bbdf6a1f39"
+                "sha1": "49cefea77a422bb03f780ad669e8a41ef0403825",
+                "sha512": "dd85864fdde892de91110e91170f6643ed020de9409250fd566520387d5071e191fa152e12df7e4c2f8efc635c69b17c5bbdcc140459111d95820bb56a186bd0"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/8BmcQJ2H/versions/8fUygmio/geckolib-neoforge-1.21.1-4.8.jar",
-                "https://mediafilez.forgecdn.net/files/7009/924/geckolib-neoforge-1.21.1-4.8.jar",
-                "https://edge.forgecdn.net/files/7009/924/geckolib-neoforge-1.21.1-4.8.jar"
+                "https://cdn.modrinth.com/data/8BmcQJ2H/versions/5TEe2zHc/geckolib-neoforge-1.21.1-4.8.1.jar",
+                "https://mediafilez.forgecdn.net/files/7013/768/geckolib-neoforge-1.21.1-4.8.1.jar",
+                "https://edge.forgecdn.net/files/7013/768/geckolib-neoforge-1.21.1-4.8.1.jar"
             ],
-            "fileSize": 620595
+            "fileSize": 620617
         },
         {
             "path": "mods/getittogetherdrops-neoforge-1.21.5-1.4.jar",
@@ -639,17 +639,17 @@
             "fileSize": 28984
         },
         {
-            "path": "mods/[JEI物品管理器] jei-1.21.1-neoforge-19.22.1.316.jar",
+            "path": "mods/[JEI物品管理器] jei-1.21.1-neoforge-19.24.0.317.jar",
             "hashes": {
-                "sha1": "ad7cd1f890ef4924c62c39534d186396cde66868",
-                "sha512": "63dba55f429f8504f600db45b87143ab2005fc68f7314adf364e82afb3399c7e6488008d66cc9a7b13b17e43bcef11bbb36f909f4313219308fc0a4a12400d0b"
+                "sha1": "b6973a6f0879d82aea25387e3aa32958da011ae7",
+                "sha512": "36972bffcb73346a5aa448f86a5fa6ac8dbaaf2a1252c4ff2f926d5476390cb1936a49869a94ff5153f7d4bc4f6f40b4068263921db642754336c5092c4c3c61"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/u6dRKJwZ/versions/oghFmDkL/jei-1.21.1-neoforge-19.22.1.316.jar",
-                "https://mediafilez.forgecdn.net/files/6829/86/jei-1.21.1-neoforge-19.22.1.316.jar",
-                "https://edge.forgecdn.net/files/6829/86/jei-1.21.1-neoforge-19.22.1.316.jar"
+                "https://cdn.modrinth.com/data/u6dRKJwZ/versions/8Xqird0q/jei-1.21.1-neoforge-19.24.0.317.jar",
+                "https://mediafilez.forgecdn.net/files/7014/282/jei-1.21.1-neoforge-19.24.0.317.jar",
+                "https://edge.forgecdn.net/files/7014/282/jei-1.21.1-neoforge-19.24.0.317.jar"
             ],
-            "fileSize": 1474239
+            "fileSize": 1481554
         },
         {
             "path": "mods/[KubeJS 离线文档] kubejsoffline-neoforge-5.0.7.jar",
@@ -1470,17 +1470,17 @@
             "fileSize": 49388
         },
         {
-            "path": "mods/[高级AE] AdvancedAE-1.4.4-1.21.1.jar",
+            "path": "mods/[高级AE] AdvancedAE-1.4.5-1.21.1.jar",
             "hashes": {
-                "sha1": "caf48fe945d691076d0a27ee41894e4dfc23c646",
-                "sha512": "2e4868967a45730d9d38d72672adf1b28a71b88e1f99f936ce84827f18c73e5f4054ee5148f06b49dcfe83e868b5700e87af78d7116b79843802ff7f4350b74a"
+                "sha1": "9b4c01f0cf48e383fa0bf04f5d8bd9543e8dccc5",
+                "sha512": "932acd0aa6fcd625091cb7815533dfb00369fe9c9d1ac1f5cc1d08d0be27f966750b6ba763d8442a808f0600bd39c7e1a009081b2bf98514f5b1f1071ad939fa"
             },
             "downloads": [
-                "https://cdn.modrinth.com/data/rxYaglEe/versions/uhJWnfQj/AdvancedAE-1.4.4-1.21.1.jar",
-                "https://mediafilez.forgecdn.net/files/6997/264/AdvancedAE-1.4.4-1.21.1.jar",
-                "https://edge.forgecdn.net/files/6997/264/AdvancedAE-1.4.4-1.21.1.jar"
+                "https://cdn.modrinth.com/data/rxYaglEe/versions/lmLo5Zla/AdvancedAE-1.4.5-1.21.1.jar",
+                "https://mediafilez.forgecdn.net/files/7013/678/AdvancedAE-1.4.5-1.21.1.jar",
+                "https://edge.forgecdn.net/files/7013/678/AdvancedAE-1.4.5-1.21.1.jar"
             ],
-            "fileSize": 2583329
+            "fileSize": 2583263
         },
         {
             "path": "mods/[鼠标手势] MouseTweaks-neoforge-mc1.21-2.26.1.jar",

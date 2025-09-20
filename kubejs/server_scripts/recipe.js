@@ -62,6 +62,35 @@ ServerEvents.recipes(event => {
     // 量子缠绕态奇点复制
     // 尾缀`_manual_only`防止生成自动搅拌配方
     event.shapeless("2x ae2:quantum_entangled_singularity", ["ae2:singularity", "ae2:quantum_entangled_singularity"]).id("kjs/quantum_entangled_singularity_manual_only")
+    // 门瑞欧树苗
+    event.shapeless("integrateddynamics:menril_sapling", ["#minecraft:saplings", "integrateddynamics:menril_berries"]).id("kjs/menril_sapling")
+    // 注液器与冶金灌注机联动
+    event.forEachRecipe({ type: "mekanism:metallurgic_infusing" }, (recipe) => {
+        let data = recipe.json
+        let tag = String(data.get("chemical_input").get("tag")).slice(1, -1)
+        let count = data.get("item_input").get("count")
+        if (tag != "mekanism:bio" && tag != "mekanism:fungi" && (!count || count == 1)) {
+            event.custom({
+                "type": "create:filling",
+                "ingredients": [
+                    {
+                        "type": "fluid_stack",
+                        "amount": data.get("chemical_input").get("amount"),
+                        "fluid": tag.replace("mekanism:", "kubejs:chemical/")
+                    },
+                    {
+                        "item": data.get("item_input").get("item"),
+                        "tag": data.get("item_input").get("tag")
+                    }
+                ],
+                "results": [
+                    {
+                        "id": data.get("output").get("id")
+                    }
+                ]
+            }).id(`kjs/${String(data.get("output").get("id")).slice(1, -1).split(":")[1]}`)
+        }
+    })
 })
 
 ItemEvents.crafted(event => {

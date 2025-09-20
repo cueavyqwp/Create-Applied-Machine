@@ -157,6 +157,13 @@
 									count: 1
 									id: "rftoolsbase:manual"
 								}
+								{
+									components: {
+										"akashictome:defined_mod": "createoreexcavation"
+									}
+									count: 1
+									id: "createoreexcavation:vein_atlas"
+								}
 							]
 						}
 						count: 1

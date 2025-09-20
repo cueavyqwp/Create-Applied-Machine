@@ -14,6 +14,8 @@
 
 这个整合包是我第一次尝试去制作整合包
 
+标题使用[Minecraft Title Generator](https://github.com/ewanhowell5195/MinecraftTitleGenerator)生成
+
 # 打包
 
 ## 前置工作

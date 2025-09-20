@@ -1,3 +1,16 @@
 {
-    "key.kjs.melee": "近战 (近战武器)"
+    "key.kjs.melee": "近战 (近战武器)",
+    "fluid_type.kubejs.chemical.redstone": "熔融红石",
+    "fluid_type.kubejs.chemical.diamond": "熔融钻石",
+    "fluid_type.kubejs.chemical.refined_obsidian": "熔融强化黑曜石",
+    "fluid_type.kubejs.chemical.gold": "熔融金",
+    "fluid_type.kubejs.chemical.tin": "熔融锡",
+    "fluid_type.kubejs.chemical.carbon": "熔融碳",
+    "item.kubejs.chemical.redstone_bucket": "熔融红石桶",
+    "item.kubejs.chemical.diamond_bucket": "熔融钻石桶",
+    "item.kubejs.chemical.refined_obsidian_bucket": "熔融强化黑曜石桶",
+    "item.kubejs.chemical.gold_bucket": "熔融金桶",
+    "item.kubejs.chemical.tin_bucket": "熔融锡桶",
+    "item.kubejs.chemical.carbon_bucket": "熔融碳桶",
+    "Melt": ""
 }

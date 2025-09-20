@@ -193,5 +193,12 @@
             "immersiveengineering:nugget_electrum"
         ],
         "resultItems": "createaddition:electrum_nugget"
+    },
+    {
+        "matchItems": [
+            "immersiveengineering:dust_iron",
+            "enderio:powdered_iron"
+        ],
+        "resultItems": "mekanism:dust_iron"
     }
 ]

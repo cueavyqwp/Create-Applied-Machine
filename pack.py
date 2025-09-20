@@ -6,7 +6,8 @@ skip = (
     "pack-server.py",
     ".gitignore",
     "README.md",
-    "info.py"
+    "title.png",
+    "info.py",
 )
 
 if __name__ == "__main__":
