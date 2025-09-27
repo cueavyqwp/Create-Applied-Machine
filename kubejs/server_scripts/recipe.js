@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
         let data = recipe.json
         let tag = String(data.get("chemical_input").get("tag")).slice(1, -1)
         let count = data.get("item_input").get("count")
-        if (tag != "mekanism:bio" && tag != "mekanism:fungi" && (!count || count == 1)) {
+        if (tag != "mekanism:bio" && tag != "mekanism:fungi" && tag != "mekanism:tin" && (!count || count == 1)) {
             event.custom({
                 "type": "create:filling",
                 "ingredients": [

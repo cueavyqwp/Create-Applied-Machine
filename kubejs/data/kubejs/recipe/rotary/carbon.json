@@ -4,6 +4,14 @@
         "amount": 2,
         "chemical": "mekanism:carbon"
     },
+    "chemical_output": {
+        "amount": 2,
+        "id": "mekanism:carbon"
+    },
+    "fluid_input": {
+        "amount": 3,
+        "fluid": "kubejs:chemical/carbon"
+    },
     "fluid_output": {
         "amount": 3,
         "id": "kubejs:chemical/carbon"

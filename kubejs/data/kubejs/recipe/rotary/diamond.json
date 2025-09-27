@@ -4,6 +4,14 @@
         "amount": 2,
         "chemical": "mekanism:diamond"
     },
+    "chemical_output": {
+        "amount": 2,
+        "id": "mekanism:diamond"
+    },
+    "fluid_input": {
+        "amount": 3,
+        "fluid": "kubejs:chemical/diamond"
+    },
     "fluid_output": {
         "amount": 3,
         "id": "kubejs:chemical/diamond"

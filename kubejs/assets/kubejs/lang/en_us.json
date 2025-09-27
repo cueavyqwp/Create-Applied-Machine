@@ -4,12 +4,13 @@
     "fluid_type.kubejs.chemical.diamond": "Melt diamond",
     "fluid_type.kubejs.chemical.refined_obsidian": "Melt refined obsidian",
     "fluid_type.kubejs.chemical.gold": "Melt gold",
-    "fluid_type.kubejs.chemical.tin": "Melt tin",
     "fluid_type.kubejs.chemical.carbon": "Melt carbon",
     "item.kubejs.chemical.redstone_bucket": "Melt redstone bucket",
     "item.kubejs.chemical.diamond_bucket": "Melt diamond bucket",
     "item.kubejs.chemical.refined_obsidian_bucket": "Melt refined obsidian bucket",
     "item.kubejs.chemical.gold_bucket": "Melt gold bucket",
-    "item.kubejs.chemical.tin_bucket": "Melt tin bucket",
-    "item.kubejs.chemical.carbon_bucket": "Melt carbon bucket"
+    "item.kubejs.chemical.carbon_bucket": "Melt carbon bucket",
+    "task.kubejs.crystal": "crystal",
+    "task.kubejs.crystal.desc": "Mining the surrounding crystal cluster",
+    "task.kubejs.crystal.condition.need_pickaxe": "Need pickaxe"
 }

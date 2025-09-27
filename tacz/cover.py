@@ -54,7 +54,8 @@ for file in os.listdir("src/attachments"):
             material["tag"] = fix(material["tag"])
         else:
             material["item"] = fix(material["item"])
-    recipe.append(data)
+    if "tacz:" not in data["result"]["id"]:
+        recipe.append(data)
 
 for file in os.listdir("src/gun"):
     path = os.path.join("src/gun", file)
@@ -66,8 +67,9 @@ for file in os.listdir("src/gun"):
             material["tag"] = fix(material["tag"])
         else:
             material["item"] = fix(material["item"])
-    recipe.append(data)
+    if "tacz:" not in data["result"]["id"]:
+        recipe.append(data)
 
 with open("../kubejs/data/tacz.json", "w", encoding="utf-8")as fp:
     json.dump({"data": sorted(
-        recipe, key=lambda x: x["result"]["id"])}, fp, ensure_ascii=False)
+        recipe, key=lambda x: ":".join([x["result"]["type"], *x["result"]["id"].split(":")]))}, fp, ensure_ascii=False)

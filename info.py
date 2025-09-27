@@ -3,7 +3,7 @@ import typing
 name: str = "Create: Applied Machine"
 id: str = name.replace(": ", "-").replace(" ", "-")
 summary: str = "机械动力: 应用机器"
-version: str = "0.1.0"
+version: str = "0.1.1"
 
 out: str = f"{id}-{version}.zip"
 out_server: str = f"{id}-{version}-server.zip"
@@ -13,17 +13,6 @@ loader: typing.Literal["forge", "neoforge", "fabric-loader"] = "neoforge"
 loader_version = "21.1.209"
 
 files_append: list[dict[str, typing.Any]] = [
-    {
-        "path": "mods/tacz-neoforge-1.21.1-1.1.6-hotfix-r5.jar",
-        "hashes": {
-                "sha1": "c4ea60bf4d76716e7e3a7b2f22eb2ab338df51a3",
-                "sha512": "c28a8a6137c4e89770c57a2251a21adae228609f7b757d18ce3958bc0325900e91d6a4b1eef44eaecab56d24dad120e0639b6dcda2f656d9a7a9df8c61df4e3d"
-        },
-        "downloads": [
-            "https://github.com/MUKSC/TACZ-1.21.1/releases/download/neoforge-1.1.6-hotfix-r5/tacz-neoforge-1.21.1-1.1.6-hotfix-r5.jar"
-        ],
-        "fileSize": 47612775
-    },
     {
         "path": "shaderpacks/BSL_v10.0.zip",
         "hashes": {

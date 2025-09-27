@@ -4,6 +4,14 @@
         "amount": 2,
         "chemical": "mekanism:refined_obsidian"
     },
+    "chemical_output": {
+        "amount": 2,
+        "id": "mekanism:refined_obsidian"
+    },
+    "fluid_input": {
+        "amount": 3,
+        "fluid": "kubejs:chemical/refined_obsidian"
+    },
     "fluid_output": {
         "amount": 3,
         "id": "kubejs:chemical/refined_obsidian"
