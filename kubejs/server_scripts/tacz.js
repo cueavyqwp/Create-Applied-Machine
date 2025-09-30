@@ -5,11 +5,11 @@ let num = 0
 ServerEvents.recipes(event => {
     // 沉浸工程自动化生产弹药
     for (let key in ammo) {
-        let category = key.includes("AmmoId:'tacz:") ? "bullet" : "specialBullet"
+        let category = key.includes("tacz:") ? "bullet" : "specialBullet"
         event.custom({
             type: "immersiveengineering:blueprint",
             category: category,
-            result: Item.of(key).toJson(),
+            result: Item.of(`tacz:ammo[custom_data={AmmoId:'{${ammo[key]}}'}]`).toJson(),
             inputs: ammo[key]
         }).id(`kjs/tacz/${num}`)
         num++

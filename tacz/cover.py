@@ -37,7 +37,7 @@ for file in os.listdir("src/ammo"):
         else:
             ret["basePredicate"] = {"item": material["item"]}
         item.append(ret)
-    ammo[f"tacz:ammo[custom_data={{AmmoId:'{data["result"]["id"]}'}}]"] = item
+    ammo[data["result"]["id"]] = item
     if "tacz:" not in data["result"]["id"]:
         recipe.append(data)
 with open("../kubejs/data/ammo.json", "w", encoding="utf-8")as fp:
