@@ -8,10 +8,16 @@ recipe = []
 
 
 def fix(text):
-    text = text.replace("forge:heads", "minecraft:skulls").replace("forge:glass_blocks_panes", "c:glass_panes").replace(
-        "forge:leather", "c:leathers").replace("forge:gunpowder", "c:gunpowders").replace("forge:", "c:")
-    text = {"c:glass": "c:glass_blocks",
-            "c:glass/light_blue": "c:glass_panes"}.get(text, text)
+    text = (
+        text.replace("forge:heads", "minecraft:skulls")
+        .replace("forge:glass_blocks_panes", "c:glass_panes")
+        .replace("forge:leather", "c:leathers")
+        .replace("forge:gunpowder", "c:gunpowders")
+        .replace("forge:", "c:")
+    )
+    text = {"c:glass": "c:glass_blocks", "c:glass/light_blue": "c:glass_panes"}.get(
+        text, text
+    )
     return text
 
 
@@ -32,17 +38,17 @@ for file in os.listdir("src/ammo"):
         else:
             material["item"] = fix(material["item"])
         if "tag" in material:
-            ret["basePredicate"] = {
-                "tag": material["tag"]}
+            ret["basePredicate"] = {"tag": material["tag"]}
         else:
             ret["basePredicate"] = {"item": material["item"]}
         item.append(ret)
     ammo[data["result"]["id"]] = item
     if "tacz:" not in data["result"]["id"]:
         recipe.append(data)
-with open("../kubejs/data/ammo.json", "w", encoding="utf-8")as fp:
-    json.dump(
-        dict(sorted(ammo.items(), key=lambda x: x[0])), fp, ensure_ascii=False)
+with open("../kubejs/data/ammo.json", "w", encoding="utf-8") as fp:
+    json.dump(dict(sorted(ammo.items(), key=lambda x: x[0])), fp, ensure_ascii=False)
+
+exit()
 
 for file in os.listdir("src/attachments"):
     path = os.path.join("src/attachments", file)
@@ -70,6 +76,16 @@ for file in os.listdir("src/gun"):
     if "tacz:" not in data["result"]["id"]:
         recipe.append(data)
 
-with open("../kubejs/data/tacz.json", "w", encoding="utf-8")as fp:
-    json.dump({"data": sorted(
-        recipe, key=lambda x: ":".join([x["result"]["type"], *x["result"]["id"].split(":")]))}, fp, ensure_ascii=False)
+with open("../kubejs/data/tacz.json", "w", encoding="utf-8") as fp:
+    json.dump(
+        {
+            "data": sorted(
+                recipe,
+                key=lambda x: ":".join(
+                    [x["result"]["type"], *x["result"]["id"].split(":")]
+                ),
+            )
+        },
+        fp,
+        ensure_ascii=False,
+    )

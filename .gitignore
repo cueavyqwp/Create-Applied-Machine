@@ -7,6 +7,7 @@
 !/.gitignore
 !/options.txt
 !/CHANGELOG.md
+!/.gitattributes
 !/export_config.txt
 
 !/tacz/*.zip
