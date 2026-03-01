@@ -6,7 +6,7 @@
 
 只能将附加枪包也包含在整合包内
 
-一下是这些枪包的原链接
+以下是这些枪包的原链接
 
 [【TACZ】BlueArchive FPS Pack JP](https://www.curseforge.com/minecraft/customization/taczbluearchive-fps-pack-jp) by skylake1008
 
