@@ -3,50 +3,16 @@ import typing
 name: str = "Create: Applied Machine"
 id: str = name.replace(": ", "-").replace(" ", "-")
 summary: str = "机械动力: 应用机器"
-version: str = "0.1.2"
+version: str = "0.1.3"
 
 out: str = f"{id}-{version}.zip"
 out_server: str = f"{id}-{version}-server.zip"
 
 version_mc: str = "1.21.1"
 loader: typing.Literal["forge", "neoforge", "fabric-loader"] = "neoforge"
-loader_version = "21.1.216"
+loader_version = "21.1.219"
 
-files_append: list[dict[str, typing.Any]] = [
-    {
-        "path": "shaderpacks/BSL_v10.0.zip",
-        "hashes": {
-            "sha1": "82eb9981a31a4753bb5022b5f64d5ec4f6a27071",
-            "sha512": "3ce31ae8c7242ae335de70df10f8147420a64ca372585c195d0b300f9e8c5b923f1e5bf2b8dddfcc741a0ce8e0235e079540101632837624787da84e9b52d72f",
-        },
-        "downloads": [
-            "https://cdn.modrinth.com/data/Q1vvjJYV/versions/jRn8y2VF/BSL_v10.0.zip"
-        ],
-        "fileSize": 1121678,
-    },
-    {
-        "path": "resourcepacks/3D-Default.zip",
-        "hashes": {
-            "sha1": "94af4e0f831dcf2ca84f2dd92919da6a04da4bb6",
-            "sha512": "24834da3945db195bfc57932fde4a22a062d14718bda3eece666778e02b1c6b0200edf3c9a25f4ae2760fccc7db7bfd498dc3479a3f7a330b33867fd5ac6fe8f",
-        },
-        "downloads": [
-            "https://cdn.modrinth.com/data/5aPp18Lx/versions/QkY0fhSG/3D%20Default%201.20%2B%20v1.12.0.zip"
-        ],
-        "fileSize": 856491,
-    },
-    {
-        "path": "resourcepacks/Borderless-Glass.zip",
-        "hashes": {
-            "sha1": "0e64157157dd39936164f7f201284e306f6a59d4",
-            "sha512": "6d433c65233ee5fb7b38b9eef33f10d448f0397238cbf7e28383d1566992a9cf83584cffed0338b535863388a12cf87d32e0b3e60f9431e596e14896ab0a7717",
-        },
-        "downloads": [
-            "https://cdn.modrinth.com/data/1Ja8Sg6j/versions/AaBDFaRI/Borderless%2BGlass%2Bv1.0%28mc-1.21%29.zip"
-        ],
-        "fileSize": 20766,
-    },
-]
+files_append: list[dict[str, typing.Any]] = []
 
 if __name__ == "__main__":
     import zipfile

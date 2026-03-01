@@ -6,18 +6,12 @@ import info
 import zipfile
 import os
 
-need = (
-    "rhino",
-    "jupiter",
-    "megacells",
-    "patchouli"
-)
+need = ("rhino", "jupiter", "megacells", "patchouli")
 
 skip = (
     "colorwheel",
     "extremeSoundmuffler",
-    "entityculling"
-    "searchables",
+    "entityculling" "searchables",
     "skinlayers3d",
     "kubejsoffline",
     "wi-zoom",
@@ -28,7 +22,7 @@ skip = (
     "modernui",
     "realcamera",
     "configured",
-    "sodiumdynamiclights"
+    "sodiumdynamiclights",
 )
 
 config = (
@@ -50,7 +44,7 @@ config = (
 
 os.chdir(os.path.dirname(__file__))
 
-target = []
+target: list[str] = []
 
 for name in os.listdir("mods"):
     if any(True for item in skip if item in name.lower()):
@@ -63,12 +57,13 @@ for name in os.listdir("mods"):
         with zipfile.ZipFile(path, "r") as zf:
             if "META-INF/neoforge.mods.toml" not in zf.namelist():
                 continue
-            for line in zf.read("META-INF/neoforge.mods.toml").decode("utf-8").splitlines():
+            for line in (
+                zf.read("META-INF/neoforge.mods.toml").decode("utf-8").splitlines()
+            ):
                 line = line.strip().lower()
                 if not line.startswith("side"):
                     continue
-                side = line.partition(
-                    "=")[-1].strip().replace("'", "\"").split("\"")[1]
+                side = line.partition("=")[-1].strip().replace("'", '"').split('"')[1]
                 if side == "client":
                     break
                 elif side == "both" or side == "server":
@@ -82,9 +77,17 @@ for name in os.listdir("mods"):
 for root, _, files in os.walk("config"):
     for file in files:
         path = os.path.join(root, file)
-        if "ftbquests" in path or ("yes_steve_model" in path and "custom" in path and (".ysm" in file or ".zip" in file)):
+        if "ftbquests" in path or (
+            "yes_steve_model" in path
+            and "custom" in path
+            and (".ysm" in file or ".zip" in file)
+        ):
             pass
-        elif "client" in path or ".bak" in path or all(False if item in file else True for item in config):
+        elif (
+            "client" in path
+            or ".bak" in path
+            or all(False if item in file else True for item in config)
+        ):
             continue
         print(f"配置: {path}")
         target.append(path)
@@ -95,7 +98,12 @@ target.append("defaultconfigs/ftbessentials-server.snbt")
 for root, _, files in os.walk("kubejs"):
     for file in files:
         path = os.path.join(root, file)
-        if "documentation" in path or "README" in path or "client" in path or "assets" in path:
+        if (
+            "documentation" in path
+            or "README" in path
+            or "client" in path
+            or "assets" in path
+        ):
             continue
         print(f"魔改: {path}")
         target.append(path)

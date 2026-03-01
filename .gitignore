@@ -5,19 +5,15 @@
 !/README.md
 !/.github/**
 !/.gitignore
-!/options.txt
 !/CHANGELOG.md
 !/.gitattributes
 !/export_config.txt
 
 !/tacz/*.zip
-!/tacz/cover.py
 !/tacz/README.md
 
 !/kubejs/**
 /kubejs/README.txt
-
-!/shaderpacks/BSL_v10.0.zip.txt
 
 !config/ftbquests/**
 
@@ -62,5 +58,3 @@
 *.jar
 *.log*
 *test*
-
-!tiabcurio-neoforge-1.21.1-3.0.1.jar
