@@ -14,6 +14,12 @@ ServerEvents.recipes(event => {
             ret = "minecraft:hay_block"
         } else if (id == "youkaishomecoming:straw_slab") {
             ret = "farmersdelight:straw_bale"
+        } else if (id == "quark:ancient_planks_slab") {
+            ret = "quark:ancient_planks"
+        } else if (id == "quark:azalea_planks_slab") {
+            ret = "quark:azalea_planks"
+        } else if (id == "quark:blossom_planks_slab") {
+            ret = "quark:blossom_planks"
         } else {
             ret = id.replace("_slab", "_planks")
         }
@@ -106,6 +112,7 @@ ItemEvents.crafted(event => {
         }
         if (data.has("components")) {
             // 是在找不到修改物品components的方法,用给玩家物品的方式实现
+            console.info(event.item.customData)
             event.item.copyAndClear()
             event.player.give(`2x ae2:quantum_entangled_singularity[ae2:entangled_singularity_id=${data.get("components").get("ae2:entangled_singularity_id")}L]`)
         }
