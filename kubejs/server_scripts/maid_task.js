@@ -4,7 +4,7 @@ let side = [[1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, -1, 0], [0, 0, 1], [0, 0, -1]]
 
 MaidRegister.TASK.walkToBlockTask("kubejs:crystal", "ae2:certus_quartz_crystal")
     .addConditionDesc("need_pickaxe", maid => maid.mainHandItem.hasTag("c:tools/mining_tool"))
-    .setCloseEnoughDist(3)
+    .setCloseEnoughDist(2)
     .setVerticalSearchRange(3) // 搜索范围,默认是2,太大影响性能
     .setSearchCondition(maid => {
         return maid.mainHandItem.hasTag("c:tools/mining_tool")

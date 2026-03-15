@@ -392,6 +392,17 @@
             "fileSize": 1015871
         },
         {
+            "path": "mods/kubejs-create-neoforge-2101.3.1-build.18.jar",
+            "hashes": {
+                "sha1": "f54d9ff53909771d27e4d9d135c3707cd5d5f855",
+                "sha512": "b2c3064a06f7a06aa479c38daa72fcf88e31e753cb16c53435690b2472f71acea49fe3fcab09a1e5d6fed88b289941f9ecf3f71ba9a7b8b84397cab2b8d9801d"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar"
+            ],
+            "fileSize": 38629
+        },
+        {
             "path": "mods/kubejs-mekanism-neoforge-2101.1.7-build.18.jar",
             "hashes": {
                 "sha1": "e605f4ef57395cb91f4438165c59f8536223ae10",
@@ -1743,6 +1754,18 @@
                 "https://edge.forgecdn.net/files/7756/804/commoncapabilities-1.21.1-neoforge-2.11.4.jar"
             ],
             "fileSize": 283919
+        },
+        {
+            "path": "mods/create_heat_js-1.21.1-0.0.5.jar",
+            "hashes": {
+                "sha1": "f71ecf7b3636915a5cd00a2aec830345c602e06b",
+                "sha512": "dcb881296b1d1d17ac6778b34efa66049db0cf40362ecbdf678d6d77ea8a97d0c41bbccdbc383a777e54ca445ddb2d0c5fa5468700fc07a905779631665eb225"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/7704/744/create_heat_js-1.21.1-0.0.5.jar",
+                "https://edge.forgecdn.net/files/7704/744/create_heat_js-1.21.1-0.0.5.jar"
+            ],
+            "fileSize": 176426
         },
         {
             "path": "mods/cyclopscore-1.21.1-neoforge-1.29.0-950.jar",

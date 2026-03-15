@@ -29,8 +29,6 @@ ServerEvents.recipes(event => {
     event.shapeless("4x minecraft:amethyst_shard", ["minecraft:amethyst_block"]).id("kjs/amethyst")
     // 红色染料
     event.shapeless("minecraft:red_dye", ["minecraft:redstone"]).id("kjs/red_dye")
-    // 龙蛋再生
-    event.shapeless("2x minecraft:dragon_egg", ["minecraft:dragon_egg", "draconicevolution:dragon_heart"]).id("kjs/dragon_egg")
     // 深板岩圆石
     event.custom({
         "type": "create:compacting",
@@ -76,45 +74,33 @@ ServerEvents.recipes(event => {
         let tag = String(data.get("chemical_input").get("tag")).slice(1, -1)
         let count = data.get("item_input").get("count")
         if (tag != "mekanism:bio" && tag != "mekanism:fungi" && tag != "mekanism:tin" && (!count || count == 1)) {
-            event.custom({
-                "type": "create:filling",
-                "ingredients": [
-                    {
-                        "type": "fluid_stack",
-                        "amount": data.get("chemical_input").get("amount"),
-                        "fluid": tag.replace("mekanism:", "kubejs:chemical/")
-                    },
-                    {
-                        "item": data.get("item_input").get("item"),
-                        "tag": data.get("item_input").get("tag")
-                    }
-                ],
-                "results": [
-                    {
-                        "id": data.get("output").get("id")
-                    }
+            event.recipes.create.filling(
+                Item.of(data.get("output").get("id")),
+                [
+                    Fluid.of(tag.replace("mekanism:", "kubejs:chemical/"),
+                        data.get("chemical_input").get("amount")),
+                    data.get("item_input")
                 ]
-            }).id(`kjs/${String(data.get("output").get("id")).slice(1, -1).split(":")[1]}`)
+            ).id(`kjs/${String(data.get("output").get("id")).slice(1, -1).split(":")[1]}`)
         }
     })
 })
 
 ItemEvents.crafted(event => {
     if (event.item == "ae2:quantum_entangled_singularity") {
-        let data
+        // 原本的奇点
+        let original
         // 使用for循环而非直接getItems以兼容AE2合成终端
         for (let i = 0; i < 9; i++) {
             let item = event.getInventory().getItem(i)
             if (item.id == "ae2:quantum_entangled_singularity") {
-                data = item.toJson()
+                original = item
                 break
             }
         }
-        if (data.has("components")) {
-            // 是在找不到修改物品components的方法,用给玩家物品的方式实现
-            console.info(event.item.customData)
-            event.item.copyAndClear()
-            event.player.give(`2x ae2:quantum_entangled_singularity[ae2:entangled_singularity_id=${data.get("components").get("ae2:entangled_singularity_id")}L]`)
+        // 让合成得到的量子缠绕态奇点继承原奇点的ID
+        if (original && original.toJson().has("components")) {
+            event.item.components = original.components
         }
     }
 })
