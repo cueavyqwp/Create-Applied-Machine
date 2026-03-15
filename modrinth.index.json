@@ -292,6 +292,17 @@
             "fileSize": 9309183
         },
         {
+            "path": "mods/iconexporter-1.21.1-neoforge-1.4.0-176.jar",
+            "hashes": {
+                "sha1": "2ca39a9ce3399541521f5e99e01663a0151f0003",
+                "sha512": "88e69a5157e0136ad2950a00bde51697cc2de1f228ad510def5a9016c8f97f93997affd0ca1d3f306f702216125bed17cc1f536a8e7728cdd17fc35ad9ee23ad"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/8KCmS7Bd/versions/y4BwkrK1/iconexporter-1.21.1-neoforge-1.4.0-176.jar"
+            ],
+            "fileSize": 41375
+        },
+        {
             "path": "mods/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
             "hashes": {
                 "sha1": "f1f5cccd7cb59d875f44566b2e557ccecc8c33fb",
@@ -1876,6 +1887,18 @@
                 "https://edge.forgecdn.net/files/7140/477/polylib-2100.1.0-build.183-neoforge.jar"
             ],
             "fileSize": 1299974
+        },
+        {
+            "path": "mods/ProbeJS-7.7.2.jar",
+            "hashes": {
+                "sha1": "3f0b9288845fd547338b535cdaed6ef2bb3787e8",
+                "sha512": "d2fce47297b50707a1619ada9e8a5fe1cec2711c7d314f2f1ee19f71e5edef18a7910d08f143e6be29326fe88cdf620b9e08255560a2a0d659c7827327c4719b"
+            },
+            "downloads": [
+                "https://mediafilez.forgecdn.net/files/7105/159/ProbeJS-7.7.2.jar",
+                "https://edge.forgecdn.net/files/7105/159/ProbeJS-7.7.2.jar"
+            ],
+            "fileSize": 4195463
         },
         {
             "path": "mods/tiabcurio-neoforge-1.21.1-3.0.1.jar",

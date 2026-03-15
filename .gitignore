@@ -59,3 +59,8 @@
 *.jar
 *.log*
 *test*
+
+.probe
+jsconfig.json
+web_server.json
+probe-settings.json
