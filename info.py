@@ -3,7 +3,7 @@ import typing
 name: str = "Create: Applied Machine"
 id: str = name.replace(": ", "-").replace(" ", "-")
 summary: str = "机械动力: 应用机器"
-version: str = "0.1.3"
+version: str = "0.1.4"
 
 out: str = f"{id}-{version}.zip"
 out_server: str = f"{id}-{version}-server.zip"
