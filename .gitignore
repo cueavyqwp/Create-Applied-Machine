@@ -39,6 +39,7 @@
 !config/ftbchunks-client.snbt
 !config/ftbquests-client.snbt
 !config/solcarrot-server.toml
+!config/immediatelyfast.json
 !config/curios-common.toml
 !config/create-client.toml
 !config/create-server.toml
