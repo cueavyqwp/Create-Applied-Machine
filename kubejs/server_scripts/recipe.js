@@ -20,6 +20,8 @@ ServerEvents.recipes(event => {
             ret = "quark:azalea_planks"
         } else if (id == "quark:blossom_planks_slab") {
             ret = "quark:blossom_planks"
+        } else if (id == "createdieselgenerators:chip_wood_slab") {
+            ret = "createdieselgenerators:chip_wood_block"
         } else {
             ret = id.replace("_slab", "_planks")
         }
