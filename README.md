@@ -4,6 +4,10 @@
     <hr>
 </div>
 
+# 项目归档
+
+**后续版本改名为[Applied: Create & Mekanism](https://github.com/cueavyqwp/Applied-Create-Mekanism), 此项目将归档**
+
 # 关于
 
 **目前还处于早期开发阶段**
